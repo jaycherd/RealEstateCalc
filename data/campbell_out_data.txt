@@ -1,0 +1,103 @@
+Averages for this street:
+Average price: 607721.0
+Average sq ft: 2217.0
+Average beds : 3.4
+Average baths: 2.7
+Average ppsf : 280.0
+Average pools : 0.71
+
+Comparing these to the house we want to buy:
+Average price: 3279.0
+Average sq ft: -255.0
+Average beds : -0.4
+Average baths: -0.7
+Average ppsf : 31.0
+The price per sq foot of the for sale house has ranking 18 out of 24 houses
+
+all the houses collected for this neighborhood ranked by price per square foot: 
+{'address': '1504 Campbell Dr', 'price': 547200.0, 'beds': 3.0, 'baths': 3.0, 'sq_ft': 2438.0, 'pool': 1.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 8276.0, 'price_per_sq_foot': 224.0, 'price_per_sq_foot_rank': 1}
+{'address': '1600 Campbell Dr', 'price': 550900.0, 'beds': 3.0, 'baths': 3.0, 'sq_ft': 2421.0, 'pool': 0.0, 'subj_remodel_score': 5, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 8712.0, 'price_per_sq_foot': 228.0, 'price_per_sq_foot_rank': 2}
+{'address': '3020 Bryant Ave', 'price': 598100.0, 'beds': 4.0, 'baths': 5.0, 'sq_ft': 2610.0, 'pool': 0.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 10890.0, 'price_per_sq_foot': 229.0, 'price_per_sq_foot_rank': 3}
+{'address': '3021 Mason Ave', 'price': 641100.0, 'beds': 4.0, 'baths': 3.0, 'sq_ft': 2758.0, 'pool': 1.0, 'subj_remodel_score': 5, 'throw_out': 0, 'for_sale': -1, 'sold_price': 636000.0, 'sold_date': datetime.datetime(2024, 5, 17, 0, 0), 'lot_size': 11761.0, 'price_per_sq_foot': 232.0, 'price_per_sq_foot_rank': 4}
+{'address': '3020 Mason Ave', 'price': 744200.0, 'beds': 4.0, 'baths': 4.0, 'sq_ft': 3195.0, 'pool': 0.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 13939.0, 'price_per_sq_foot': 233.0, 'price_per_sq_foot_rank': 5}
+{'address': '3016 Colanthe Ave', 'price': 542600.0, 'beds': 4.0, 'baths': 3.0, 'sq_ft': 2257.0, 'pool': 0.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9583.0, 'price_per_sq_foot': 240.0, 'price_per_sq_foot_rank': 6}
+{'address': '3016 Gilmary Ave', 'price': 526300.0, 'beds': 4.0, 'baths': 2.0, 'sq_ft': 2177.0, 'pool': 0.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 10018.0, 'price_per_sq_foot': 242.0, 'price_per_sq_foot_rank': 7}
+{'address': '1263 Campbell Dr', 'price': 599300.0, 'beds': 3.0, 'baths': 5.0, 'sq_ft': 2396.0, 'pool': 1.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 10890.0, 'price_per_sq_foot': 250.0, 'price_per_sq_foot_rank': 8}
+{'address': '1238 Campbell Dr', 'price': 474100.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1872.0, 'pool': 0.0, 'subj_remodel_score': 3, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 253.0, 'price_per_sq_foot_rank': 9}
+{'address': '1262 Campbell Dr', 'price': 610700.0, 'beds': 3.0, 'baths': 3.0, 'sq_ft': 2378.0, 'pool': 1.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9240.0, 'price_per_sq_foot': 257.0, 'price_per_sq_foot_rank': 10}
+{'address': '1508 Campbell Dr', 'price': 612800.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 2330.0, 'pool': 1.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 8276.0, 'price_per_sq_foot': 263.0, 'price_per_sq_foot_rank': 11}
+{'address': '3017 Colanthe Ave', 'price': 662900.0, 'beds': 4.0, 'baths': 3.0, 'sq_ft': 2514.0, 'pool': 1.0, 'subj_remodel_score': 3, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 10454.0, 'price_per_sq_foot': 264.0, 'price_per_sq_foot_rank': 12}
+{'address': '1258 Campbell Dr', 'price': 679100.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 2514.0, 'pool': 1.0, 'subj_remodel_score': 6, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 270.0, 'price_per_sq_foot_rank': 13}
+{'address': '1242 Campbell Dr', 'price': 530900.0, 'beds': 4.0, 'baths': 2.0, 'sq_ft': 1962.0, 'pool': 1.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9583.0, 'price_per_sq_foot': 271.0, 'price_per_sq_foot_rank': 14}
+{'address': '3021 Bryant Ave', 'price': 754100.0, 'beds': 4.0, 'baths': 3.0, 'sq_ft': 2696.0, 'pool': 1.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 10454.0, 'price_per_sq_foot': 280.0, 'price_per_sq_foot_rank': 15}
+{'address': '1308 Campbell Dr', 'price': 537200.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1800.0, 'pool': 1.0, 'subj_remodel_score': 3, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 8712.0, 'price_per_sq_foot': 298.0, 'price_per_sq_foot_rank': 16}
+{'address': '1604 Campbell Dr', 'price': 585600.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1898.0, 'pool': 0.0, 'subj_remodel_score': 7, 'throw_out': 0, 'for_sale': -1, 'sold_price': 535000.0, 'sold_date': datetime.datetime(2023, 5, 19, 0, 0), 'lot_size': 7840.0, 'price_per_sq_foot': 309.0, 'price_per_sq_foot_rank': 17}
+*** for sale house ***
+{'address': '1250 Campbell Dr', 'price': 611000.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1962.0, 'pool': 1.0, 'subj_remodel_score': 6, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 311.0, 'price_per_sq_foot_rank': 18}
+*** for sale house ***
+{'address': '1257 Campbell Dr', 'price': 641400.0, 'beds': 3.0, 'baths': 3.0, 'sq_ft': 2045.0, 'pool': 1.0, 'subj_remodel_score': 5, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 10890.0, 'price_per_sq_foot': 314.0, 'price_per_sq_foot_rank': 19}
+{'address': '1400 Campbell Dr', 'price': 528600.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1624.0, 'pool': 1.0, 'subj_remodel_score': -1, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 325.0, 'price_per_sq_foot_rank': 20}
+{'address': '1300 Campbell Dr', 'price': 650000.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1962.0, 'pool': 1.0, 'subj_remodel_score': 8, 'throw_out': 0, 'for_sale': -1, 'sold_price': 530000.0, 'sold_date': datetime.datetime(2024, 4, 10, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 331.0, 'price_per_sq_foot_rank': 21}
+{'address': '1404 Campbell Dr', 'price': 586900.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1672.0, 'pool': 1.0, 'subj_remodel_score': 8, 'throw_out': 0, 'for_sale': -1, 'sold_price': 495000.0, 'sold_date': datetime.datetime(2021, 11, 3, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 351.0, 'price_per_sq_foot_rank': 22}
+{'address': '1246 Campbell Dr', 'price': 668500.0, 'beds': 3.0, 'baths': 3.0, 'sq_ft': 1872.0, 'pool': 1.0, 'subj_remodel_score': 7, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 357.0, 'price_per_sq_foot_rank': 23}
+{'address': '1312 Campbell Dr', 'price': 701800.0, 'beds': 4.0, 'baths': 2.0, 'sq_ft': 1859.0, 'pool': 1.0, 'subj_remodel_score': 9, 'throw_out': 0, 'for_sale': -1, 'sold_price': 710000.0, 'sold_date': datetime.datetime(2022, 4, 20, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 378.0, 'price_per_sq_foot_rank': 24}
+
+Some theoretical prices based on houses with cheaper price per square foot
+theoretical rank 1 of 24, if price per square foot was 224.0, sale price would be 439488.0
+theoretical rank 2 of 24, if price per square foot was 228.0, sale price would be 447336.0
+theoretical rank 3 of 24, if price per square foot was 229.0, sale price would be 449298.0
+theoretical rank 4 of 24, if price per square foot was 232.0, sale price would be 455184.0
+theoretical rank 5 of 24, if price per square foot was 233.0, sale price would be 457146.0
+theoretical rank 6 of 24, if price per square foot was 240.0, sale price would be 470880.0
+theoretical rank 7 of 24, if price per square foot was 242.0, sale price would be 474804.0
+theoretical rank 8 of 24, if price per square foot was 250.0, sale price would be 490500.0
+theoretical rank 9 of 24, if price per square foot was 253.0, sale price would be 496386.0
+theoretical rank 10 of 24, if price per square foot was 257.0, sale price would be 504234.0
+theoretical rank 11 of 24, if price per square foot was 263.0, sale price would be 516006.0
+theoretical rank 12 of 24, if price per square foot was 264.0, sale price would be 517968.0
+theoretical rank 13 of 24, if price per square foot was 270.0, sale price would be 529740.0
+theoretical rank 14 of 24, if price per square foot was 271.0, sale price would be 531702.0
+theoretical rank 15 of 24, if price per square foot was 280.0, sale price would be 549360.0
+theoretical rank 16 of 24, if price per square foot was 298.0, sale price would be 584676.0
+theoretical rank 17 of 24, if price per square foot was 309.0, sale price would be 606258.0
+
+If we flip this house and raise the price per square foot to match the highest prices per square foot we'd get
+theoretical rank 24 of 24, if price per square foot was 378.0, sale price would be 741636.0
+theoretical rank 23 of 24, if price per square foot was 357.0, sale price would be 700434.0
+theoretical rank 22 of 24, if price per square foot was 351.0, sale price would be 688662.0
+theoretical rank 21 of 24, if price per square foot was 331.0, sale price would be 649422.0
+theoretical rank 20 of 24, if price per square foot was 325.0, sale price would be 637650.0
+theoretical rank 19 of 24, if price per square foot was 314.0, sale price would be 616068.0
+theoretical rank 18 of 24, if price per square foot was 311.0, sale price would be 610182.0
+theoretical rank 17 of 24, if price per square foot was 309.0, sale price would be 606258.0
+theoretical rank 16 of 24, if price per square foot was 298.0, sale price would be 584676.0
+theoretical rank 15 of 24, if price per square foot was 280.0, sale price would be 549360.0
+theoretical rank 14 of 24, if price per square foot was 271.0, sale price would be 531702.0
+theoretical rank 13 of 24, if price per square foot was 270.0, sale price would be 529740.0
+theoretical rank 12 of 24, if price per square foot was 264.0, sale price would be 517968.0
+theoretical rank 11 of 24, if price per square foot was 263.0, sale price would be 516006.0
+theoretical rank 10 of 24, if price per square foot was 257.0, sale price would be 504234.0
+
+recent sales:
+{'address': '3021 Mason Ave', 'price': 641100.0, 'beds': 4.0, 'baths': 3.0, 'sq_ft': 2758.0, 'pool': 1.0, 'subj_remodel_score': 5, 'throw_out': 0, 'for_sale': -1, 'sold_price': 636000.0, 'sold_date': datetime.datetime(2024, 5, 17, 0, 0), 'lot_size': 11761.0, 'price_per_sq_foot': 232.0, 'price_per_sq_foot_rank': 4}
+{'address': '1300 Campbell Dr', 'price': 650000.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1962.0, 'pool': 1.0, 'subj_remodel_score': 8, 'throw_out': 0, 'for_sale': -1, 'sold_price': 530000.0, 'sold_date': datetime.datetime(2024, 4, 10, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 331.0, 'price_per_sq_foot_rank': 21}
+{'address': '1604 Campbell Dr', 'price': 585600.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1898.0, 'pool': 0.0, 'subj_remodel_score': 7, 'throw_out': 0, 'for_sale': -1, 'sold_price': 535000.0, 'sold_date': datetime.datetime(2023, 5, 19, 0, 0), 'lot_size': 7840.0, 'price_per_sq_foot': 309.0, 'price_per_sq_foot_rank': 17}
+{'address': '1312 Campbell Dr', 'price': 701800.0, 'beds': 4.0, 'baths': 2.0, 'sq_ft': 1859.0, 'pool': 1.0, 'subj_remodel_score': 9, 'throw_out': 0, 'for_sale': -1, 'sold_price': 710000.0, 'sold_date': datetime.datetime(2022, 4, 20, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 378.0, 'price_per_sq_foot_rank': 24}
+{'address': '1404 Campbell Dr', 'price': 586900.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1672.0, 'pool': 1.0, 'subj_remodel_score': 8, 'throw_out': 0, 'for_sale': -1, 'sold_price': 495000.0, 'sold_date': datetime.datetime(2021, 11, 3, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 351.0, 'price_per_sq_foot_rank': 22}
+
+ranked subjectively high to low:
+{'address': '1312 Campbell Dr', 'price': 701800.0, 'beds': 4.0, 'baths': 2.0, 'sq_ft': 1859.0, 'pool': 1.0, 'subj_remodel_score': 9, 'throw_out': 0, 'for_sale': -1, 'sold_price': 710000.0, 'sold_date': datetime.datetime(2022, 4, 20, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 378.0, 'price_per_sq_foot_rank': 24}
+{'address': '1300 Campbell Dr', 'price': 650000.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1962.0, 'pool': 1.0, 'subj_remodel_score': 8, 'throw_out': 0, 'for_sale': -1, 'sold_price': 530000.0, 'sold_date': datetime.datetime(2024, 4, 10, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 331.0, 'price_per_sq_foot_rank': 21}
+{'address': '1404 Campbell Dr', 'price': 586900.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1672.0, 'pool': 1.0, 'subj_remodel_score': 8, 'throw_out': 0, 'for_sale': -1, 'sold_price': 495000.0, 'sold_date': datetime.datetime(2021, 11, 3, 0, 0), 'lot_size': 9147.0, 'price_per_sq_foot': 351.0, 'price_per_sq_foot_rank': 22}
+{'address': '1246 Campbell Dr', 'price': 668500.0, 'beds': 3.0, 'baths': 3.0, 'sq_ft': 1872.0, 'pool': 1.0, 'subj_remodel_score': 7, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 357.0, 'price_per_sq_foot_rank': 23}
+{'address': '1604 Campbell Dr', 'price': 585600.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1898.0, 'pool': 0.0, 'subj_remodel_score': 7, 'throw_out': 0, 'for_sale': -1, 'sold_price': 535000.0, 'sold_date': datetime.datetime(2023, 5, 19, 0, 0), 'lot_size': 7840.0, 'price_per_sq_foot': 309.0, 'price_per_sq_foot_rank': 17}
+{'address': '1258 Campbell Dr', 'price': 679100.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 2514.0, 'pool': 1.0, 'subj_remodel_score': 6, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 270.0, 'price_per_sq_foot_rank': 13}
+*** for sale house ***
+{'address': '1250 Campbell Dr', 'price': 611000.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1962.0, 'pool': 1.0, 'subj_remodel_score': 6, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 311.0, 'price_per_sq_foot_rank': 18}
+*** for sale house ***
+{'address': '3021 Mason Ave', 'price': 641100.0, 'beds': 4.0, 'baths': 3.0, 'sq_ft': 2758.0, 'pool': 1.0, 'subj_remodel_score': 5, 'throw_out': 0, 'for_sale': -1, 'sold_price': 636000.0, 'sold_date': datetime.datetime(2024, 5, 17, 0, 0), 'lot_size': 11761.0, 'price_per_sq_foot': 232.0, 'price_per_sq_foot_rank': 4}
+{'address': '1257 Campbell Dr', 'price': 641400.0, 'beds': 3.0, 'baths': 3.0, 'sq_ft': 2045.0, 'pool': 1.0, 'subj_remodel_score': 5, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 10890.0, 'price_per_sq_foot': 314.0, 'price_per_sq_foot_rank': 19}
+{'address': '1600 Campbell Dr', 'price': 550900.0, 'beds': 3.0, 'baths': 3.0, 'sq_ft': 2421.0, 'pool': 0.0, 'subj_remodel_score': 5, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 8712.0, 'price_per_sq_foot': 228.0, 'price_per_sq_foot_rank': 2}
+{'address': '3017 Colanthe Ave', 'price': 662900.0, 'beds': 4.0, 'baths': 3.0, 'sq_ft': 2514.0, 'pool': 1.0, 'subj_remodel_score': 3, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 10454.0, 'price_per_sq_foot': 264.0, 'price_per_sq_foot_rank': 12}
+{'address': '1238 Campbell Dr', 'price': 474100.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1872.0, 'pool': 0.0, 'subj_remodel_score': 3, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 9147.0, 'price_per_sq_foot': 253.0, 'price_per_sq_foot_rank': 9}
+{'address': '1308 Campbell Dr', 'price': 537200.0, 'beds': 3.0, 'baths': 2.0, 'sq_ft': 1800.0, 'pool': 1.0, 'subj_remodel_score': 3, 'throw_out': 0, 'for_sale': -1, 'sold_price': -1.0, 'sold_date': 'NA', 'lot_size': 8712.0, 'price_per_sq_foot': 298.0, 'price_per_sq_foot_rank': 16}
