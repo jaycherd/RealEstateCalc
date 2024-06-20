@@ -168,7 +168,7 @@ def csv_to_dict(file_path):
 if __name__ == "__main__":
     current_dir = pathlib.Path(__file__).parent
     fname = current_dir / pathlib.Path("data/campbell_data.csv")
-    out_fname = current_dir / pathlib.Path("data/campbell_out_data.txt")
+    out_fname = current_dir / pathlib.Path("output/campbell_out_data.txt")
     FOR_SALE_ADDRESS = "1250 Campbell Dr"
 
 

@@ -1,5 +1,5 @@
 raw,id,address,price,beds,baths,sq_ft,pool,subj_remodel_score,throw_out,sold_price,sold_date,lot_size
-"3 bd2 ba1,962 sqft 1250 Campbell Dr, Las Vegas, NV 89102 Off market Zestimate®: $611,000",x,"1250 Campbell Dr, Las Vegas, NV 89102",611000,3,2,1962,1,6,0,-1,-1,9147
+"3 bd2 ba1,962 sqft 1250 Campbell Dr, Las Vegas, NV 89102 Off market Zestimate®: $625,000",x,"1250 Campbell Dr, Las Vegas, NV 89102",625000,3,2,1962,1,6,0,-1,-1,9147
 "3 bd2 ba1,898 sqft 1604 Campbell Dr, Las Vegas, NV 89102 Closed: $535,000Sold on 05/19/23Zestimate®: $585,600",1,"1604 Campbell Dr, Las Vegas, NV 89102",585600,3,2,1898,0,7,0,535000,05/19/23,7840
 "3 bd3 ba2,421 sqft 1600 Campbell Dr, Las Vegas, NV 89102 Off market Zestimate®: $550,900",2,"1600 Campbell Dr, Las Vegas, NV 89102",550900,3,3,2421,0,5,0,-1,-1,"8712"
 "3 bd2 ba2,330 sqft 1508 Campbell Dr, Las Vegas, NV 89102 Off market Zestimate®: $612,800",3,"1508 Campbell Dr, Las Vegas, NV 89102",612800,3,2,2330,1,-1,0,-1,-1,8276
