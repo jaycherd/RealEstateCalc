@@ -1,0 +1,212 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+docs/_build/doctrees/
+docs/_build/html/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+.idea/*
+.idea/vcs.xml
+.idea/*.iml
+.idea/*.name
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/shelf/
+.idea/misc.xml
+.idea/dictionaries
+.idea/modules.xml
+.idea/micros/
+.idea/httpRequests/
+.idea/*.iws
+.idea/.idea/
+
+# PyCharm logs
+.idea/**/logs/
+.idea/**/project/*
+.idea/**/httpRequests
+.idea/**/compiled_js/*
+
+# VSCode
+.vscode/
+.vscode/*
+
+# VSCode extensions
+.code-workspace
+.vscode/extensions/
+
+# Pylint report
+pylint-global.rc
+
+# mypy
+.mypy_cache/
+dmypy.json
+dmypy.log
+
+# Env files
+.env
+.env.*
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Anaconda distribution
+anaconda/
+miniconda/
+*.conda
+*.env
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Pyre type checker
+.pyre/
+.pyre_check/
+.pyre/.log/
+.pyre/logs/
+.pyre/typeshed/
+.pyre/pysa_cache/
+
+# Rope project settings
+.ropeproject
+
+# Editor directories and files
+.svn/
+.hg/
+.gitattributes
+.coverage
+.parcel-cache/
+*.swp
+*.swo
+*~
+.vs/
+*.sln
+*.suo
+
+# JetBrains IDE
+*.ipr
+*.iws
+*.iml
+*.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.tmp
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Yarn
+.yarn/
+.pnp.*
+
+# npm
+node_modules/
+
+# SQLite database files
+*.db
+*.sqlite3
+*.db-journal
+
+# Bower
+bower_components/
+
+# YUI Compressor
+*.rpt
+
+# Vim backup files
+*.swp
+
+# End of .gitignore

@@ -2,113 +2,110 @@ import json
 import csv
 import pathlib
 from datetime import datetime
+from typing import Dict
 
+from models.house import House
+from models.house_data import HouseData
 from utils.constants import HomeKeys as HK
 
 
 
 #pylint:disable=W0621
-def analyze_data(data,for_sale_address,out_fname):
-    sum_prices, sum_sq_ft, sum_beds, sum_baths, sum_ppsf, sum_pools = 0, 0, 0, 0, 0, 0
-    num_houses = 0
+def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
+    house_data = HouseData(data=data)
 
-    for _ ,house in data.items():
-        if house.get(HK.THROW_OUT_KEY) == 1:
-            continue
-        house[HK.PPSF_KEY] = round(house[HK.PRICE_KEY] / house[HK.SQ_FT_KEY], 0)
-        sum_prices += house[HK.PRICE_KEY]
-        sum_sq_ft += house[HK.SQ_FT_KEY]
-        sum_beds += house[HK.BEDS_KEY]
-        sum_baths += house[HK.BATHS_KEY]
-        sum_ppsf += house[HK.PPSF_KEY]
-        sum_pools += house[HK.POOL_KEY]
-        num_houses += 1
-
-    avg_price = round(sum_prices / num_houses, 0)
-    avg_sq_ft = round(sum_sq_ft / num_houses, 0)
-    avg_beds = round(sum_beds / num_houses, 1)
-    avg_baths = round(sum_baths / num_houses, 1)
-    avg_ppsf = round(sum_ppsf / num_houses, 0)
-    avg_pools = round(sum_pools / num_houses, 2)
-
-    with open(out_fname, 'w') as f:
-        f.write("Averages for this street:\n")
-        f.write(f"Average price: {avg_price}\n")
-        f.write(f"Average sq ft: {avg_sq_ft}\n")
-        f.write(f"Average beds : {avg_beds}\n")
-        f.write(f"Average baths: {avg_baths}\n")
-        f.write(f"Average ppsf : {avg_ppsf}\n")
-        f.write(f"Average pools : {avg_pools}\n")
+    with open(out_fname, 'w', encoding="UTF-8") as f:
+        f.write(f"Averages for this street:\n{house_data}")
 
         f.write("\nComparing these to the house we want to buy:\n")
-        f.write(f"Average price: {round(data[for_sale_address][HK.PRICE_KEY] - avg_price, 0)}\n")
-        f.write(f"Average sq ft: {round(data[for_sale_address][HK.SQ_FT_KEY] - avg_sq_ft, 0)}\n")
-        f.write(f"Average beds : {round(data[for_sale_address][HK.BEDS_KEY] - avg_beds, 1)}\n")
-        f.write(f"Average baths: {round(data[for_sale_address][HK.BATHS_KEY] - avg_baths, 1)}\n")
-        f.write(f"Average ppsf : {round(data[for_sale_address][HK.PPSF_KEY] - avg_ppsf, 0)}\n")
+        diff = int(data[for_sale_address].price - house_data.avg_price)
+        f.write(f"Difference in Average price: {"+"if diff > 0 else ""}${diff:,}\n")
+        diff = int(data[for_sale_address].sq_ft - house_data.avg_sq_ft)
+        f.write(f"Difference in Average sq ft: {"+" if diff > 0 else ""}{diff}\n")
+        diff = round(data[for_sale_address].beds - house_data.avg_beds, 1)
+        f.write(f"Difference in Average beds : {"+" if diff > 0 else ""}{diff}\n")
+        diff = round(data[for_sale_address].baths - house_data.avg_baths, 1)
+        f.write(f"Difference in Average baths: {"+" if diff > 0 else ""}{diff}\n")
+        diff = int(data[for_sale_address].ppsf - house_data.avg_ppsf)
+        f.write(f"Difference in Average ppsf : {"+" if diff > 0 else ""}${diff}\n")
 
-        sorted_items = sorted(
-                            ((k, v) for k, v in data.items() if v.get('is_anomaly') != 1),
-                            key=lambda x: x[1][HK.PPSF_KEY]
+        sorted_ppsf = sorted(
+                            (house for _, house in data.items() if house.throw_out != 1),
+                            key=lambda x: x.ppsf
                             )
-        for ppsf_lo2hi_rank, (key,entry) in enumerate(sorted_items, start=1):
-            entry[HK.PPSF_RANK_KEY] = ppsf_lo2hi_rank
-        sorted_data = {key: entry for key, entry in sorted_items}
-        
-        f.write(f"The price per sq foot of the for sale house has ranking {sorted_data[for_sale_address][HK.PPSF_RANK_KEY]} out of {len(sorted_data)} houses\n")
-
+        for_sale_ppsf_rank = -1
+        for i,house in enumerate(sorted_ppsf):
+            if house.address == for_sale_address:
+                for_sale_ppsf_rank = i+1        
+        f.write(f"The price per sq foot of the for sale house has ranking {for_sale_ppsf_rank} out of {len(sorted_ppsf)} houses\n")
         f.write("\nall the houses collected for this neighborhood ranked by price per square foot: \n")
-        for id, house in sorted_data.items():
-            if house.get(HK.ADDRESS_KEY,-1) == for_sale_address:
+        for house in sorted_ppsf:
+            if house.address == for_sale_address:
                 f.write("*** for sale house ***\n")
             f.write(f"{house}\n")
-            if house.get(HK.ADDRESS_KEY,-1) == for_sale_address:
+            if house.address == for_sale_address:
                 f.write("*** for sale house ***\n")
             
-    
-        f.write("\nSome theoretical prices based on houses with cheaper price per square foot\n")
-        for id, house in sorted_data.items():
-            if id == for_sale_address:
-                break
-            curr_ppsf = house[HK.PPSF_KEY]
-            f.write(f"theoretical rank {house[HK.PPSF_RANK_KEY]} of {len(sorted_data)}, if price per square foot was {curr_ppsf}," +
-                f" sale price would be {round(sorted_data[for_sale_address][HK.SQ_FT_KEY] * curr_ppsf , 0)}\n")
-        
-        f.write("\nIf we flip this house and raise the price per square foot to match the highest prices per square foot we'd get\n")
-        sorted_items.reverse()  # Reverse the sorted list
-        theoreticals_shown = 0
-        for key, entry in sorted_items:
-            if theoreticals_shown == 15:
-                break
-            curr_ppsf = entry[HK.PPSF_KEY]
-            f.write(f"theoretical rank {entry[HK.PPSF_RANK_KEY]} of {len(sorted_items)}, if price per square foot was {curr_ppsf}, " +
-                f"sale price would be {round(sorted_data[for_sale_address][HK.SQ_FT_KEY] * curr_ppsf, 0)}\n")
-            theoreticals_shown += 1
-
-        recent_sales = sorted(
-                            ((k, v) for k, v in data.items()),
-                            key=lambda x: (x[1][HK.SOLD_DATE_KEY] != HK.NA, x[1][HK.SOLD_DATE_KEY] or datetime.min)
-                            )
-        recent_sales.reverse()
-        f.write(f"\nrecent sales:\n")
-        for address,house_data in recent_sales:
-            if house_data[HK.SOLD_DATE_KEY] == HK.NA:
-                break
-            f.write(f"{house_data}\n")
-
-        subjective_scores = sorted(
-                            ((k, v) for k, v in data.items()),
-                            key=lambda x: (x[1][HK.REMOD_SCORE_KEY] != -1, x[1][HK.REMOD_SCORE_KEY])
-                            )
-        subjective_scores.reverse()
-        f.write(f"\nranked subjectively high to low:\n")
-        for address,house_data in subjective_scores:
-            if house_data[HK.REMOD_SCORE_KEY] == -1:
-                break
-            if house_data.get(HK.ADDRESS_KEY,-1) == for_sale_address:
+        f.write("\nSome theoretical prices based on price per square foot\n")
+        for i,house in enumerate(sorted_ppsf):
+            if house.address == for_sale_address:
                 f.write("*** for sale house ***\n")
-            f.write(f"{house_data}\n")
-            if house_data.get(HK.ADDRESS_KEY,-1) == for_sale_address:
+            curr_ppsf = house.ppsf
+            f.write(f"theoretical rank {i + 1} of {len(sorted_ppsf)}, if price per square foot was ${int(curr_ppsf)}," +
+                f" sale price would be ${int(data[for_sale_address].sq_ft * curr_ppsf):,}\n")
+            if house.address == for_sale_address:
+                f.write("*** for sale house ***\n")
+
+        recent_sales_sorted = sorted(
+                            (house for _, house in data.items() if house.sold_date != house.DEFAULT_STR),
+                            key=lambda x: (x.sold_date or datetime.max)
+                            )
+        recent_sales_sorted.reverse()
+        f.write(f"\n{len(recent_sales_sorted)} recent sales:\n")
+        for house in recent_sales_sorted:
+            if house.address == for_sale_address:
+                f.write("*** for sale house ***\n")
+            f.write(f"{house}\n")
+            if house.address == for_sale_address:
+                f.write("*** for sale house ***\n")
+
+        recent_sales_sorted_data = HouseData(recent_sales_sorted)
+        f.write(f"\nAverages from the {len(recent_sales_sorted)} recent sales:\n{recent_sales_sorted_data}")
+
+        recent_sales_ppsf_asc = sorted((house for house in recent_sales_sorted),
+                                       key=lambda x: x.sold_ppsf)
+        f.write("\nRecent Sales ranked by ppsf in ascending order: \n")
+        for house in recent_sales_ppsf_asc:
+            if house.address == for_sale_address:
+                f.write("*** for sale house ***\n")
+            f.write(f"{house}\n")
+            if house.address == for_sale_address:
+                f.write("*** for sale house ***\n")
+
+        f.write("\nSome theoretical prices based on price per square foot of Recent Sales\n")
+        for i,house in enumerate(recent_sales_ppsf_asc):
+            if house.address == for_sale_address:
+                f.write("*** for sale house ***\n")
+            curr_ppsf = house.sold_ppsf
+            f.write(f"theoretical rank {i + 1} of {len(recent_sales_ppsf_asc)}, if price per square foot was ${int(curr_ppsf)}," +
+                f" sale price would be ${int(data[for_sale_address].sq_ft * curr_ppsf):,}\n")
+            if house.address == for_sale_address:
+                f.write("*** for sale house ***\n")
+
+
+        subjective_scores_desc = sorted(
+                                        (house for _, house in data.items()),
+                                        key=lambda x: x.remod_score
+                                        )
+        subjective_scores_desc.reverse()
+        f.write("\nranked subjectively descending order:\n")
+        for house in subjective_scores_desc:
+            if house.remod_score == -1:
+                break
+            if house.address == for_sale_address:
+                f.write("*** for sale house ***\n")
+            f.write(f"{house}\n")
+            if house.address == for_sale_address:
                 f.write("*** for sale house ***\n")
 
         
@@ -142,20 +139,21 @@ def csv_to_dict(file_path):
             cleaned_address = row.get(HK.ADDRESS_KEY,"NA")
             if "," in cleaned_address:
                 cleaned_address = cleaned_address.split(",")[0]
-            data_dict[cleaned_address] = {
-                HK.ADDRESS_KEY: cleaned_address,
-                HK.PRICE_KEY: float(row[HK.PRICE_KEY]),
-                HK.BEDS_KEY: float(row[HK.BEDS_KEY]),
-                HK.BATHS_KEY: float(row[HK.BATHS_KEY]),
-                HK.SQ_FT_KEY: float(row[HK.SQ_FT_KEY]),
-                HK.POOL_KEY: float(row[HK.POOL_KEY]),
-                HK.REMOD_SCORE_KEY: int(row[HK.REMOD_SCORE_KEY]),
-                HK.THROW_OUT_KEY: int(row[HK.THROW_OUT_KEY]),
-                HK.FOR_SALE_KEY: int(row.get(HK.FOR_SALE_KEY,-1)),
-                HK.SOLD_PRICE_KEY: float(row[HK.SOLD_PRICE_KEY]),
+            house_data = {
+                HK.ADDRESS_KEY: row.get(HK.ADDRESS_KEY, "NA"),
+                HK.PRICE_KEY: float(row.get(HK.PRICE_KEY, -1.0)),
+                HK.BEDS_KEY: float(row.get(HK.BEDS_KEY, -1.0)),
+                HK.BATHS_KEY: float(row.get(HK.BATHS_KEY, -1.0)),
+                HK.SQ_FT_KEY: float(row.get(HK.SQ_FT_KEY, -1.0)),
+                HK.POOL_KEY: float(row.get(HK.POOL_KEY, -1.0)),
+                HK.REMOD_SCORE_KEY: int(row.get(HK.REMOD_SCORE_KEY, -1)),
+                HK.THROW_OUT_KEY: int(row.get(HK.THROW_OUT_KEY, -1)),
+                HK.FOR_SALE_KEY: int(row.get(HK.FOR_SALE_KEY, -1)),
+                HK.SOLD_PRICE_KEY: float(row.get(HK.SOLD_PRICE_KEY, -1.0)),
                 HK.SOLD_DATE_KEY: sold_date,
-                HK.LOT_SIZE_KEY: float(row.get(HK.LOT_SIZE_KEY,-1))
+                HK.LOT_SIZE_KEY: int(row.get(HK.LOT_SIZE_KEY, -1))
             }
+            data_dict[cleaned_address] = House(**house_data)
     
     return data_dict
 
@@ -173,7 +171,6 @@ if __name__ == "__main__":
 
 
     data = csv_to_dict(file_path=fname)
-    print(data)
 
     analyze_data(data,for_sale_address=FOR_SALE_ADDRESS,out_fname=out_fname)
 
