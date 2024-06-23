@@ -14,6 +14,7 @@ class HomeKeys:
     SOLD_PRICE_KEY = "sold_price"
     SOLD_DATE_KEY = "sold_date"
     LOT_SIZE_KEY = "lot_size"
+    LIST_PRICE_KEY = "list_price"
 
     PPSF_KEY = "price_per_sq_foot"
     PPSF_RANK_KEY = "price_per_sq_foot_rank"

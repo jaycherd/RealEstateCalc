@@ -1,24 +1,26 @@
 Averages for this street:
-Avg price = $608,304
+Avg price = $607,720
 Avg sqft  = 2217
 Avg beds  = 3.4
 Avg baths = 2.7
 Avg ppsf  = $279
+Avg sold ppsf = $292
+Avg sold - list price = $-27,000
 Avg pools = 0.71
 
 Comparing these to the house we want to buy:
-Difference in Average price: +$16,695
-Difference in Average sq ft: -255
-Difference in Average beds : -0.4
-Difference in Average baths: -0.7
-Difference in Average ppsf : +$38
-The price per sq foot of the for sale house has ranking 19 out of 24 houses
+Diff from Average price: +$3,279
+Diff from Average sq ft: -255
+Diff from Average beds : -0.4
+Diff from Average baths: -0.7
+Diff from Average ppsf : +$31
+The price per sq foot of the for sale house has ranking 18 out of 24 houses
 
 all the houses collected for this neighborhood ranked by price per square foot: 
 [addrs=1504 Campbell Dr | price=$547,200 | bd=3 | ba=3 | sqft=2438 | ppsf=$224 | pool=1 | lot_size=8276 ]
 [addrs=1600 Campbell Dr | price=$550,900 | bd=3 | ba=3 | sqft=2421 | ppsf=$227 | pool=0 | lot_size=8712 | remod_score=5 ]
 [addrs=3020 Bryant Ave | price=$598,100 | bd=4 | ba=5 | sqft=2610 | ppsf=$229 | pool=0 | lot_size=10890 ]
-[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | sold_ppsf=$230 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
 [addrs=3020 Mason Ave | price=$744,200 | bd=4 | ba=4 | sqft=3195 | ppsf=$232 | pool=0 | lot_size=13939 ]
 [addrs=3016 Colanthe Ave | price=$542,600 | bd=4 | ba=3 | sqft=2257 | ppsf=$240 | pool=0 | lot_size=9583 ]
 [addrs=3016 Gilmary Ave | price=$526,300 | bd=4 | ba=2 | sqft=2177 | ppsf=$241 | pool=0 | lot_size=10018 ]
@@ -31,16 +33,16 @@ all the houses collected for this neighborhood ranked by price per square foot:
 [addrs=1242 Campbell Dr | price=$530,900 | bd=4 | ba=2 | sqft=1962 | ppsf=$270 | pool=1 | lot_size=9583 ]
 [addrs=3021 Bryant Ave | price=$754,100 | bd=4 | ba=3 | sqft=2696 | ppsf=$279 | pool=1 | lot_size=10454 ]
 [addrs=1308 Campbell Dr | price=$537,200 | bd=3 | ba=2 | sqft=1800 | ppsf=$298 | pool=1 | lot_size=8712 | remod_score=3 ]
-[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | sold_ppsf=$281 | sold_date=05/19/2023 ]
+[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+*** for sale house ***
+[addrs=1250 Campbell Dr | price=$611,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$311 | pool=1 | lot_size=9147 | remod_score=6 ]
+*** for sale house ***
 [addrs=1257 Campbell Dr | price=$641,400 | bd=3 | ba=3 | sqft=2045 | ppsf=$313 | pool=1 | lot_size=10890 | remod_score=5 ]
-*** for sale house ***
-[addrs=1250 Campbell Dr | price=$625,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$318 | pool=1 | lot_size=9147 | remod_score=6 ]
-*** for sale house ***
 [addrs=1400 Campbell Dr | price=$528,600 | bd=3 | ba=2 | sqft=1624 | ppsf=$325 | pool=1 | lot_size=9147 ]
-[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | sold_ppsf=$270 | sold_date=04/10/2024 ]
-[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | sold_ppsf=$296 | sold_date=11/03/2021 ]
+[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
 [addrs=1246 Campbell Dr | price=$668,500 | bd=3 | ba=3 | sqft=1872 | ppsf=$357 | pool=1 | lot_size=9147 | remod_score=7 ]
-[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | sold_ppsf=$381 | sold_date=04/20/2022 ]
+[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
 
 Some theoretical prices based on price per square foot
 theoretical rank 1 of 24, if price per square foot was $224, sale price would be $440,363
@@ -60,10 +62,10 @@ theoretical rank 14 of 24, if price per square foot was $270, sale price would b
 theoretical rank 15 of 24, if price per square foot was $279, sale price would be $548,792
 theoretical rank 16 of 24, if price per square foot was $298, sale price would be $585,548
 theoretical rank 17 of 24, if price per square foot was $308, sale price would be $605,346
-theoretical rank 18 of 24, if price per square foot was $313, sale price would be $615,367
 *** for sale house ***
-theoretical rank 19 of 24, if price per square foot was $318, sale price would be $625,000
+theoretical rank 18 of 24, if price per square foot was $311, sale price would be $611,000
 *** for sale house ***
+theoretical rank 19 of 24, if price per square foot was $313, sale price would be $615,367
 theoretical rank 20 of 24, if price per square foot was $325, sale price would be $638,616
 theoretical rank 21 of 24, if price per square foot was $331, sale price would be $650,000
 theoretical rank 22 of 24, if price per square foot was $351, sale price would be $688,694
@@ -71,11 +73,11 @@ theoretical rank 23 of 24, if price per square foot was $357, sale price would b
 theoretical rank 24 of 24, if price per square foot was $377, sale price would be $740,684
 
 5 recent sales:
-[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | sold_ppsf=$230 | sold_date=05/17/2024 ]
-[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | sold_ppsf=$270 | sold_date=04/10/2024 ]
-[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | sold_ppsf=$281 | sold_date=05/19/2023 ]
-[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | sold_ppsf=$381 | sold_date=04/20/2022 ]
-[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | sold_ppsf=$296 | sold_date=11/03/2021 ]
+[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
+[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
 
 Averages from the 5 recent sales:
 Avg price = $633,080
@@ -83,14 +85,24 @@ Avg sqft  = 2029
 Avg beds  = 3.4
 Avg baths = 2.2
 Avg ppsf  = $320
+Avg sold ppsf = $292
+Avg sold - list price = $-27,000
 Avg pools = 0.8
 
+Comparing these recent sales to the house we want to buy:
+Diff from Avg price     : $-22,080
+Diff from Avg sq ft     : -67
+Diff from Avg beds      : -0.4
+Diff from Avg baths     : -0.2
+Diff from Avg ppsf      : $-8
+Diff from Avg sold ppsf : +$19
+
 Recent Sales ranked by ppsf in ascending order: 
-[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | sold_ppsf=$230 | sold_date=05/17/2024 ]
-[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | sold_ppsf=$270 | sold_date=04/10/2024 ]
-[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | sold_ppsf=$281 | sold_date=05/19/2023 ]
-[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | sold_ppsf=$296 | sold_date=11/03/2021 ]
-[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | sold_ppsf=$381 | sold_date=04/20/2022 ]
+[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
+[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
 
 Some theoretical prices based on price per square foot of Recent Sales
 theoretical rank 1 of 5, if price per square foot was $230, sale price would be $452,440
@@ -100,16 +112,16 @@ theoretical rank 4 of 5, if price per square foot was $296, sale price would be 
 theoretical rank 5 of 5, if price per square foot was $381, sale price would be $749,338
 
 ranked subjectively descending order:
-[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | sold_ppsf=$381 | sold_date=04/20/2022 ]
-[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | sold_ppsf=$270 | sold_date=04/10/2024 ]
-[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | sold_ppsf=$296 | sold_date=11/03/2021 ]
+[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
+[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
 [addrs=1246 Campbell Dr | price=$668,500 | bd=3 | ba=3 | sqft=1872 | ppsf=$357 | pool=1 | lot_size=9147 | remod_score=7 ]
-[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | sold_ppsf=$281 | sold_date=05/19/2023 ]
+[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
 [addrs=1258 Campbell Dr | price=$679,100 | bd=3 | ba=2 | sqft=2514 | ppsf=$270 | pool=1 | lot_size=9147 | remod_score=6 ]
 *** for sale house ***
-[addrs=1250 Campbell Dr | price=$625,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$318 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=1250 Campbell Dr | price=$611,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$311 | pool=1 | lot_size=9147 | remod_score=6 ]
 *** for sale house ***
-[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | sold_ppsf=$230 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
 [addrs=1257 Campbell Dr | price=$641,400 | bd=3 | ba=3 | sqft=2045 | ppsf=$313 | pool=1 | lot_size=10890 | remod_score=5 ]
 [addrs=1600 Campbell Dr | price=$550,900 | bd=3 | ba=3 | sqft=2421 | ppsf=$227 | pool=0 | lot_size=8712 | remod_score=5 ]
 [addrs=3017 Colanthe Ave | price=$662,900 | bd=4 | ba=3 | sqft=2514 | ppsf=$263 | pool=1 | lot_size=10454 | remod_score=3 ]

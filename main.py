@@ -19,15 +19,17 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
 
         f.write("\nComparing these to the house we want to buy:\n")
         diff = int(data[for_sale_address].price - house_data.avg_price)
-        f.write(f"Difference in Average price: {"+"if diff > 0 else ""}${diff:,}\n")
+        f.write(f"Diff from Average price: {"+"if diff > 0 else ""}${diff:,}\n")
         diff = int(data[for_sale_address].sq_ft - house_data.avg_sq_ft)
-        f.write(f"Difference in Average sq ft: {"+" if diff > 0 else ""}{diff}\n")
+        f.write(f"Diff from Average sq ft: {"+" if diff > 0 else ""}{diff}\n")
         diff = round(data[for_sale_address].beds - house_data.avg_beds, 1)
-        f.write(f"Difference in Average beds : {"+" if diff > 0 else ""}{diff}\n")
+        f.write(f"Diff from Average beds : {"+" if diff > 0 else ""}{diff}\n")
         diff = round(data[for_sale_address].baths - house_data.avg_baths, 1)
-        f.write(f"Difference in Average baths: {"+" if diff > 0 else ""}{diff}\n")
+        f.write(f"Diff from Average baths: {"+" if diff > 0 else ""}{diff}\n")
         diff = int(data[for_sale_address].ppsf - house_data.avg_ppsf)
-        f.write(f"Difference in Average ppsf : {"+" if diff > 0 else ""}${diff}\n")
+        f.write(f"Diff from Average ppsf : {"+" if diff > 0 else ""}${diff}\n")
+
+        house_data.visualize_price(data[for_sale_address])
 
         sorted_ppsf = sorted(
                             (house for _, house in data.items() if house.throw_out != 1),
@@ -71,6 +73,20 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
 
         recent_sales_sorted_data = HouseData(recent_sales_sorted)
         f.write(f"\nAverages from the {len(recent_sales_sorted)} recent sales:\n{recent_sales_sorted_data}")
+
+        f.write("\nComparing these recent sales to the house we want to buy:\n")
+        diff = int(data[for_sale_address].price - recent_sales_sorted_data.avg_price)
+        f.write(f"Diff from Avg price     : {"+"if diff > 0 else ""}${diff:,}\n")
+        diff = int(data[for_sale_address].sq_ft - recent_sales_sorted_data.avg_sq_ft)
+        f.write(f"Diff from Avg sq ft     : {"+" if diff > 0 else ""}{diff}\n")
+        diff = round(data[for_sale_address].beds - recent_sales_sorted_data.avg_beds, 1)
+        f.write(f"Diff from Avg beds      : {"+" if diff > 0 else ""}{diff}\n")
+        diff = round(data[for_sale_address].baths - recent_sales_sorted_data.avg_baths, 1)
+        f.write(f"Diff from Avg baths     : {"+" if diff > 0 else ""}{diff}\n")
+        diff = int(data[for_sale_address].ppsf - recent_sales_sorted_data.avg_ppsf)
+        f.write(f"Diff from Avg ppsf      : {"+" if diff > 0 else ""}${diff}\n")
+        diff = int(data[for_sale_address].ppsf - recent_sales_sorted_data.avg_sold_ppsf)
+        f.write(f"Diff from Avg sold ppsf : {"+" if diff > 0 else ""}${diff}\n")
 
         recent_sales_ppsf_asc = sorted((house for house in recent_sales_sorted),
                                        key=lambda x: x.sold_ppsf)
@@ -151,7 +167,8 @@ def csv_to_dict(file_path):
                 HK.FOR_SALE_KEY: int(row.get(HK.FOR_SALE_KEY, -1)),
                 HK.SOLD_PRICE_KEY: float(row.get(HK.SOLD_PRICE_KEY, -1.0)),
                 HK.SOLD_DATE_KEY: sold_date,
-                HK.LOT_SIZE_KEY: int(row.get(HK.LOT_SIZE_KEY, -1))
+                HK.LOT_SIZE_KEY: int(row.get(HK.LOT_SIZE_KEY, -1)),
+                HK.LIST_PRICE_KEY: float(row.get(HK.LIST_PRICE_KEY,-1))
             }
             data_dict[cleaned_address] = House(**house_data)
     
@@ -165,7 +182,7 @@ def csv_to_dict(file_path):
 
 if __name__ == "__main__":
     current_dir = pathlib.Path(__file__).parent
-    fname = current_dir / pathlib.Path("data/campbell_data.csv")
+    fname = current_dir / pathlib.Path("data/campbell_data_w_list.csv")
     out_fname = current_dir / pathlib.Path("output/campbell_out_data.txt")
     FOR_SALE_ADDRESS = "1250 Campbell Dr"
 
