@@ -1,416 +1,1402 @@
 Averages for this street:
-Note: not all sales have list price
-Avg Zprice      = $619,936
-Avg Sold P      = $606,423
-Avg sqft        = 2218
+Avg Zprice      = $634,580
+Avg sqft        = 2222
 Avg beds        = 3.5
 Avg baths       = 2.5
-Avg ppsf        = $284
-Avg SOLD PPSF   = $303
-Avg Sold - Lst  = $-20,085
+Avg ppsf        = $289
 Avg pools       = 0.79
-Avg remod score = 5.5
+Avg remod score = 5.6
 
 Comparing these averages to the house we want to buy:
-Diff from Avg Zprice    : +$11,563
-Diff from Avg SOLD price: +$25,076
-Diff from Avg sq ft     : +20
-Diff from Avg beds      : +0.5
-Diff from Avg baths     : -0.5
-Diff from Avg ppsf      : $-2
-Diff from Avg sold ppsf : $-21
+Zprice - Avg Zprice     : $-3,080
+Sale P - Avg Zprice     : +$15,419
+sqft - Avg sqft         : +16
+beds - Avg beds         : +0.5
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-7
+
 
 House Rankings
-(ASC) = Ascending order rank, (DSC) = Descending order rank
-(ASC) ZPrice   =  45 of  89 = 0.51
-(ASC) Sold P   =  78 of  89 = 0.88
-(ASC) sq ft    =  52 of  89 = 0.58
-(ASC) PPSF     =  46 of  89 = 0.52
-(ASC) Sold PPSF=  72 of  89 = 0.81
-(ASC) List P   =  78 of  89 = 0.88
-(ASC) Lot Sz   =  40 of  89 = 0.45
-(ASC) Remod Sc =  47 of  89 = 0.53
-The price per sq foot of the for sale house has ranking 47 out of 89 houses
+After values placed in Ascending Order
+ZPrice   =  45 of  92 = 0.49
+sq ft    =  52 of  92 = 0.57
+ZPPSF    =  48 of  92 = 0.52
+SalePPSF =  51 of  92 = 0.55
+Lot Sz   =  40 of  92 = 0.43
+Remod Sc =  47 of  92 = 0.51
 
 all the houses collected for this neighborhood ranked by price per square foot: 
-[addrs=2627 Bryant Ave | price=$703 | bd=4 | ba=3 | sqft=2731 | ppsf=$0 | pool=1 | lot_size=9147 | remod_score=3 ]
-[addrs=2908 Bryant Ave | price=$709 | bd=4 | ba=2 | sqft=2439 | ppsf=$0 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=1504 Campbell Dr | price=$547,200 | bd=3 | ba=3 | sqft=2438 | ppsf=$224 | pool=1 | lot_size=8276 ]
-[addrs=2913 Bryant Ave | price=$584,400 | bd=3 | ba=2 | sqft=2576 | ppsf=$226 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=1600 Campbell Dr | price=$550,900 | bd=3 | ba=3 | sqft=2421 | ppsf=$227 | pool=0 | lot_size=8712 | remod_score=5 ]
-[addrs=2904 Bryant Ave | price=$607,500 | bd=4 | ba=2 | sqft=2668 | ppsf=$227 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=3020 Bryant Ave | price=$598,100 | bd=4 | ba=5 | sqft=2610 | ppsf=$229 | pool=0 | lot_size=10890 ]
-[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
-[addrs=2901 Bryant Ave | price=$510,400 | bd=5 | ba=2 | sqft=2194 | ppsf=$232 | pool=0 | lot_size=9147 | remod_score=6 ]
-[addrs=3020 Mason Ave | price=$744,200 | bd=4 | ba=4 | sqft=3195 | ppsf=$232 | pool=0 | lot_size=13939 ]
-[addrs=2600 Bryant Ave | price=$821,900 | bd=6 | ba=5 | sqft=3427 | ppsf=$239 | pool=1 | lot_size=10890 | remod_score=5 ]
-[addrs=3016 Colanthe Ave | price=$542,600 | bd=4 | ba=3 | sqft=2257 | ppsf=$240 | pool=0 | lot_size=9583 ]
-[addrs=2900 Bryant Ave | price=$569,000 | bd=4 | ba=2 | sqft=2354 | ppsf=$241 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=3016 Gilmary Ave | price=$526,300 | bd=4 | ba=2 | sqft=2177 | ppsf=$241 | pool=0 | lot_size=10018 ]
-[addrs=2912 Bryant Ave | price=$724,600 | bd=6 | ba=3 | sqft=2949 | ppsf=$245 | pool=1 | lot_size=9147 | remod_score=7 ]
-[addrs=2601 Bryant Ave | price=$518,500 | bd=3 | ba=2 | sqft=2080 | ppsf=$249 | pool=0 | lot_size=10454 | remod_score=5 ]
-[addrs=2800 Bryant Ave | price=$584,600 | bd=3 | ba=2 | sqft=2344 | ppsf=$249 | pool=1 | lot_size=10890 | remod_score=2 ]
-[addrs=2707 Bryant Ave | price=$699,400 | bd=3 | ba=3 | sqft=2800 | ppsf=$249 | pool=1 | lot_size=10018 | remod_score=3 ]
-[addrs=1263 Campbell Dr | price=$599,300 | bd=3 | ba=5 | sqft=2396 | ppsf=$250 | pool=1 | lot_size=10890 ]
-[addrs=1238 Campbell Dr | price=$474,100 | bd=3 | ba=2 | sqft=1872 | ppsf=$253 | pool=0 | lot_size=9147 | remod_score=3 ]
-[addrs=3017 Bryant Ave | price=$495,000 | bd=4 | ba=2 | sqft=1949 | ppsf=$253 | pool=0 | lot_size=10018 | remod_score=4 ]
-[addrs=2801 Bryant Ave | price=$745,400 | bd=3 | ba=2 | sqft=2920 | ppsf=$255 | pool=1 | lot_size=10018 | remod_score=6 ]
-[addrs=1262 Campbell Dr | price=$610,700 | bd=3 | ba=3 | sqft=2378 | ppsf=$256 | pool=1 | lot_size=9240 ]
-[addrs=2727 Bryant Ave | price=$595,800 | bd=3 | ba=3 | sqft=2311 | ppsf=$257 | pool=1 | lot_size=9147 | remod_score=2 ]
-[addrs=3012 Bryant Ave | price=$785,200 | bd=4 | ba=2 | sqft=3041 | ppsf=$258 | pool=1 | lot_size=9147 | remod_score=9 ]
-[addrs=2700 Bryant Ave | price=$743,500 | bd=3 | ba=3 | sqft=2847 | ppsf=$261 | pool=1 | lot_size=10180 | remod_score=2 ]
-[addrs=1508 Campbell Dr | price=$612,800 | bd=3 | ba=2 | sqft=2330 | ppsf=$263 | pool=1 | lot_size=8276 ]
-[addrs=2908 Colanthe Ave | price=$477,200 | bd=3 | ba=2 | sqft=1814 | ppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
-[addrs=2703 Bryant Ave | price=$524,100 | bd=2 | ba=2 | sqft=1992 | ppsf=$263 | pool=1 | lot_size=9583 | remod_score=2 ]
-[addrs=2712 Bryant Ave | price=$588,200 | bd=4 | ba=2 | sqft=2232 | ppsf=$263 | pool=1 | lot_size=9583 | remod_score=3 ]
-[addrs=3017 Colanthe Ave | price=$662,900 | bd=4 | ba=3 | sqft=2514 | ppsf=$263 | pool=1 | lot_size=10454 | remod_score=3 ]
-[addrs=2809 Bryant Ave | price=$722,700 | bd=3 | ba=2 | sqft=2728 | ppsf=$264 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=3001 Bryant Ave | price=$526,500 | bd=4 | ba=2 | sqft=1964 | ppsf=$268 | pool=1 | lot_size=9147 | remod_score=4 ]
-[addrs=1258 Campbell Dr | price=$679,100 | bd=3 | ba=2 | sqft=2514 | ppsf=$270 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=2812 Bryant Ave | price=$676,000 | bd=4 | ba=3 | sqft=2502 | ppsf=$270 | pool=0 | lot_size=9147 | remod_score=4 ]
-[addrs=1242 Campbell Dr | price=$530,900 | bd=4 | ba=2 | sqft=1962 | ppsf=$270 | pool=1 | lot_size=9583 ]
-[addrs=3008 Bryant Ave | price=$528,500 | bd=4 | ba=2 | sqft=1949 | ppsf=$271 | pool=0 | lot_size=9147 | remod_score=3 ]
-[addrs=2816 Bryant Ave | price=$530,200 | bd=4 | ba=2 | sqft=1949 | ppsf=$272 | pool=1 | lot_size=9147 | remod_score=4 ]
-[addrs=2916 Bryant Ave | price=$535,600 | bd=4 | ba=2 | sqft=1964 | ppsf=$272 | pool=1 | lot_size=9147 | remod_score=4 ]
-[addrs=2612 Bryant Ave | price=$616,000 | bd=5 | ba=3 | sqft=2250 | ppsf=$273 | pool=1 | lot_size=9960 | remod_score=2 ]
-[addrs=2401 Mason Ave | price=$568,400 | bd=3 | ba=3 | sqft=2075 | ppsf=$273 | pool=0 | lot_size=10890 | remod_score=8 | sold_price=$514,000 | list_price=$675,000 | sold_ppsf=$247 | list_ppsf=$325 | sold_date=12/02/2022 ]
-[addrs=3000 Bryant Ave | price=$715,900 | bd=4 | ba=3 | sqft=2598 | ppsf=$275 | pool=1 | lot_size=9583 | remod_score=4 ]
-[addrs=2909 Bryant Ave | price=$661,300 | bd=3 | ba=2 | sqft=2390 | ppsf=$276 | pool=0 | lot_size=9147 | remod_score=6 ]
-[addrs=2728 Bryant Ave | price=$707,200 | bd=3 | ba=4 | sqft=2540 | ppsf=$278 | pool=1 | lot_size=9583 | remod_score=8 ]
-[addrs=3013 Bryant Ave | price=$547,500 | bd=4 | ba=2 | sqft=1964 | ppsf=$278 | pool=1 | lot_size=9583 | remod_score=6 ]
-[addrs=3021 Bryant Ave | price=$754,100 | bd=4 | ba=3 | sqft=2696 | ppsf=$279 | pool=1 | lot_size=10454 ]
+[addrs=1504 Campbell Dr | Zprice=$547,200 | bd=3 | ba=3 | sqft=2438 | Zppsf=$224 | pool=1 | lot_size=8276 ]
+[addrs=2913 Bryant Ave | Zprice=$584,400 | bd=3 | ba=2 | sqft=2576 | Zppsf=$226 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=1600 Campbell Dr | Zprice=$550,900 | bd=3 | ba=3 | sqft=2421 | Zppsf=$227 | pool=0 | lot_size=8712 | remod_score=5 ]
+[addrs=2904 Bryant Ave | Zprice=$607,500 | bd=4 | ba=2 | sqft=2668 | Zppsf=$227 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=3020 Bryant Ave | Zprice=$598,100 | bd=4 | ba=5 | sqft=2610 | Zppsf=$229 | pool=0 | lot_size=10890 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2901 Bryant Ave | Zprice=$510,400 | bd=5 | ba=2 | sqft=2194 | Zppsf=$232 | pool=0 | lot_size=9147 | remod_score=6 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+[addrs=3020 Mason Ave | Zprice=$744,200 | bd=4 | ba=4 | sqft=3195 | Zppsf=$232 | pool=0 | lot_size=13939 ]
+[addrs=2600 Bryant Ave | Zprice=$821,900 | bd=6 | ba=5 | sqft=3427 | Zppsf=$239 | pool=1 | lot_size=10890 | remod_score=5 ]
+[addrs=3016 Colanthe Ave | Zprice=$542,600 | bd=4 | ba=3 | sqft=2257 | Zppsf=$240 | pool=0 | lot_size=9583 ]
+[addrs=2900 Bryant Ave | Zprice=$569,000 | bd=4 | ba=2 | sqft=2354 | Zppsf=$241 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=3016 Gilmary Ave | Zprice=$526,300 | bd=4 | ba=2 | sqft=2177 | Zppsf=$241 | pool=0 | lot_size=10018 ]
+[addrs=2912 Bryant Ave | Zprice=$724,600 | bd=6 | ba=3 | sqft=2949 | Zppsf=$245 | pool=1 | lot_size=9147 | remod_score=7 ]
+[addrs=2601 Bryant Ave | Zprice=$518,500 | bd=3 | ba=2 | sqft=2080 | Zppsf=$249 | pool=0 | lot_size=10454 | remod_score=5 ]
+[addrs=2800 Bryant Ave | Zprice=$584,600 | bd=3 | ba=2 | sqft=2344 | Zppsf=$249 | pool=1 | lot_size=10890 | remod_score=2 ]
+[addrs=2707 Bryant Ave | Zprice=$699,400 | bd=3 | ba=3 | sqft=2800 | Zppsf=$249 | pool=1 | lot_size=10018 | remod_score=3 ]
+[addrs=1263 Campbell Dr | Zprice=$599,300 | bd=3 | ba=5 | sqft=2396 | Zppsf=$250 | pool=1 | lot_size=10890 ]
+[addrs=1238 Campbell Dr | Zprice=$474,100 | bd=3 | ba=2 | sqft=1872 | Zppsf=$253 | pool=0 | lot_size=9147 | remod_score=3 ]
+[addrs=3017 Bryant Ave | Zprice=$495,000 | bd=4 | ba=2 | sqft=1949 | Zppsf=$253 | pool=0 | lot_size=10018 | remod_score=4 ]
+[addrs=2801 Bryant Ave | Zprice=$745,400 | bd=3 | ba=2 | sqft=2920 | Zppsf=$255 | pool=1 | lot_size=10018 | remod_score=6 ]
+[addrs=1262 Campbell Dr | Zprice=$610,700 | bd=3 | ba=3 | sqft=2378 | Zppsf=$256 | pool=1 | lot_size=9240 ]
+[addrs=2627 Bryant Ave | Zprice=$703,800 | bd=4 | ba=3 | sqft=2731 | Zppsf=$257 | pool=1 | lot_size=9147 | remod_score=3 ]
+[addrs=2727 Bryant Ave | Zprice=$595,800 | bd=3 | ba=3 | sqft=2311 | Zppsf=$257 | pool=1 | lot_size=9147 | remod_score=2 ]
+[addrs=3012 Bryant Ave | Zprice=$785,200 | bd=4 | ba=2 | sqft=3041 | Zppsf=$258 | pool=1 | lot_size=9147 | remod_score=9 ]
+[addrs=2700 Bryant Ave | Zprice=$743,500 | bd=3 | ba=3 | sqft=2847 | Zppsf=$261 | pool=1 | lot_size=10180 | remod_score=2 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=1508 Campbell Dr | Zprice=$612,800 | bd=3 | ba=2 | sqft=2330 | Zppsf=$263 | pool=1 | lot_size=8276 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2703 Bryant Ave | Zprice=$524,100 | bd=2 | ba=2 | sqft=1992 | Zppsf=$263 | pool=1 | lot_size=9583 | remod_score=2 ]
+[addrs=2712 Bryant Ave | Zprice=$588,200 | bd=4 | ba=2 | sqft=2232 | Zppsf=$263 | pool=1 | lot_size=9583 | remod_score=3 ]
+[addrs=3017 Colanthe Ave | Zprice=$662,900 | bd=4 | ba=3 | sqft=2514 | Zppsf=$263 | pool=1 | lot_size=10454 | remod_score=3 ]
+[addrs=2809 Bryant Ave | Zprice=$722,700 | bd=3 | ba=2 | sqft=2728 | Zppsf=$264 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=3001 Bryant Ave | Zprice=$526,500 | bd=4 | ba=2 | sqft=1964 | Zppsf=$268 | pool=1 | lot_size=9147 | remod_score=4 ]
+[addrs=1258 Campbell Dr | Zprice=$679,100 | bd=3 | ba=2 | sqft=2514 | Zppsf=$270 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=2812 Bryant Ave | Zprice=$676,000 | bd=4 | ba=3 | sqft=2502 | Zppsf=$270 | pool=0 | lot_size=9147 | remod_score=4 ]
+[addrs=1242 Campbell Dr | Zprice=$530,900 | bd=4 | ba=2 | sqft=1962 | Zppsf=$270 | pool=1 | lot_size=9583 ]
+[addrs=3008 Bryant Ave | Zprice=$528,500 | bd=4 | ba=2 | sqft=1949 | Zppsf=$271 | pool=0 | lot_size=9147 | remod_score=3 ]
+[addrs=2816 Bryant Ave | Zprice=$530,200 | bd=4 | ba=2 | sqft=1949 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=4 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=2916 Bryant Ave | Zprice=$535,600 | bd=4 | ba=2 | sqft=1964 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=4 ]
+[addrs=2612 Bryant Ave | Zprice=$616,000 | bd=5 | ba=3 | sqft=2250 | Zppsf=$273 | pool=1 | lot_size=9960 | remod_score=2 ]
+[addrs=2401 Mason Ave | Zprice=$568,400 | bd=3 | ba=3 | sqft=2075 | Zppsf=$273 | pool=0 | lot_size=10890 | remod_score=8 | sold_price=$514,000 | list_price=$675,000 | sold_ppsf=$247 | list_ppsf=$325 | sold_date=12/02/2022 ]
+[addrs=3000 Bryant Ave | Zprice=$715,900 | bd=4 | ba=3 | sqft=2598 | Zppsf=$275 | pool=1 | lot_size=9583 | remod_score=4 ]
+[addrs=2909 Bryant Ave | Zprice=$661,300 | bd=3 | ba=2 | sqft=2390 | Zppsf=$276 | pool=0 | lot_size=9147 | remod_score=6 ]
+[addrs=2728 Bryant Ave | Zprice=$707,200 | bd=3 | ba=4 | sqft=2540 | Zppsf=$278 | pool=1 | lot_size=9583 | remod_score=8 ]
+[addrs=3013 Bryant Ave | Zprice=$547,500 | bd=4 | ba=2 | sqft=1964 | Zppsf=$278 | pool=1 | lot_size=9583 | remod_score=6 ]
+[addrs=3021 Bryant Ave | Zprice=$754,100 | bd=4 | ba=3 | sqft=2696 | Zppsf=$279 | pool=1 | lot_size=10454 ]
 *** for sale house ***
-[addrs=2817 Bryant Ave | price=$631,500 | bd=4 | ba=2 | sqft=2239 | ppsf=$282 | pool=1 | lot_size=9147 | remod_score=5 | sale_price=$650,000 ]
+[addrs=2817 Bryant Ave | Zprice=$631,500 | bd=4 | ba=2 | sqft=2239 | Zppsf=$282 | pool=1 | lot_size=9147 | remod_score=5 | sale_price=$650,000 | for_sale_ppsf=$290 ]
 *** for sale house ***
-[addrs=3004 Bryant Ave | price=$563,900 | bd=4 | ba=2 | sqft=1996 | ppsf=$282 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=2709 Gilmary Ave | price=$612,000 | bd=3 | ba=2 | sqft=2130 | ppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
-[addrs=2606 Bryant Ave | price=$676,400 | bd=3 | ba=3 | sqft=2342 | ppsf=$288 | pool=0 | lot_size=9147 | remod_score=5 ]
-[addrs=2813 Bryant Ave | price=$683,700 | bd=4 | ba=3 | sqft=2352 | ppsf=$290 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=1138 Westlund Dr | price=$619,000 | bd=3 | ba=2 | sqft=2113 | ppsf=$292 | pool=0 | lot_size=10454 | remod_score=3 | sold_price=$540,000 | sold_ppsf=$255 | sold_date=04/12/2022 ]
-[addrs=2917 Bryant Ave | price=$556,200 | bd=4 | ba=2 | sqft=1890 | ppsf=$294 | pool=1 | lot_size=9147 | remod_score=3 ]
-[addrs=2731 Bryant Ave | price=$750,800 | bd=3 | ba=4 | sqft=2525 | ppsf=$297 | pool=0 | lot_size=11325 | remod_score=8 ]
-[addrs=1308 Campbell Dr | price=$537,200 | bd=3 | ba=2 | sqft=1800 | ppsf=$298 | pool=1 | lot_size=8712 | remod_score=3 ]
-[addrs=2612 Gilmary Ave | price=$581,900 | bd=4 | ba=2 | sqft=1940 | ppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
-[addrs=2804 Bryant Ave | price=$723,300 | bd=4 | ba=3 | sqft=2405 | ppsf=$300 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=1225 Buehler Dr | price=$533,400 | bd=3 | ba=2 | sqft=1751 | ppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
-[addrs=2808 Bryant Ave | price=$685,300 | bd=4 | ba=2 | sqft=2234 | ppsf=$306 | pool=1 | lot_size=9147 | remod_score=7 | sold_price=$635,000 | list_price=$675,000 | sold_ppsf=$284 | list_ppsf=$302 | sold_date=05/19/2022 ]
-[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
-[addrs=1257 Campbell Dr | price=$641,400 | bd=3 | ba=3 | sqft=2045 | ppsf=$313 | pool=1 | lot_size=10890 | remod_score=5 ]
-[addrs=2805 Bryant Ave | price=$578,100 | bd=3 | ba=2 | sqft=1838 | ppsf=$314 | pool=1 | lot_size=9147 | remod_score=2 ]
-[addrs=1325 Cahlan Dr | price=$802,300 | bd=4 | ba=3 | sqft=2550 | ppsf=$314 | pool=1 | lot_size=10890 | remod_score=8 ]
-[addrs=1250 Campbell Dr | price=$620,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$316 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=2607 Bryant Ave | price=$710,400 | bd=3 | ba=2 | sqft=2232 | ppsf=$318 | pool=1 | lot_size=10018 | remod_score=7 ]
-[addrs=2912 Gilmary Ave | price=$722,000 | bd=3 | ba=2 | sqft=2236 | ppsf=$322 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$675,000 | list_price=$650,000 | sold_ppsf=$301 | list_ppsf=$290 | sold_date=02/24/2022 ]
-[addrs=1281 Strong Dr | price=$583,400 | bd=3 | ba=2 | sqft=1804 | ppsf=$323 | pool=1 | lot_size=10890 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$268 | sold_date=11/08/2021 ]
-[addrs=2905 Colanthe Ave | price=$675,600 | bd=3 | ba=2 | sqft=2079 | ppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
-[addrs=1400 Campbell Dr | price=$528,600 | bd=3 | ba=2 | sqft=1624 | ppsf=$325 | pool=1 | lot_size=9147 ]
-[addrs=2613 Mason Ave | price=$675,400 | bd=3 | ba=3 | sqft=2070 | ppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
-[addrs=2905 Bryant Ave | price=$644,700 | bd=4 | ba=2 | sqft=1948 | ppsf=$330 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
-[addrs=3012 Colanthe Ave | price=$602,800 | bd=3 | ba=2 | sqft=1814 | ppsf=$332 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$272 | list_ppsf=$272 | sold_date=09/15/2021 ]
-[addrs=2704 Gilmary Ave | price=$665,200 | bd=3 | ba=2 | sqft=1997 | ppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
-[addrs=3016 Bryant Ave | price=$657,400 | bd=3 | ba=2 | sqft=1964 | ppsf=$334 | pool=1 | lot_size=9583 | remod_score=7 ]
-[addrs=2701 Bryant Ave | price=$648,000 | bd=3 | ba=2 | sqft=1934 | ppsf=$335 | pool=1 | lot_size=9147 | remod_score=3 ]
-[addrs=2706 Bryant Ave | price=$718,400 | bd=4 | ba=3 | sqft=2115 | ppsf=$339 | pool=1 | lot_size=9583 | sold_price=$615,000 | list_price=$589,999 | sold_ppsf=$290 | list_ppsf=$278 | sold_date=03/03/2022 ]
-[addrs=2420 Sherman Pl | price=$690,700 | bd=3 | ba=3 | sqft=2027 | ppsf=$340 | pool=1 | lot_size=11325 | remod_score=6 | sold_price=$620,000 | list_price=$629,999 | sold_ppsf=$305 | list_ppsf=$310 | sold_date=11/10/2022 ]
-[addrs=1207 Westlund Dr | price=$635,600 | bd=3 | ba=3 | sqft=1864 | ppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
-[addrs=2718 Bryant Ave #120 | price=$690,800 | bd=4 | ba=3 | sqft=1974 | ppsf=$349 | pool=1 | lot_size=9583 | remod_score=6 ]
-[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
-[addrs=1246 Campbell Dr | price=$668,500 | bd=3 | ba=3 | sqft=1872 | ppsf=$357 | pool=1 | lot_size=9147 | remod_score=7 ]
-[addrs=2407 Sherman Pl | price=$794,200 | bd=3 | ba=3 | sqft=2218 | ppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
-[addrs=2904 Gilmary Ave | price=$734,400 | bd=4 | ba=2 | sqft=1968 | ppsf=$373 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$750,000 | list_price=$735,000 | sold_ppsf=$381 | list_ppsf=$373 | sold_date=04/11/2022 ]
-[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
-[addrs=3009 Bryant Ave | price=$716,200 | bd=4 | ba=2 | sqft=1890 | ppsf=$378 | pool=1 | lot_size=9583 | remod_score=3 | sold_price=$730,000 | sold_ppsf=$386 | sold_date=06/01/2022 ]
-[addrs=2713 Bryant Ave | price=$534,500 | bd=3 | ba=2 | sqft=1355 | ppsf=$394 | pool=1 | lot_size=9147 | remod_score=2 ]
-[addrs=2617 Mason Ave | price=$819,300 | bd=4 | ba=3 | sqft=2057 | ppsf=$398 | pool=1 | lot_size=9583 | remod_score=9 | sold_price=$800,000 | list_price=$779,000 | sold_ppsf=$388 | list_ppsf=$378 | sold_date=05/23/2022 ]
-[addrs=2905 Mason Ave | price=$751,300 | bd=3 | ba=3 | sqft=1883 | ppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=3004 Bryant Ave | Zprice=$563,900 | bd=4 | ba=2 | sqft=1996 | Zppsf=$282 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2606 Bryant Ave | Zprice=$676,400 | bd=3 | ba=3 | sqft=2342 | Zppsf=$288 | pool=0 | lot_size=9147 | remod_score=5 ]
+[addrs=2813 Bryant Ave | Zprice=$683,700 | bd=4 | ba=3 | sqft=2352 | Zppsf=$290 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=2908 Bryant Ave | Zprice=$709,800 | bd=4 | ba=2 | sqft=2439 | Zppsf=$291 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=1138 Westlund Dr | Zprice=$619,000 | bd=3 | ba=2 | sqft=2113 | Zppsf=$292 | pool=0 | lot_size=10454 | remod_score=3 | sold_price=$540,000 | sold_ppsf=$255 | sold_date=04/12/2022 ]
+[addrs=2917 Bryant Ave | Zprice=$556,200 | bd=4 | ba=2 | sqft=1890 | Zppsf=$294 | pool=1 | lot_size=9147 | remod_score=3 ]
+[addrs=2731 Bryant Ave | Zprice=$750,800 | bd=3 | ba=4 | sqft=2525 | Zppsf=$297 | pool=0 | lot_size=11325 | remod_score=8 ]
+[addrs=1308 Campbell Dr | Zprice=$537,200 | bd=3 | ba=2 | sqft=1800 | Zppsf=$298 | pool=1 | lot_size=8712 | remod_score=3 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=2804 Bryant Ave | Zprice=$723,300 | bd=4 | ba=3 | sqft=2405 | Zppsf=$300 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=1225 Buehler Dr | Zprice=$533,400 | bd=3 | ba=2 | sqft=1751 | Zppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
+[addrs=2808 Bryant Ave | Zprice=$685,300 | bd=4 | ba=2 | sqft=2234 | Zppsf=$306 | pool=1 | lot_size=9147 | remod_score=7 | sold_price=$635,000 | list_price=$675,000 | sold_ppsf=$284 | list_ppsf=$302 | sold_date=05/19/2022 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1257 Campbell Dr | Zprice=$641,400 | bd=3 | ba=3 | sqft=2045 | Zppsf=$313 | pool=1 | lot_size=10890 | remod_score=5 ]
+[addrs=2805 Bryant Ave | Zprice=$578,100 | bd=3 | ba=2 | sqft=1838 | Zppsf=$314 | pool=1 | lot_size=9147 | remod_score=2 ]
+[addrs=1325 Cahlan Dr | Zprice=$802,300 | bd=4 | ba=3 | sqft=2550 | Zppsf=$314 | pool=1 | lot_size=10890 | remod_score=8 ]
+[addrs=1250 Campbell Dr | Zprice=$620,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$316 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=2607 Bryant Ave | Zprice=$710,400 | bd=3 | ba=2 | sqft=2232 | Zppsf=$318 | pool=1 | lot_size=10018 | remod_score=7 ]
+[addrs=2912 Gilmary Ave | Zprice=$722,000 | bd=3 | ba=2 | sqft=2236 | Zppsf=$322 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$675,000 | list_price=$650,000 | sold_ppsf=$301 | list_ppsf=$290 | sold_date=02/24/2022 ]
+[addrs=1281 Strong Dr | Zprice=$583,400 | bd=3 | ba=2 | sqft=1804 | Zppsf=$323 | pool=1 | lot_size=10890 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$268 | sold_date=11/08/2021 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=1400 Campbell Dr | Zprice=$528,600 | bd=3 | ba=2 | sqft=1624 | Zppsf=$325 | pool=1 | lot_size=9147 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=2905 Bryant Ave | Zprice=$644,700 | bd=4 | ba=2 | sqft=1948 | Zppsf=$330 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=3012 Colanthe Ave | Zprice=$602,800 | bd=3 | ba=2 | sqft=1814 | Zppsf=$332 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$272 | list_ppsf=$272 | sold_date=09/15/2021 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=3016 Bryant Ave | Zprice=$657,400 | bd=3 | ba=2 | sqft=1964 | Zppsf=$334 | pool=1 | lot_size=9583 | remod_score=7 ]
+[addrs=2701 Bryant Ave | Zprice=$648,000 | bd=3 | ba=2 | sqft=1934 | Zppsf=$335 | pool=1 | lot_size=9147 | remod_score=3 ]
+[addrs=2706 Bryant Ave | Zprice=$718,400 | bd=4 | ba=3 | sqft=2115 | Zppsf=$339 | pool=1 | lot_size=9583 | sold_price=$615,000 | list_price=$589,999 | sold_ppsf=$290 | list_ppsf=$278 | sold_date=03/03/2022 ]
+[addrs=2420 Sherman Pl | Zprice=$690,700 | bd=3 | ba=3 | sqft=2027 | Zppsf=$340 | pool=1 | lot_size=11325 | remod_score=6 | sold_price=$620,000 | list_price=$629,999 | sold_ppsf=$305 | list_ppsf=$310 | sold_date=11/10/2022 ]
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2718 Bryant Ave #120 | Zprice=$690,800 | bd=4 | ba=3 | sqft=1974 | Zppsf=$349 | pool=1 | lot_size=9583 | remod_score=6 ]
+[addrs=1404 Campbell Dr | Zprice=$586,900 | bd=3 | ba=2 | sqft=1672 | Zppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
+[addrs=1246 Campbell Dr | Zprice=$668,500 | bd=3 | ba=3 | sqft=1872 | Zppsf=$357 | pool=1 | lot_size=9147 | remod_score=7 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2904 Gilmary Ave | Zprice=$734,400 | bd=4 | ba=2 | sqft=1968 | Zppsf=$373 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$750,000 | list_price=$735,000 | sold_ppsf=$381 | list_ppsf=$373 | sold_date=04/11/2022 ]
+[addrs=1312 Campbell Dr | Zprice=$701,800 | bd=4 | ba=2 | sqft=1859 | Zppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
+[addrs=3009 Bryant Ave | Zprice=$716,200 | bd=4 | ba=2 | sqft=1890 | Zppsf=$378 | pool=1 | lot_size=9583 | remod_score=3 | sold_price=$730,000 | sold_ppsf=$386 | sold_date=06/01/2022 ]
+[addrs=2713 Bryant Ave | Zprice=$534,500 | bd=3 | ba=2 | sqft=1355 | Zppsf=$394 | pool=1 | lot_size=9147 | remod_score=2 ]
+[addrs=2617 Mason Ave | Zprice=$819,300 | bd=4 | ba=3 | sqft=2057 | Zppsf=$398 | pool=1 | lot_size=9583 | remod_score=9 | sold_price=$800,000 | list_price=$779,000 | sold_ppsf=$388 | list_ppsf=$378 | sold_date=05/23/2022 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
 
-Some theoretical prices based on price per square foot
-theoretical rank 1 of 89, if price per square foot was $0, sale price would be $576
-theoretical rank 2 of 89, if price per square foot was $0, sale price would be $650
-theoretical rank 3 of 89, if price per square foot was $224, sale price would be $502,535
-theoretical rank 4 of 89, if price per square foot was $226, sale price would be $507,947
-theoretical rank 5 of 89, if price per square foot was $227, sale price would be $509,485
-theoretical rank 6 of 89, if price per square foot was $227, sale price would be $509,817
-theoretical rank 7 of 89, if price per square foot was $229, sale price would be $513,082
-theoretical rank 8 of 89, if price per square foot was $232, sale price would be $520,457
-theoretical rank 9 of 89, if price per square foot was $232, sale price would be $520,868
-theoretical rank 10 of 89, if price per square foot was $232, sale price would be $521,522
-theoretical rank 11 of 89, if price per square foot was $239, sale price would be $536,981
-theoretical rank 12 of 89, if price per square foot was $240, sale price would be $538,272
-theoretical rank 13 of 89, if price per square foot was $241, sale price would be $541,202
-theoretical rank 14 of 89, if price per square foot was $241, sale price would be $541,288
-theoretical rank 15 of 89, if price per square foot was $245, sale price would be $550,145
-theoretical rank 16 of 89, if price per square foot was $249, sale price would be $558,135
-theoretical rank 17 of 89, if price per square foot was $249, sale price would be $558,412
-theoretical rank 18 of 89, if price per square foot was $249, sale price would be $559,270
-theoretical rank 19 of 89, if price per square foot was $250, sale price would be $560,030
-theoretical rank 20 of 89, if price per square foot was $253, sale price would be $567,045
-theoretical rank 21 of 89, if price per square foot was $253, sale price would be $568,653
-theoretical rank 22 of 89, if price per square foot was $255, sale price would be $571,558
-theoretical rank 23 of 89, if price per square foot was $256, sale price would be $575,003
-theoretical rank 24 of 89, if price per square foot was $257, sale price would be $577,237
-theoretical rank 25 of 89, if price per square foot was $258, sale price would be $578,119
-theoretical rank 26 of 89, if price per square foot was $261, sale price would be $584,719
-theoretical rank 27 of 89, if price per square foot was $263, sale price would be $588,866
-theoretical rank 28 of 89, if price per square foot was $263, sale price would be $589,002
-theoretical rank 29 of 89, if price per square foot was $263, sale price would be $589,086
-theoretical rank 30 of 89, if price per square foot was $263, sale price would be $590,044
-theoretical rank 31 of 89, if price per square foot was $263, sale price would be $590,387
-theoretical rank 32 of 89, if price per square foot was $264, sale price would be $593,154
-theoretical rank 33 of 89, if price per square foot was $268, sale price would be $600,220
-theoretical rank 34 of 89, if price per square foot was $270, sale price would be $604,814
-theoretical rank 35 of 89, if price per square foot was $270, sale price would be $604,941
-theoretical rank 36 of 89, if price per square foot was $270, sale price would be $605,853
-theoretical rank 37 of 89, if price per square foot was $271, sale price would be $607,137
-theoretical rank 38 of 89, if price per square foot was $272, sale price would be $609,090
-theoretical rank 39 of 89, if price per square foot was $272, sale price would be $610,594
-theoretical rank 40 of 89, if price per square foot was $273, sale price would be $612,988
-theoretical rank 41 of 89, if price per square foot was $273, sale price would be $613,324
-theoretical rank 42 of 89, if price per square foot was $275, sale price would be $616,974
-theoretical rank 43 of 89, if price per square foot was $276, sale price would be $619,519
-theoretical rank 44 of 89, if price per square foot was $278, sale price would be $623,394
-theoretical rank 45 of 89, if price per square foot was $278, sale price would be $624,161
-theoretical rank 46 of 89, if price per square foot was $279, sale price would be $626,272
-*** for sale house ***
-theoretical rank 47 of 89, if price per square foot was $282, sale price would be $631,500
-*** for sale house ***
-theoretical rank 48 of 89, if price per square foot was $282, sale price would be $632,551
-theoretical rank 49 of 89, if price per square foot was $287, sale price would be $643,318
-theoretical rank 50 of 89, if price per square foot was $288, sale price would be $646,652
-theoretical rank 51 of 89, if price per square foot was $290, sale price would be $650,852
-theoretical rank 52 of 89, if price per square foot was $292, sale price would be $655,911
-theoretical rank 53 of 89, if price per square foot was $294, sale price would be $658,905
-theoretical rank 54 of 89, if price per square foot was $297, sale price would be $665,758
-theoretical rank 55 of 89, if price per square foot was $298, sale price would be $668,217
-theoretical rank 56 of 89, if price per square foot was $299, sale price would be $671,584
-theoretical rank 57 of 89, if price per square foot was $300, sale price would be $673,375
-theoretical rank 58 of 89, if price per square foot was $304, sale price would be $682,057
-theoretical rank 59 of 89, if price per square foot was $306, sale price would be $686,833
-theoretical rank 60 of 89, if price per square foot was $308, sale price would be $690,810
-theoretical rank 61 of 89, if price per square foot was $313, sale price would be $702,246
-theoretical rank 62 of 89, if price per square foot was $314, sale price would be $704,225
-theoretical rank 63 of 89, if price per square foot was $314, sale price would be $704,450
-theoretical rank 64 of 89, if price per square foot was $316, sale price would be $707,533
-theoretical rank 65 of 89, if price per square foot was $318, sale price would be $712,627
-theoretical rank 66 of 89, if price per square foot was $322, sale price would be $722,968
-theoretical rank 67 of 89, if price per square foot was $323, sale price would be $724,075
-theoretical rank 68 of 89, if price per square foot was $324, sale price would be $727,594
-theoretical rank 69 of 89, if price per square foot was $325, sale price would be $728,777
-theoretical rank 70 of 89, if price per square foot was $326, sale price would be $730,541
-theoretical rank 71 of 89, if price per square foot was $330, sale price would be $741,007
-theoretical rank 72 of 89, if price per square foot was $331, sale price would be $741,768
-theoretical rank 73 of 89, if price per square foot was $332, sale price would be $744,029
-theoretical rank 74 of 89, if price per square foot was $333, sale price would be $745,810
-theoretical rank 75 of 89, if price per square foot was $334, sale price would be $749,449
-theoretical rank 76 of 89, if price per square foot was $335, sale price would be $750,192
-theoretical rank 77 of 89, if price per square foot was $339, sale price would be $760,518
-theoretical rank 78 of 89, if price per square foot was $340, sale price would be $762,938
-theoretical rank 79 of 89, if price per square foot was $340, sale price would be $763,470
-theoretical rank 80 of 89, if price per square foot was $349, sale price would be $783,536
-theoretical rank 81 of 89, if price per square foot was $351, sale price would be $785,926
-theoretical rank 82 of 89, if price per square foot was $357, sale price would be $799,557
-theoretical rank 83 of 89, if price per square foot was $358, sale price would be $801,719
-theoretical rank 84 of 89, if price per square foot was $373, sale price would be $835,529
-theoretical rank 85 of 89, if price per square foot was $377, sale price would be $845,255
-theoretical rank 86 of 89, if price per square foot was $378, sale price would be $848,450
-theoretical rank 87 of 89, if price per square foot was $394, sale price would be $883,207
-theoretical rank 88 of 89, if price per square foot was $398, sale price would be $891,790
-theoretical rank 89 of 89, if price per square foot was $398, sale price would be $893,340
+Theoretical prices based on PPSF from 224.44626743232158 to 398.9909718534254
+$224, sale price would be $501,536
+$225, sale price would be $503,775
+$226, sale price would be $506,014
+$227, sale price would be $508,253
+$228, sale price would be $510,492
+$229, sale price would be $512,731
+$230, sale price would be $514,970
+$231, sale price would be $517,209
+$232, sale price would be $519,448
+$233, sale price would be $521,687
+$234, sale price would be $523,926
+$235, sale price would be $526,165
+$236, sale price would be $528,404
+$237, sale price would be $530,643
+$238, sale price would be $532,882
+$239, sale price would be $535,121
+$240, sale price would be $537,360
+$241, sale price would be $539,599
+$242, sale price would be $541,838
+$243, sale price would be $544,077
+$244, sale price would be $546,316
+$245, sale price would be $548,555
+$246, sale price would be $550,794
+$247, sale price would be $553,033
+$248, sale price would be $555,272
+$249, sale price would be $557,511
+$250, sale price would be $559,750
+$251, sale price would be $561,989
+$252, sale price would be $564,228
+$253, sale price would be $566,467
+$254, sale price would be $568,706
+$255, sale price would be $570,945
+$256, sale price would be $573,184
+$257, sale price would be $575,423
+$258, sale price would be $577,662
+$259, sale price would be $579,901
+$260, sale price would be $582,140
+$261, sale price would be $584,379
+$262, sale price would be $586,618
+$263, sale price would be $588,857
+$264, sale price would be $591,096
+$265, sale price would be $593,335
+$266, sale price would be $595,574
+$267, sale price would be $597,813
+$268, sale price would be $600,052
+$269, sale price would be $602,291
+$270, sale price would be $604,530
+$271, sale price would be $606,769
+$272, sale price would be $609,008
+$273, sale price would be $611,247
+$274, sale price would be $613,486
+$275, sale price would be $615,725
+$276, sale price would be $617,964
+$277, sale price would be $620,203
+$278, sale price would be $622,442
+$279, sale price would be $624,681
+$280, sale price would be $626,920
+$281, sale price would be $629,159
+$282, sale price would be $631,398
+$283, sale price would be $633,637
+$284, sale price would be $635,876
+$285, sale price would be $638,115
+$286, sale price would be $640,354
+$287, sale price would be $642,593
+$288, sale price would be $644,832
+$289, sale price would be $647,071
+$290, sale price would be $649,310
+$291, sale price would be $651,549
+$292, sale price would be $653,788
+$293, sale price would be $656,027
+$294, sale price would be $658,266
+$295, sale price would be $660,505
+$296, sale price would be $662,744
+$297, sale price would be $664,983
+$298, sale price would be $667,222
+$299, sale price would be $669,461
+$300, sale price would be $671,700
+$301, sale price would be $673,939
+$302, sale price would be $676,178
+$303, sale price would be $678,417
+$304, sale price would be $680,656
+$305, sale price would be $682,895
+$306, sale price would be $685,134
+$307, sale price would be $687,373
+$308, sale price would be $689,612
+$309, sale price would be $691,851
+$310, sale price would be $694,090
+$311, sale price would be $696,329
+$312, sale price would be $698,568
+$313, sale price would be $700,807
+$314, sale price would be $703,046
+$315, sale price would be $705,285
+$316, sale price would be $707,524
+$317, sale price would be $709,763
+$318, sale price would be $712,002
+$319, sale price would be $714,241
+$320, sale price would be $716,480
+$321, sale price would be $718,719
+$322, sale price would be $720,958
+$323, sale price would be $723,197
+$324, sale price would be $725,436
+$325, sale price would be $727,675
+$326, sale price would be $729,914
+$327, sale price would be $732,153
+$328, sale price would be $734,392
+$329, sale price would be $736,631
+$330, sale price would be $738,870
+$331, sale price would be $741,109
+$332, sale price would be $743,348
+$333, sale price would be $745,587
+$334, sale price would be $747,826
+$335, sale price would be $750,065
+$336, sale price would be $752,304
+$337, sale price would be $754,543
+$338, sale price would be $756,782
+$339, sale price would be $759,021
+$340, sale price would be $761,260
+$341, sale price would be $763,499
+$342, sale price would be $765,738
+$343, sale price would be $767,977
+$344, sale price would be $770,216
+$345, sale price would be $772,455
+$346, sale price would be $774,694
+$347, sale price would be $776,933
+$348, sale price would be $779,172
+$349, sale price would be $781,411
+$350, sale price would be $783,650
+$351, sale price would be $785,889
+$352, sale price would be $788,128
+$353, sale price would be $790,367
+$354, sale price would be $792,606
+$355, sale price would be $794,845
+$356, sale price would be $797,084
+$357, sale price would be $799,323
+$358, sale price would be $801,562
+$359, sale price would be $803,801
+$360, sale price would be $806,040
+$361, sale price would be $808,279
+$362, sale price would be $810,518
+$363, sale price would be $812,757
+$364, sale price would be $814,996
+$365, sale price would be $817,235
+$366, sale price would be $819,474
+$367, sale price would be $821,713
+$368, sale price would be $823,952
+$369, sale price would be $826,191
+$370, sale price would be $828,430
+$371, sale price would be $830,669
+$372, sale price would be $832,908
+$373, sale price would be $835,147
+$374, sale price would be $837,386
+$375, sale price would be $839,625
+$376, sale price would be $841,864
+$377, sale price would be $844,103
+$378, sale price would be $846,342
+$379, sale price would be $848,581
+$380, sale price would be $850,820
+$381, sale price would be $853,059
+$382, sale price would be $855,298
+$383, sale price would be $857,537
+$384, sale price would be $859,776
+$385, sale price would be $862,015
+$386, sale price would be $864,254
+$387, sale price would be $866,493
+$388, sale price would be $868,732
+$389, sale price would be $870,971
+$390, sale price would be $873,210
+$391, sale price would be $875,449
+$392, sale price would be $877,688
+$393, sale price would be $879,927
+$394, sale price would be $882,166
+$395, sale price would be $884,405
+$396, sale price would be $886,644
+$397, sale price would be $888,883
+$398, sale price would be $891,122
 
-26 recent sales:
-[addrs=1207 Westlund Dr | price=$635,600 | bd=3 | ba=3 | sqft=1864 | ppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
-[addrs=2407 Sherman Pl | price=$794,200 | bd=3 | ba=3 | sqft=2218 | ppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
-[addrs=2908 Colanthe Ave | price=$477,200 | bd=3 | ba=2 | sqft=1814 | ppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
-[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
-[addrs=2612 Gilmary Ave | price=$581,900 | bd=4 | ba=2 | sqft=1940 | ppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
-[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
-[addrs=2905 Mason Ave | price=$751,300 | bd=3 | ba=3 | sqft=1883 | ppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
-[addrs=2905 Colanthe Ave | price=$675,600 | bd=3 | ba=2 | sqft=2079 | ppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
-[addrs=2709 Gilmary Ave | price=$612,000 | bd=3 | ba=2 | sqft=2130 | ppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
-[addrs=2704 Gilmary Ave | price=$665,200 | bd=3 | ba=2 | sqft=1997 | ppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
-[addrs=2613 Mason Ave | price=$675,400 | bd=3 | ba=3 | sqft=2070 | ppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
-[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
-[addrs=1225 Buehler Dr | price=$533,400 | bd=3 | ba=2 | sqft=1751 | ppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
-[addrs=2401 Mason Ave | price=$568,400 | bd=3 | ba=3 | sqft=2075 | ppsf=$273 | pool=0 | lot_size=10890 | remod_score=8 | sold_price=$514,000 | list_price=$675,000 | sold_ppsf=$247 | list_ppsf=$325 | sold_date=12/02/2022 ]
-[addrs=2420 Sherman Pl | price=$690,700 | bd=3 | ba=3 | sqft=2027 | ppsf=$340 | pool=1 | lot_size=11325 | remod_score=6 | sold_price=$620,000 | list_price=$629,999 | sold_ppsf=$305 | list_ppsf=$310 | sold_date=11/10/2022 ]
-[addrs=3009 Bryant Ave | price=$716,200 | bd=4 | ba=2 | sqft=1890 | ppsf=$378 | pool=1 | lot_size=9583 | remod_score=3 | sold_price=$730,000 | sold_ppsf=$386 | sold_date=06/01/2022 ]
-[addrs=2617 Mason Ave | price=$819,300 | bd=4 | ba=3 | sqft=2057 | ppsf=$398 | pool=1 | lot_size=9583 | remod_score=9 | sold_price=$800,000 | list_price=$779,000 | sold_ppsf=$388 | list_ppsf=$378 | sold_date=05/23/2022 ]
-[addrs=2808 Bryant Ave | price=$685,300 | bd=4 | ba=2 | sqft=2234 | ppsf=$306 | pool=1 | lot_size=9147 | remod_score=7 | sold_price=$635,000 | list_price=$675,000 | sold_ppsf=$284 | list_ppsf=$302 | sold_date=05/19/2022 ]
-[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
-[addrs=1138 Westlund Dr | price=$619,000 | bd=3 | ba=2 | sqft=2113 | ppsf=$292 | pool=0 | lot_size=10454 | remod_score=3 | sold_price=$540,000 | sold_ppsf=$255 | sold_date=04/12/2022 ]
-[addrs=2904 Gilmary Ave | price=$734,400 | bd=4 | ba=2 | sqft=1968 | ppsf=$373 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$750,000 | list_price=$735,000 | sold_ppsf=$381 | list_ppsf=$373 | sold_date=04/11/2022 ]
-[addrs=2706 Bryant Ave | price=$718,400 | bd=4 | ba=3 | sqft=2115 | ppsf=$339 | pool=1 | lot_size=9583 | sold_price=$615,000 | list_price=$589,999 | sold_ppsf=$290 | list_ppsf=$278 | sold_date=03/03/2022 ]
-[addrs=2912 Gilmary Ave | price=$722,000 | bd=3 | ba=2 | sqft=2236 | ppsf=$322 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$675,000 | list_price=$650,000 | sold_ppsf=$301 | list_ppsf=$290 | sold_date=02/24/2022 ]
-[addrs=1281 Strong Dr | price=$583,400 | bd=3 | ba=2 | sqft=1804 | ppsf=$323 | pool=1 | lot_size=10890 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$268 | sold_date=11/08/2021 ]
-[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
-[addrs=3012 Colanthe Ave | price=$602,800 | bd=3 | ba=2 | sqft=1814 | ppsf=$332 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$272 | list_ppsf=$272 | sold_date=09/15/2021 ]
+16 sales within 18 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+[addrs=1225 Buehler Dr | Zprice=$533,400 | bd=3 | ba=2 | sqft=1751 | Zppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
 
-Averages from the 26 recent sales:
+Averages from the 16 recent sales:
+Avgs from sales within 18 months
 Note: not all sales have list price
-Avg Zprice      = $654,888
-Avg Sold P      = $606,423
-Avg sqft        = 2008
+Avg Zprice      = $629,587
+Avg sqft        = 2086
 Avg beds        = 3.3
-Avg baths       = 2.3
-Avg ppsf        = $327
-Avg SOLD PPSF   = $303
-Avg Sold - Lst  = $-20,085
+Avg baths       = 2.5
+Avg ppsf        = $304
 Avg pools       = 0.81
-Avg remod score = 7.1
+Avg remod score = 7.3
+Avg Sold P      = $587,000
+Avg SOLD PPSF   = $283
+Avg Sold - Lst  = $-24,556
 
 Comparing these recent sales to the house we want to buy:
-Diff from Avg Zprice    : $-23,388
-Diff from Avg SOLD price: +$25,076
-Diff from Avg sq ft     : +230
-Diff from Avg beds      : +0.7
-Diff from Avg baths     : -0.3
-Diff from Avg ppsf      : $-45
-Diff from Avg sold ppsf : $-21
+Comparisons from sales within 18 months
+Zprice - Avg Zprice     : +$1,912
+Sale P - Avg Zprice     : +$20,412
+sqft - Avg sqft         : +152
+beds - Avg beds         : +0.7
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-22
+Zprice - Avg SOLD price : +$44,500
+Sale P - Avg Sold P     : +$63,000
+Zppsf - Avg sold ppsf   : $-1
+Sale ppsf - Avg Soldppsf: +$6
 
-House Rankings
-(ASC) = Ascending order rank, (DSC) = Descending order rank
-(ASC) ZPrice   =  10 of  27 = 0.37
-(ASC) Sold P   =  16 of  27 = 0.59
-(ASC) sq ft    =  25 of  27 = 0.93
-(ASC) PPSF     =   3 of  27 = 0.11
-(ASC) Sold PPSF=  10 of  27 = 0.37
-(ASC) List P   =  16 of  27 = 0.59
-(ASC) Lot Sz   =  13 of  27 = 0.48
-(ASC) Remod Sc =   6 of  27 = 0.22
+Rankings from sales within 18 months
+Sold P   =  14 of  17 = 0.82
+ZPPSF    =   5 of  17 = 0.29
+Sold PPSF=   9 of  17 = 0.53
+List P   =  13 of  17 = 0.76
 
 Recent Sales ranked by ppsf in ascending order: 
-[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
-[addrs=2908 Colanthe Ave | price=$477,200 | bd=3 | ba=2 | sqft=1814 | ppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
-[addrs=2401 Mason Ave | price=$568,400 | bd=3 | ba=3 | sqft=2075 | ppsf=$273 | pool=0 | lot_size=10890 | remod_score=8 | sold_price=$514,000 | list_price=$675,000 | sold_ppsf=$247 | list_ppsf=$325 | sold_date=12/02/2022 ]
-[addrs=2709 Gilmary Ave | price=$612,000 | bd=3 | ba=2 | sqft=2130 | ppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
-[addrs=1138 Westlund Dr | price=$619,000 | bd=3 | ba=2 | sqft=2113 | ppsf=$292 | pool=0 | lot_size=10454 | remod_score=3 | sold_price=$540,000 | sold_ppsf=$255 | sold_date=04/12/2022 ]
-[addrs=1281 Strong Dr | price=$583,400 | bd=3 | ba=2 | sqft=1804 | ppsf=$323 | pool=1 | lot_size=10890 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$268 | sold_date=11/08/2021 ]
-[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
-[addrs=3012 Colanthe Ave | price=$602,800 | bd=3 | ba=2 | sqft=1814 | ppsf=$332 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$272 | list_ppsf=$272 | sold_date=09/15/2021 ]
-[addrs=1225 Buehler Dr | price=$533,400 | bd=3 | ba=2 | sqft=1751 | ppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
-[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
-[addrs=2808 Bryant Ave | price=$685,300 | bd=4 | ba=2 | sqft=2234 | ppsf=$306 | pool=1 | lot_size=9147 | remod_score=7 | sold_price=$635,000 | list_price=$675,000 | sold_ppsf=$284 | list_ppsf=$302 | sold_date=05/19/2022 ]
-[addrs=2706 Bryant Ave | price=$718,400 | bd=4 | ba=3 | sqft=2115 | ppsf=$339 | pool=1 | lot_size=9583 | sold_price=$615,000 | list_price=$589,999 | sold_ppsf=$290 | list_ppsf=$278 | sold_date=03/03/2022 ]
-[addrs=2612 Gilmary Ave | price=$581,900 | bd=4 | ba=2 | sqft=1940 | ppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
-[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
-[addrs=2905 Colanthe Ave | price=$675,600 | bd=3 | ba=2 | sqft=2079 | ppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
-[addrs=2613 Mason Ave | price=$675,400 | bd=3 | ba=3 | sqft=2070 | ppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
-[addrs=2912 Gilmary Ave | price=$722,000 | bd=3 | ba=2 | sqft=2236 | ppsf=$322 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$675,000 | list_price=$650,000 | sold_ppsf=$301 | list_ppsf=$290 | sold_date=02/24/2022 ]
-[addrs=2704 Gilmary Ave | price=$665,200 | bd=3 | ba=2 | sqft=1997 | ppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
-[addrs=2420 Sherman Pl | price=$690,700 | bd=3 | ba=3 | sqft=2027 | ppsf=$340 | pool=1 | lot_size=11325 | remod_score=6 | sold_price=$620,000 | list_price=$629,999 | sold_ppsf=$305 | list_ppsf=$310 | sold_date=11/10/2022 ]
-[addrs=1207 Westlund Dr | price=$635,600 | bd=3 | ba=3 | sqft=1864 | ppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
-[addrs=2407 Sherman Pl | price=$794,200 | bd=3 | ba=3 | sqft=2218 | ppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
-[addrs=2905 Mason Ave | price=$751,300 | bd=3 | ba=3 | sqft=1883 | ppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
-[addrs=2904 Gilmary Ave | price=$734,400 | bd=4 | ba=2 | sqft=1968 | ppsf=$373 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$750,000 | list_price=$735,000 | sold_ppsf=$381 | list_ppsf=$373 | sold_date=04/11/2022 ]
-[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
-[addrs=3009 Bryant Ave | price=$716,200 | bd=4 | ba=2 | sqft=1890 | ppsf=$378 | pool=1 | lot_size=9583 | remod_score=3 | sold_price=$730,000 | sold_ppsf=$386 | sold_date=06/01/2022 ]
-[addrs=2617 Mason Ave | price=$819,300 | bd=4 | ba=3 | sqft=2057 | ppsf=$398 | pool=1 | lot_size=9583 | remod_score=9 | sold_price=$800,000 | list_price=$779,000 | sold_ppsf=$388 | list_ppsf=$378 | sold_date=05/23/2022 ]
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+[addrs=1225 Buehler Dr | Zprice=$533,400 | bd=3 | ba=2 | sqft=1751 | Zppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
 
-Some theoretical prices based on price per square foot of Recent Sales
-theoretical rank 1 of 26, if price per square foot was $230, sale price would be $516,317
-theoretical rank 2 of 26, if price per square foot was $242, sale price would be $543,087
-theoretical rank 3 of 26, if price per square foot was $247, sale price would be $554,624
-theoretical rank 4 of 26, if price per square foot was $250, sale price would be $561,326
-theoretical rank 5 of 26, if price per square foot was $255, sale price would be $572,200
-theoretical rank 6 of 26, if price per square foot was $268, sale price would be $601,948
-theoretical rank 7 of 26, if price per square foot was $270, sale price would be $604,826
-theoretical rank 8 of 26, if price per square foot was $272, sale price would be $610,972
-theoretical rank 9 of 26, if price per square foot was $275, sale price would be $617,611
-theoretical rank 10 of 26, if price per square foot was $281, sale price would be $631,119
-theoretical rank 11 of 26, if price per square foot was $284, sale price would be $636,421
-theoretical rank 12 of 26, if price per square foot was $290, sale price would be $651,056
-theoretical rank 13 of 26, if price per square foot was $293, sale price would be $657,850
-theoretical rank 14 of 26, if price per square foot was $296, sale price would be $662,861
-theoretical rank 15 of 26, if price per square foot was $298, sale price would be $667,715
-theoretical rank 16 of 26, if price per square foot was $299, sale price would be $670,618
-theoretical rank 17 of 26, if price per square foot was $301, sale price would be $675,905
-theoretical rank 18 of 26, if price per square foot was $305, sale price would be $683,920
-theoretical rank 19 of 26, if price per square foot was $305, sale price would be $684,844
-theoretical rank 20 of 26, if price per square foot was $340, sale price would be $762,749
-theoretical rank 21 of 26, if price per square foot was $356, sale price would be $797,479
-theoretical rank 22 of 26, if price per square foot was $371, sale price would be $832,342
-theoretical rank 23 of 26, if price per square foot was $381, sale price would be $853,277
-theoretical rank 24 of 26, if price per square foot was $381, sale price would be $855,131
-theoretical rank 25 of 26, if price per square foot was $386, sale price would be $864,798
-theoretical rank 26 of 26, if price per square foot was $388, sale price would be $870,782
+16 sales within 17 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+[addrs=1225 Buehler Dr | Zprice=$533,400 | bd=3 | ba=2 | sqft=1751 | Zppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
+
+Averages from the 16 recent sales:
+Avgs from sales within 17 months
+Note: not all sales have list price
+Avg Zprice      = $629,587
+Avg sqft        = 2086
+Avg beds        = 3.3
+Avg baths       = 2.5
+Avg ppsf        = $304
+Avg pools       = 0.81
+Avg remod score = 7.3
+Avg Sold P      = $587,000
+Avg SOLD PPSF   = $283
+Avg Sold - Lst  = $-24,556
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 17 months
+Zprice - Avg Zprice     : +$1,912
+Sale P - Avg Zprice     : +$20,412
+sqft - Avg sqft         : +152
+beds - Avg beds         : +0.7
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-22
+Zprice - Avg SOLD price : +$44,500
+Sale P - Avg Sold P     : +$63,000
+Zppsf - Avg sold ppsf   : $-1
+Sale ppsf - Avg Soldppsf: +$6
+
+Rankings from sales within 17 months
+Sold P   =  14 of  17 = 0.82
+ZPPSF    =   5 of  17 = 0.29
+Sold PPSF=   9 of  17 = 0.53
+List P   =  13 of  17 = 0.76
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+[addrs=1225 Buehler Dr | Zprice=$533,400 | bd=3 | ba=2 | sqft=1751 | Zppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
+
+15 sales within 16 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+
+Averages from the 15 recent sales:
+Avgs from sales within 16 months
+Note: not all sales have list price
+Avg Zprice      = $636,000
+Avg sqft        = 2108
+Avg beds        = 3.3
+Avg baths       = 2.5
+Avg ppsf        = $304
+Avg pools       = 0.87
+Avg remod score = 7.4
+Avg Sold P      = $593,933
+Avg SOLD PPSF   = $284
+Avg Sold - Lst  = $-22,137
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 16 months
+Zprice - Avg Zprice     : $-4,500
+Sale P - Avg Zprice     : +$14,000
+sqft - Avg sqft         : +130
+beds - Avg beds         : +0.7
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-22
+Zprice - Avg SOLD price : +$37,566
+Sale P - Avg Sold P     : +$56,066
+Zppsf - Avg sold ppsf   : $-2
+Sale ppsf - Avg Soldppsf: +$6
+
+Rankings from sales within 16 months
+Sold P   =  13 of  16 = 0.81
+ZPPSF    =   5 of  16 = 0.31
+Sold PPSF=   8 of  16 = 0.5
+List P   =  12 of  16 = 0.75
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+
+15 sales within 15 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+
+Averages from the 15 recent sales:
+Avgs from sales within 15 months
+Note: not all sales have list price
+Avg Zprice      = $636,000
+Avg sqft        = 2108
+Avg beds        = 3.3
+Avg baths       = 2.5
+Avg ppsf        = $304
+Avg pools       = 0.87
+Avg remod score = 7.4
+Avg Sold P      = $593,933
+Avg SOLD PPSF   = $284
+Avg Sold - Lst  = $-22,137
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 15 months
+Zprice - Avg Zprice     : $-4,500
+Sale P - Avg Zprice     : +$14,000
+sqft - Avg sqft         : +130
+beds - Avg beds         : +0.7
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-22
+Zprice - Avg SOLD price : +$37,566
+Sale P - Avg Sold P     : +$56,066
+Zppsf - Avg sold ppsf   : $-2
+Sale ppsf - Avg Soldppsf: +$6
+
+Rankings from sales within 15 months
+Sold P   =  13 of  16 = 0.81
+ZPPSF    =   5 of  16 = 0.31
+Sold PPSF=   8 of  16 = 0.5
+List P   =  12 of  16 = 0.75
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+
+15 sales within 14 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+
+Averages from the 15 recent sales:
+Avgs from sales within 14 months
+Note: not all sales have list price
+Avg Zprice      = $636,000
+Avg sqft        = 2108
+Avg beds        = 3.3
+Avg baths       = 2.5
+Avg ppsf        = $304
+Avg pools       = 0.87
+Avg remod score = 7.4
+Avg Sold P      = $593,933
+Avg SOLD PPSF   = $284
+Avg Sold - Lst  = $-22,137
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 14 months
+Zprice - Avg Zprice     : $-4,500
+Sale P - Avg Zprice     : +$14,000
+sqft - Avg sqft         : +130
+beds - Avg beds         : +0.7
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-22
+Zprice - Avg SOLD price : +$37,566
+Sale P - Avg Sold P     : +$56,066
+Zppsf - Avg sold ppsf   : $-2
+Sale ppsf - Avg Soldppsf: +$6
+
+Rankings from sales within 14 months
+Sold P   =  13 of  16 = 0.81
+ZPPSF    =   5 of  16 = 0.31
+Sold PPSF=   8 of  16 = 0.5
+List P   =  12 of  16 = 0.75
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+
+13 sales within 13 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+
+Averages from the 13 recent sales:
+Avgs from sales within 13 months
+Note: not all sales have list price
+Avg Zprice      = $647,823
+Avg sqft        = 2111
+Avg beds        = 3.2
+Avg baths       = 2.5
+Avg ppsf        = $310
+Avg pools       = 0.92
+Avg remod score = 7.4
+Avg Sold P      = $606,846
+Avg SOLD PPSF   = $289
+Avg Sold - Lst  = $-22,148
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 13 months
+Zprice - Avg Zprice     : $-16,323
+Sale P - Avg Zprice     : +$2,176
+sqft - Avg sqft         : +127
+beds - Avg beds         : +0.8
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-27
+Zprice - Avg SOLD price : +$24,653
+Sale P - Avg Sold P     : +$43,153
+Zppsf - Avg sold ppsf   : $-7
+Sale ppsf - Avg Soldppsf: $0
+
+Rankings from sales within 13 months
+Sold P   =  11 of  14 = 0.79
+ZPPSF    =   4 of  14 = 0.29
+Sold PPSF=   6 of  14 = 0.43
+List P   =  10 of  14 = 0.71
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+
+12 sales within 12 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+
+Averages from the 12 recent sales:
+Avgs from sales within 12 months
+Note: not all sales have list price
+Avg Zprice      = $645,525
+Avg sqft        = 2114
+Avg beds        = 3.2
+Avg baths       = 2.5
+Avg ppsf        = $308
+Avg pools       = 0.92
+Avg remod score = 7.4
+Avg Sold P      = $605,750
+Avg SOLD PPSF   = $289
+Avg Sold - Lst  = $-26,889
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 12 months
+Zprice - Avg Zprice     : $-14,025
+Sale P - Avg Zprice     : +$4,475
+sqft - Avg sqft         : +124
+beds - Avg beds         : +0.8
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-26
+Zprice - Avg SOLD price : +$25,750
+Sale P - Avg Sold P     : +$44,250
+Zppsf - Avg sold ppsf   : $-7
+Sale ppsf - Avg Soldppsf: +$1
+
+Rankings from sales within 12 months
+Sold P   =  10 of  13 = 0.77
+ZPPSF    =   4 of  13 = 0.31
+Sold PPSF=   6 of  13 = 0.46
+List P   =   9 of  13 = 0.69
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+
+9 sales within 11 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+
+Averages from the 9 recent sales:
+Avgs from sales within 11 months
+Note: not all sales have list price
+Avg Zprice      = $643,722
+Avg sqft        = 2129
+Avg beds        = 3.3
+Avg baths       = 2.7
+Avg ppsf        = $306
+Avg pools       = 0.89
+Avg remod score = 7.2
+Avg Sold P      = $611,666
+Avg SOLD PPSF   = $290
+Avg Sold - Lst  = $-36,237
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 11 months
+Zprice - Avg Zprice     : $-12,222
+Sale P - Avg Zprice     : +$6,277
+sqft - Avg sqft         : +109
+beds - Avg beds         : +0.7
+baths - Avg baths       : -0.7
+Zppsf - Avg Zppsf       : $-24
+Zprice - Avg SOLD price : +$19,833
+Sale P - Avg Sold P     : +$38,333
+Zppsf - Avg sold ppsf   : $-8
+Sale ppsf - Avg Soldppsf: $0
+
+Rankings from sales within 11 months
+Sold P   =   7 of  10 = 0.7
+ZPPSF    =   4 of  10 = 0.4
+Sold PPSF=   5 of  10 = 0.5
+List P   =   6 of  10 = 0.6
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+
+9 sales within 10 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+
+Averages from the 9 recent sales:
+Avgs from sales within 10 months
+Note: not all sales have list price
+Avg Zprice      = $643,722
+Avg sqft        = 2129
+Avg beds        = 3.3
+Avg baths       = 2.7
+Avg ppsf        = $306
+Avg pools       = 0.89
+Avg remod score = 7.2
+Avg Sold P      = $611,666
+Avg SOLD PPSF   = $290
+Avg Sold - Lst  = $-36,237
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 10 months
+Zprice - Avg Zprice     : $-12,222
+Sale P - Avg Zprice     : +$6,277
+sqft - Avg sqft         : +109
+beds - Avg beds         : +0.7
+baths - Avg baths       : -0.7
+Zppsf - Avg Zppsf       : $-24
+Zprice - Avg SOLD price : +$19,833
+Sale P - Avg Sold P     : +$38,333
+Zppsf - Avg sold ppsf   : $-8
+Sale ppsf - Avg Soldppsf: $0
+
+Rankings from sales within 10 months
+Sold P   =   7 of  10 = 0.7
+ZPPSF    =   4 of  10 = 0.4
+Sold PPSF=   5 of  10 = 0.5
+List P   =   6 of  10 = 0.6
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+
+9 sales within 9 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+
+Averages from the 9 recent sales:
+Avgs from sales within 9 months
+Note: not all sales have list price
+Avg Zprice      = $643,722
+Avg sqft        = 2129
+Avg beds        = 3.3
+Avg baths       = 2.7
+Avg ppsf        = $306
+Avg pools       = 0.89
+Avg remod score = 7.2
+Avg Sold P      = $611,666
+Avg SOLD PPSF   = $290
+Avg Sold - Lst  = $-36,237
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 9 months
+Zprice - Avg Zprice     : $-12,222
+Sale P - Avg Zprice     : +$6,277
+sqft - Avg sqft         : +109
+beds - Avg beds         : +0.7
+baths - Avg baths       : -0.7
+Zppsf - Avg Zppsf       : $-24
+Zprice - Avg SOLD price : +$19,833
+Sale P - Avg Sold P     : +$38,333
+Zppsf - Avg sold ppsf   : $-8
+Sale ppsf - Avg Soldppsf: $0
+
+Rankings from sales within 9 months
+Sold P   =   7 of  10 = 0.7
+ZPPSF    =   4 of  10 = 0.4
+Sold PPSF=   5 of  10 = 0.5
+List P   =   6 of  10 = 0.6
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+
+8 sales within 8 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+Averages from the 8 recent sales:
+Avgs from sales within 8 months
+Note: not all sales have list price
+Avg Zprice      = $630,275
+Avg sqft        = 2160
+Avg beds        = 3.4
+Avg baths       = 2.6
+Avg ppsf        = $294
+Avg pools       = 0.88
+Avg remod score = 7.0
+Avg Sold P      = $600,625
+Avg SOLD PPSF   = $280
+Avg Sold - Lst  = $-37,842
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 8 months
+Zprice - Avg Zprice     : +$1,225
+Sale P - Avg Zprice     : +$19,725
+sqft - Avg sqft         : +78
+beds - Avg beds         : +0.6
+baths - Avg baths       : -0.6
+Zppsf - Avg Zppsf       : $-12
+Zprice - Avg SOLD price : +$30,875
+Sale P - Avg Sold P     : +$49,375
+Zppsf - Avg sold ppsf   : +$1
+Sale ppsf - Avg Soldppsf: +$9
+
+Rankings from sales within 8 months
+Sold P   =   7 of   9 = 0.78
+ZPPSF    =   4 of   9 = 0.44
+Sold PPSF=   5 of   9 = 0.56
+List P   =   6 of   9 = 0.67
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+8 sales within 7 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+Averages from the 8 recent sales:
+Avgs from sales within 7 months
+Note: not all sales have list price
+Avg Zprice      = $630,275
+Avg sqft        = 2160
+Avg beds        = 3.4
+Avg baths       = 2.6
+Avg ppsf        = $294
+Avg pools       = 0.88
+Avg remod score = 7.0
+Avg Sold P      = $600,625
+Avg SOLD PPSF   = $280
+Avg Sold - Lst  = $-37,842
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 7 months
+Zprice - Avg Zprice     : +$1,225
+Sale P - Avg Zprice     : +$19,725
+sqft - Avg sqft         : +78
+beds - Avg beds         : +0.6
+baths - Avg baths       : -0.6
+Zppsf - Avg Zppsf       : $-12
+Zprice - Avg SOLD price : +$30,875
+Sale P - Avg Sold P     : +$49,375
+Zppsf - Avg sold ppsf   : +$1
+Sale ppsf - Avg Soldppsf: +$9
+
+Rankings from sales within 7 months
+Sold P   =   7 of   9 = 0.78
+ZPPSF    =   4 of   9 = 0.44
+Sold PPSF=   5 of   9 = 0.56
+List P   =   6 of   9 = 0.67
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+8 sales within 6 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+Averages from the 8 recent sales:
+Avgs from sales within 6 months
+Note: not all sales have list price
+Avg Zprice      = $630,275
+Avg sqft        = 2160
+Avg beds        = 3.4
+Avg baths       = 2.6
+Avg ppsf        = $294
+Avg pools       = 0.88
+Avg remod score = 7.0
+Avg Sold P      = $600,625
+Avg SOLD PPSF   = $280
+Avg Sold - Lst  = $-37,842
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 6 months
+Zprice - Avg Zprice     : +$1,225
+Sale P - Avg Zprice     : +$19,725
+sqft - Avg sqft         : +78
+beds - Avg beds         : +0.6
+baths - Avg baths       : -0.6
+Zppsf - Avg Zppsf       : $-12
+Zprice - Avg SOLD price : +$30,875
+Sale P - Avg Sold P     : +$49,375
+Zppsf - Avg sold ppsf   : +$1
+Sale ppsf - Avg Soldppsf: +$9
+
+Rankings from sales within 6 months
+Sold P   =   7 of   9 = 0.78
+ZPPSF    =   4 of   9 = 0.44
+Sold PPSF=   5 of   9 = 0.56
+List P   =   6 of   9 = 0.67
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+8 sales within 5 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+Averages from the 8 recent sales:
+Avgs from sales within 5 months
+Note: not all sales have list price
+Avg Zprice      = $630,275
+Avg sqft        = 2160
+Avg beds        = 3.4
+Avg baths       = 2.6
+Avg ppsf        = $294
+Avg pools       = 0.88
+Avg remod score = 7.0
+Avg Sold P      = $600,625
+Avg SOLD PPSF   = $280
+Avg Sold - Lst  = $-37,842
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 5 months
+Zprice - Avg Zprice     : +$1,225
+Sale P - Avg Zprice     : +$19,725
+sqft - Avg sqft         : +78
+beds - Avg beds         : +0.6
+baths - Avg baths       : -0.6
+Zppsf - Avg Zppsf       : $-12
+Zprice - Avg SOLD price : +$30,875
+Sale P - Avg Sold P     : +$49,375
+Zppsf - Avg sold ppsf   : +$1
+Sale ppsf - Avg Soldppsf: +$9
+
+Rankings from sales within 5 months
+Sold P   =   7 of   9 = 0.78
+ZPPSF    =   4 of   9 = 0.44
+Sold PPSF=   5 of   9 = 0.56
+List P   =   6 of   9 = 0.67
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+8 sales within 4 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+Averages from the 8 recent sales:
+Avgs from sales within 4 months
+Note: not all sales have list price
+Avg Zprice      = $630,275
+Avg sqft        = 2160
+Avg beds        = 3.4
+Avg baths       = 2.6
+Avg ppsf        = $294
+Avg pools       = 0.88
+Avg remod score = 7.0
+Avg Sold P      = $600,625
+Avg SOLD PPSF   = $280
+Avg Sold - Lst  = $-37,842
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 4 months
+Zprice - Avg Zprice     : +$1,225
+Sale P - Avg Zprice     : +$19,725
+sqft - Avg sqft         : +78
+beds - Avg beds         : +0.6
+baths - Avg baths       : -0.6
+Zppsf - Avg Zppsf       : $-12
+Zprice - Avg SOLD price : +$30,875
+Sale P - Avg Sold P     : +$49,375
+Zppsf - Avg sold ppsf   : +$1
+Sale ppsf - Avg Soldppsf: +$9
+
+Rankings from sales within 4 months
+Sold P   =   7 of   9 = 0.78
+ZPPSF    =   4 of   9 = 0.44
+Sold PPSF=   5 of   9 = 0.56
+List P   =   6 of   9 = 0.67
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+
+7 sales within 3 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 3 months
+Note: not all sales have list price
+Avg Zprice      = $631,414
+Avg sqft        = 2129
+Avg beds        = 3.4
+Avg baths       = 2.6
+Avg ppsf        = $299
+Avg pools       = 0.86
+Avg remod score = 6.7
+Avg Sold P      = $600,857
+Avg SOLD PPSF   = $284
+Avg Sold - Lst  = $-40,666
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 3 months
+Zprice - Avg Zprice     : +$85
+Sale P - Avg Zprice     : +$18,585
+sqft - Avg sqft         : +109
+beds - Avg beds         : +0.6
+baths - Avg baths       : -0.6
+Zppsf - Avg Zppsf       : $-17
+Zprice - Avg SOLD price : +$30,642
+Sale P - Avg Sold P     : +$49,142
+Zppsf - Avg sold ppsf   : $-2
+Sale ppsf - Avg Soldppsf: +$5
+
+Rankings from sales within 3 months
+Sold P   =   6 of   8 = 0.75
+ZPPSF    =   3 of   8 = 0.38
+Sold PPSF=   4 of   8 = 0.5
+List P   =   5 of   8 = 0.62
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+
+6 sales within 2 months:
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+
+Averages from the 6 recent sales:
+Avgs from sales within 2 months
+Note: not all sales have list price
+Avg Zprice      = $628,316
+Avg sqft        = 2157
+Avg beds        = 3.5
+Avg baths       = 2.7
+Avg ppsf        = $294
+Avg pools       = 0.83
+Avg remod score = 6.4
+Avg Sold P      = $612,666
+Avg SOLD PPSF   = $286
+Avg Sold - Lst  = $-36,800
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 2 months
+Zprice - Avg Zprice     : +$3,183
+Sale P - Avg Zprice     : +$21,683
+sqft - Avg sqft         : +81
+beds - Avg beds         : +0.5
+baths - Avg baths       : -0.7
+Zppsf - Avg Zppsf       : $-12
+Zprice - Avg SOLD price : +$18,833
+Sale P - Avg Sold P     : +$37,333
+Zppsf - Avg sold ppsf   : $-4
+Sale ppsf - Avg Soldppsf: +$3
+
+Rankings from sales within 2 months
+Sold P   =   5 of   7 = 0.71
+ZPPSF    =   3 of   7 = 0.43
+Sold PPSF=   3 of   7 = 0.43
+List P   =   4 of   7 = 0.57
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2908 Colanthe Ave | Zprice=$477,200 | bd=3 | ba=2 | sqft=1814 | Zppsf=$263 | pool=1 | lot_size=9147 | sold_price=$440,000 | sold_ppsf=$242 | sold_date=05/28/2024 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
 
 ranked subjectively descending order:
-[addrs=3012 Bryant Ave | price=$785,200 | bd=4 | ba=2 | sqft=3041 | ppsf=$258 | pool=1 | lot_size=9147 | remod_score=9 ]
-[addrs=2617 Mason Ave | price=$819,300 | bd=4 | ba=3 | sqft=2057 | ppsf=$398 | pool=1 | lot_size=9583 | remod_score=9 | sold_price=$800,000 | list_price=$779,000 | sold_ppsf=$388 | list_ppsf=$378 | sold_date=05/23/2022 ]
-[addrs=2905 Mason Ave | price=$751,300 | bd=3 | ba=3 | sqft=1883 | ppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
-[addrs=2704 Gilmary Ave | price=$665,200 | bd=3 | ba=2 | sqft=1997 | ppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
-[addrs=2904 Gilmary Ave | price=$734,400 | bd=4 | ba=2 | sqft=1968 | ppsf=$373 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$750,000 | list_price=$735,000 | sold_ppsf=$381 | list_ppsf=$373 | sold_date=04/11/2022 ]
-[addrs=1312 Campbell Dr | price=$701,800 | bd=4 | ba=2 | sqft=1859 | ppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
-[addrs=2731 Bryant Ave | price=$750,800 | bd=3 | ba=4 | sqft=2525 | ppsf=$297 | pool=0 | lot_size=11325 | remod_score=8 ]
-[addrs=2728 Bryant Ave | price=$707,200 | bd=3 | ba=4 | sqft=2540 | ppsf=$278 | pool=1 | lot_size=9583 | remod_score=8 ]
-[addrs=1325 Cahlan Dr | price=$802,300 | bd=4 | ba=3 | sqft=2550 | ppsf=$314 | pool=1 | lot_size=10890 | remod_score=8 ]
-[addrs=2407 Sherman Pl | price=$794,200 | bd=3 | ba=3 | sqft=2218 | ppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
-[addrs=2401 Mason Ave | price=$568,400 | bd=3 | ba=3 | sqft=2075 | ppsf=$273 | pool=0 | lot_size=10890 | remod_score=8 | sold_price=$514,000 | list_price=$675,000 | sold_ppsf=$247 | list_ppsf=$325 | sold_date=12/02/2022 ]
-[addrs=2613 Mason Ave | price=$675,400 | bd=3 | ba=3 | sqft=2070 | ppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
-[addrs=1281 Strong Dr | price=$583,400 | bd=3 | ba=2 | sqft=1804 | ppsf=$323 | pool=1 | lot_size=10890 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$268 | sold_date=11/08/2021 ]
-[addrs=2912 Gilmary Ave | price=$722,000 | bd=3 | ba=2 | sqft=2236 | ppsf=$322 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$675,000 | list_price=$650,000 | sold_ppsf=$301 | list_ppsf=$290 | sold_date=02/24/2022 ]
-[addrs=2709 Gilmary Ave | price=$612,000 | bd=3 | ba=2 | sqft=2130 | ppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
-[addrs=1300 Campbell Dr | price=$650,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
-[addrs=1404 Campbell Dr | price=$586,900 | bd=3 | ba=2 | sqft=1672 | ppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
-[addrs=2607 Bryant Ave | price=$710,400 | bd=3 | ba=2 | sqft=2232 | ppsf=$318 | pool=1 | lot_size=10018 | remod_score=7 ]
-[addrs=2912 Bryant Ave | price=$724,600 | bd=6 | ba=3 | sqft=2949 | ppsf=$245 | pool=1 | lot_size=9147 | remod_score=7 ]
-[addrs=3016 Bryant Ave | price=$657,400 | bd=3 | ba=2 | sqft=1964 | ppsf=$334 | pool=1 | lot_size=9583 | remod_score=7 ]
-[addrs=2808 Bryant Ave | price=$685,300 | bd=4 | ba=2 | sqft=2234 | ppsf=$306 | pool=1 | lot_size=9147 | remod_score=7 | sold_price=$635,000 | list_price=$675,000 | sold_ppsf=$284 | list_ppsf=$302 | sold_date=05/19/2022 ]
-[addrs=2612 Gilmary Ave | price=$581,900 | bd=4 | ba=2 | sqft=1940 | ppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
-[addrs=1246 Campbell Dr | price=$668,500 | bd=3 | ba=3 | sqft=1872 | ppsf=$357 | pool=1 | lot_size=9147 | remod_score=7 ]
-[addrs=1604 Campbell Dr | price=$585,600 | bd=3 | ba=2 | sqft=1898 | ppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
-[addrs=2801 Bryant Ave | price=$745,400 | bd=3 | ba=2 | sqft=2920 | ppsf=$255 | pool=1 | lot_size=10018 | remod_score=6 ]
-[addrs=2809 Bryant Ave | price=$722,700 | bd=3 | ba=2 | sqft=2728 | ppsf=$264 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=2901 Bryant Ave | price=$510,400 | bd=5 | ba=2 | sqft=2194 | ppsf=$232 | pool=0 | lot_size=9147 | remod_score=6 ]
-[addrs=2909 Bryant Ave | price=$661,300 | bd=3 | ba=2 | sqft=2390 | ppsf=$276 | pool=0 | lot_size=9147 | remod_score=6 ]
-[addrs=2913 Bryant Ave | price=$584,400 | bd=3 | ba=2 | sqft=2576 | ppsf=$226 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=3013 Bryant Ave | price=$547,500 | bd=4 | ba=2 | sqft=1964 | ppsf=$278 | pool=1 | lot_size=9583 | remod_score=6 ]
-[addrs=2718 Bryant Ave #120 | price=$690,800 | bd=4 | ba=3 | sqft=1974 | ppsf=$349 | pool=1 | lot_size=9583 | remod_score=6 ]
-[addrs=2804 Bryant Ave | price=$723,300 | bd=4 | ba=3 | sqft=2405 | ppsf=$300 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=2904 Bryant Ave | price=$607,500 | bd=4 | ba=2 | sqft=2668 | ppsf=$227 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=2420 Sherman Pl | price=$690,700 | bd=3 | ba=3 | sqft=2027 | ppsf=$340 | pool=1 | lot_size=11325 | remod_score=6 | sold_price=$620,000 | list_price=$629,999 | sold_ppsf=$305 | list_ppsf=$310 | sold_date=11/10/2022 ]
-[addrs=1207 Westlund Dr | price=$635,600 | bd=3 | ba=3 | sqft=1864 | ppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
-[addrs=3012 Colanthe Ave | price=$602,800 | bd=3 | ba=2 | sqft=1814 | ppsf=$332 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$272 | list_ppsf=$272 | sold_date=09/15/2021 ]
-[addrs=2905 Colanthe Ave | price=$675,600 | bd=3 | ba=2 | sqft=2079 | ppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
-[addrs=1258 Campbell Dr | price=$679,100 | bd=3 | ba=2 | sqft=2514 | ppsf=$270 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=1250 Campbell Dr | price=$620,000 | bd=3 | ba=2 | sqft=1962 | ppsf=$316 | pool=1 | lot_size=9147 | remod_score=6 ]
-[addrs=2601 Bryant Ave | price=$518,500 | bd=3 | ba=2 | sqft=2080 | ppsf=$249 | pool=0 | lot_size=10454 | remod_score=5 ]
-[addrs=2813 Bryant Ave | price=$683,700 | bd=4 | ba=3 | sqft=2352 | ppsf=$290 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=1201 Westlund Dr | Zprice=$622,300 | bd=3 | ba=3 | sqft=2380 | Zppsf=$261 | pool=1 | lot_size=10454 | remod_score=9 | sold_price=$599,000 | list_price=$619,900 | sold_ppsf=$251 | list_ppsf=$260 | sold_date=03/15/2024 ]
+[addrs=3012 Bryant Ave | Zprice=$785,200 | bd=4 | ba=2 | sqft=3041 | Zppsf=$258 | pool=1 | lot_size=9147 | remod_score=9 ]
+[addrs=2617 Mason Ave | Zprice=$819,300 | bd=4 | ba=3 | sqft=2057 | Zppsf=$398 | pool=1 | lot_size=9583 | remod_score=9 | sold_price=$800,000 | list_price=$779,000 | sold_ppsf=$388 | list_ppsf=$378 | sold_date=05/23/2022 ]
+[addrs=2905 Mason Ave | Zprice=$751,300 | bd=3 | ba=3 | sqft=1883 | Zppsf=$398 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$700,000 | list_price=$725,000 | sold_ppsf=$371 | list_ppsf=$385 | sold_date=10/10/2023 ]
+[addrs=2704 Gilmary Ave | Zprice=$665,200 | bd=3 | ba=2 | sqft=1997 | Zppsf=$333 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$610,000 | list_price=$599,995 | sold_ppsf=$305 | list_ppsf=$300 | sold_date=06/30/2023 ]
+[addrs=2904 Gilmary Ave | Zprice=$734,400 | bd=4 | ba=2 | sqft=1968 | Zppsf=$373 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$750,000 | list_price=$735,000 | sold_ppsf=$381 | list_ppsf=$373 | sold_date=04/11/2022 ]
+[addrs=1312 Campbell Dr | Zprice=$701,800 | bd=4 | ba=2 | sqft=1859 | Zppsf=$377 | pool=1 | lot_size=9147 | remod_score=9 | sold_price=$710,000 | list_price=$749,000 | sold_ppsf=$381 | list_ppsf=$402 | sold_date=04/20/2022 ]
+[addrs=1204 Westlund Dr | Zprice=$532,700 | bd=5 | ba=3 | sqft=2287 | Zppsf=$232 | pool=1 | lot_size=10454 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$212 | sold_date=05/16/2023 ]
+[addrs=2731 Bryant Ave | Zprice=$750,800 | bd=3 | ba=4 | sqft=2525 | Zppsf=$297 | pool=0 | lot_size=11325 | remod_score=8 ]
+[addrs=2728 Bryant Ave | Zprice=$707,200 | bd=3 | ba=4 | sqft=2540 | Zppsf=$278 | pool=1 | lot_size=9583 | remod_score=8 ]
+[addrs=1325 Cahlan Dr | Zprice=$802,300 | bd=4 | ba=3 | sqft=2550 | Zppsf=$314 | pool=1 | lot_size=10890 | remod_score=8 ]
+[addrs=2407 Sherman Pl | Zprice=$794,200 | bd=3 | ba=3 | sqft=2218 | Zppsf=$358 | pool=1 | lot_size=11325 | remod_score=8 | sold_price=$790,000 | list_price=$800,000 | sold_ppsf=$356 | list_ppsf=$360 | sold_date=06/07/2024 ]
+[addrs=2401 Mason Ave | Zprice=$568,400 | bd=3 | ba=3 | sqft=2075 | Zppsf=$273 | pool=0 | lot_size=10890 | remod_score=8 | sold_price=$514,000 | list_price=$675,000 | sold_ppsf=$247 | list_ppsf=$325 | sold_date=12/02/2022 ]
+[addrs=2613 Mason Ave | Zprice=$675,400 | bd=3 | ba=3 | sqft=2070 | Zppsf=$326 | pool=1 | lot_size=9583 | remod_score=8 | sold_price=$620,000 | list_price=$590,000 | sold_ppsf=$299 | list_ppsf=$285 | sold_date=06/21/2023 ]
+[addrs=1281 Strong Dr | Zprice=$583,400 | bd=3 | ba=2 | sqft=1804 | Zppsf=$323 | pool=1 | lot_size=10890 | remod_score=8 | sold_price=$485,000 | sold_ppsf=$268 | sold_date=11/08/2021 ]
+[addrs=2912 Gilmary Ave | Zprice=$722,000 | bd=3 | ba=2 | sqft=2236 | Zppsf=$322 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$675,000 | list_price=$650,000 | sold_ppsf=$301 | list_ppsf=$290 | sold_date=02/24/2022 ]
+[addrs=2709 Gilmary Ave | Zprice=$612,000 | bd=3 | ba=2 | sqft=2130 | Zppsf=$287 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$534,000 | list_price=$549,900 | sold_ppsf=$250 | list_ppsf=$258 | sold_date=07/06/2023 ]
+[addrs=1300 Campbell Dr | Zprice=$650,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$331 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$530,000 | list_price=$590,000 | sold_ppsf=$270 | list_ppsf=$300 | sold_date=04/10/2024 ]
+[addrs=1404 Campbell Dr | Zprice=$586,900 | bd=3 | ba=2 | sqft=1672 | Zppsf=$351 | pool=1 | lot_size=9147 | remod_score=8 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$296 | list_ppsf=$296 | sold_date=11/03/2021 ]
+[addrs=2607 Bryant Ave | Zprice=$710,400 | bd=3 | ba=2 | sqft=2232 | Zppsf=$318 | pool=1 | lot_size=10018 | remod_score=7 ]
+[addrs=2912 Bryant Ave | Zprice=$724,600 | bd=6 | ba=3 | sqft=2949 | Zppsf=$245 | pool=1 | lot_size=9147 | remod_score=7 ]
+[addrs=3016 Bryant Ave | Zprice=$657,400 | bd=3 | ba=2 | sqft=1964 | Zppsf=$334 | pool=1 | lot_size=9583 | remod_score=7 ]
+[addrs=2808 Bryant Ave | Zprice=$685,300 | bd=4 | ba=2 | sqft=2234 | Zppsf=$306 | pool=1 | lot_size=9147 | remod_score=7 | sold_price=$635,000 | list_price=$675,000 | sold_ppsf=$284 | list_ppsf=$302 | sold_date=05/19/2022 ]
+[addrs=2612 Gilmary Ave | Zprice=$581,900 | bd=4 | ba=2 | sqft=1940 | Zppsf=$299 | pool=0 | lot_size=9583 | remod_score=7 | sold_price=$570,000 | list_price=$620,000 | sold_ppsf=$293 | list_ppsf=$319 | sold_date=04/30/2024 ]
+[addrs=1246 Campbell Dr | Zprice=$668,500 | bd=3 | ba=3 | sqft=1872 | Zppsf=$357 | pool=1 | lot_size=9147 | remod_score=7 ]
+[addrs=1604 Campbell Dr | Zprice=$585,600 | bd=3 | ba=2 | sqft=1898 | Zppsf=$308 | pool=0 | lot_size=7840 | remod_score=7 | sold_price=$535,000 | list_price=$557,000 | sold_ppsf=$281 | list_ppsf=$293 | sold_date=05/19/2023 ]
+[addrs=2718 Colanthe Ave | Zprice=$639,900 | bd=4 | ba=3 | sqft=2349 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$605,000 | list_price=$650,000 | sold_ppsf=$257 | list_ppsf=$276 | sold_date=05/17/2024 ]
+[addrs=2801 Bryant Ave | Zprice=$745,400 | bd=3 | ba=2 | sqft=2920 | Zppsf=$255 | pool=1 | lot_size=10018 | remod_score=6 ]
+[addrs=2809 Bryant Ave | Zprice=$722,700 | bd=3 | ba=2 | sqft=2728 | Zppsf=$264 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=2901 Bryant Ave | Zprice=$510,400 | bd=5 | ba=2 | sqft=2194 | Zppsf=$232 | pool=0 | lot_size=9147 | remod_score=6 ]
+[addrs=2909 Bryant Ave | Zprice=$661,300 | bd=3 | ba=2 | sqft=2390 | Zppsf=$276 | pool=0 | lot_size=9147 | remod_score=6 ]
+[addrs=2913 Bryant Ave | Zprice=$584,400 | bd=3 | ba=2 | sqft=2576 | Zppsf=$226 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=3013 Bryant Ave | Zprice=$547,500 | bd=4 | ba=2 | sqft=1964 | Zppsf=$278 | pool=1 | lot_size=9583 | remod_score=6 ]
+[addrs=2718 Bryant Ave #120 | Zprice=$690,800 | bd=4 | ba=3 | sqft=1974 | Zppsf=$349 | pool=1 | lot_size=9583 | remod_score=6 ]
+[addrs=2804 Bryant Ave | Zprice=$723,300 | bd=4 | ba=3 | sqft=2405 | Zppsf=$300 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=2904 Bryant Ave | Zprice=$607,500 | bd=4 | ba=2 | sqft=2668 | Zppsf=$227 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=2420 Sherman Pl | Zprice=$690,700 | bd=3 | ba=3 | sqft=2027 | Zppsf=$340 | pool=1 | lot_size=11325 | remod_score=6 | sold_price=$620,000 | list_price=$629,999 | sold_ppsf=$305 | list_ppsf=$310 | sold_date=11/10/2022 ]
+[addrs=1207 Westlund Dr | Zprice=$635,600 | bd=3 | ba=3 | sqft=1864 | Zppsf=$340 | pool=1 | lot_size=10890 | remod_score=6 | sold_price=$635,000 | list_price=$700,000 | sold_ppsf=$340 | list_ppsf=$375 | sold_date=06/13/2024 ]
+[addrs=3012 Colanthe Ave | Zprice=$602,800 | bd=3 | ba=2 | sqft=1814 | Zppsf=$332 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$495,000 | list_price=$495,000 | sold_ppsf=$272 | list_ppsf=$272 | sold_date=09/15/2021 ]
+[addrs=2905 Colanthe Ave | Zprice=$675,600 | bd=3 | ba=2 | sqft=2079 | Zppsf=$324 | pool=1 | lot_size=9147 | remod_score=6 | sold_price=$620,000 | list_price=$619,990 | sold_ppsf=$298 | list_ppsf=$298 | sold_date=07/17/2023 ]
+[addrs=1258 Campbell Dr | Zprice=$679,100 | bd=3 | ba=2 | sqft=2514 | Zppsf=$270 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=1250 Campbell Dr | Zprice=$620,000 | bd=3 | ba=2 | sqft=1962 | Zppsf=$316 | pool=1 | lot_size=9147 | remod_score=6 ]
+[addrs=2601 Bryant Ave | Zprice=$518,500 | bd=3 | ba=2 | sqft=2080 | Zppsf=$249 | pool=0 | lot_size=10454 | remod_score=5 ]
+[addrs=2813 Bryant Ave | Zprice=$683,700 | bd=4 | ba=3 | sqft=2352 | Zppsf=$290 | pool=1 | lot_size=9147 | remod_score=5 ]
 *** for sale house ***
-[addrs=2817 Bryant Ave | price=$631,500 | bd=4 | ba=2 | sqft=2239 | ppsf=$282 | pool=1 | lot_size=9147 | remod_score=5 | sale_price=$650,000 ]
+[addrs=2817 Bryant Ave | Zprice=$631,500 | bd=4 | ba=2 | sqft=2239 | Zppsf=$282 | pool=1 | lot_size=9147 | remod_score=5 | sale_price=$650,000 | for_sale_ppsf=$290 ]
 *** for sale house ***
-[addrs=2905 Bryant Ave | price=$644,700 | bd=4 | ba=2 | sqft=1948 | ppsf=$330 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=2600 Bryant Ave | price=$821,900 | bd=6 | ba=5 | sqft=3427 | ppsf=$239 | pool=1 | lot_size=10890 | remod_score=5 ]
-[addrs=2606 Bryant Ave | price=$676,400 | bd=3 | ba=3 | sqft=2342 | ppsf=$288 | pool=0 | lot_size=9147 | remod_score=5 ]
-[addrs=2900 Bryant Ave | price=$569,000 | bd=4 | ba=2 | sqft=2354 | ppsf=$241 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=2908 Bryant Ave | price=$709 | bd=4 | ba=2 | sqft=2439 | ppsf=$0 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=3004 Bryant Ave | price=$563,900 | bd=4 | ba=2 | sqft=1996 | ppsf=$282 | pool=1 | lot_size=9147 | remod_score=5 ]
-[addrs=1225 Buehler Dr | price=$533,400 | bd=3 | ba=2 | sqft=1751 | ppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
-[addrs=3021 Mason Ave | price=$641,100 | bd=4 | ba=3 | sqft=2758 | ppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
-[addrs=1257 Campbell Dr | price=$641,400 | bd=3 | ba=3 | sqft=2045 | ppsf=$313 | pool=1 | lot_size=10890 | remod_score=5 ]
-[addrs=1600 Campbell Dr | price=$550,900 | bd=3 | ba=3 | sqft=2421 | ppsf=$227 | pool=0 | lot_size=8712 | remod_score=5 ]
-[addrs=3001 Bryant Ave | price=$526,500 | bd=4 | ba=2 | sqft=1964 | ppsf=$268 | pool=1 | lot_size=9147 | remod_score=4 ]
-[addrs=3017 Bryant Ave | price=$495,000 | bd=4 | ba=2 | sqft=1949 | ppsf=$253 | pool=0 | lot_size=10018 | remod_score=4 ]
-[addrs=2812 Bryant Ave | price=$676,000 | bd=4 | ba=3 | sqft=2502 | ppsf=$270 | pool=0 | lot_size=9147 | remod_score=4 ]
-[addrs=2816 Bryant Ave | price=$530,200 | bd=4 | ba=2 | sqft=1949 | ppsf=$272 | pool=1 | lot_size=9147 | remod_score=4 ]
-[addrs=2916 Bryant Ave | price=$535,600 | bd=4 | ba=2 | sqft=1964 | ppsf=$272 | pool=1 | lot_size=9147 | remod_score=4 ]
-[addrs=3000 Bryant Ave | price=$715,900 | bd=4 | ba=3 | sqft=2598 | ppsf=$275 | pool=1 | lot_size=9583 | remod_score=4 ]
-[addrs=2627 Bryant Ave | price=$703 | bd=4 | ba=3 | sqft=2731 | ppsf=$0 | pool=1 | lot_size=9147 | remod_score=3 ]
-[addrs=2701 Bryant Ave | price=$648,000 | bd=3 | ba=2 | sqft=1934 | ppsf=$335 | pool=1 | lot_size=9147 | remod_score=3 ]
-[addrs=2707 Bryant Ave | price=$699,400 | bd=3 | ba=3 | sqft=2800 | ppsf=$249 | pool=1 | lot_size=10018 | remod_score=3 ]
-[addrs=2917 Bryant Ave | price=$556,200 | bd=4 | ba=2 | sqft=1890 | ppsf=$294 | pool=1 | lot_size=9147 | remod_score=3 ]
-[addrs=2712 Bryant Ave | price=$588,200 | bd=4 | ba=2 | sqft=2232 | ppsf=$263 | pool=1 | lot_size=9583 | remod_score=3 ]
-[addrs=3008 Bryant Ave | price=$528,500 | bd=4 | ba=2 | sqft=1949 | ppsf=$271 | pool=0 | lot_size=9147 | remod_score=3 ]
-[addrs=3009 Bryant Ave | price=$716,200 | bd=4 | ba=2 | sqft=1890 | ppsf=$378 | pool=1 | lot_size=9583 | remod_score=3 | sold_price=$730,000 | sold_ppsf=$386 | sold_date=06/01/2022 ]
-[addrs=1138 Westlund Dr | price=$619,000 | bd=3 | ba=2 | sqft=2113 | ppsf=$292 | pool=0 | lot_size=10454 | remod_score=3 | sold_price=$540,000 | sold_ppsf=$255 | sold_date=04/12/2022 ]
-[addrs=3017 Colanthe Ave | price=$662,900 | bd=4 | ba=3 | sqft=2514 | ppsf=$263 | pool=1 | lot_size=10454 | remod_score=3 ]
-[addrs=1238 Campbell Dr | price=$474,100 | bd=3 | ba=2 | sqft=1872 | ppsf=$253 | pool=0 | lot_size=9147 | remod_score=3 ]
-[addrs=1308 Campbell Dr | price=$537,200 | bd=3 | ba=2 | sqft=1800 | ppsf=$298 | pool=1 | lot_size=8712 | remod_score=3 ]
-[addrs=2703 Bryant Ave | price=$524,100 | bd=2 | ba=2 | sqft=1992 | ppsf=$263 | pool=1 | lot_size=9583 | remod_score=2 ]
-[addrs=2713 Bryant Ave | price=$534,500 | bd=3 | ba=2 | sqft=1355 | ppsf=$394 | pool=1 | lot_size=9147 | remod_score=2 ]
-[addrs=2727 Bryant Ave | price=$595,800 | bd=3 | ba=3 | sqft=2311 | ppsf=$257 | pool=1 | lot_size=9147 | remod_score=2 ]
-[addrs=2805 Bryant Ave | price=$578,100 | bd=3 | ba=2 | sqft=1838 | ppsf=$314 | pool=1 | lot_size=9147 | remod_score=2 ]
-[addrs=2612 Bryant Ave | price=$616,000 | bd=5 | ba=3 | sqft=2250 | ppsf=$273 | pool=1 | lot_size=9960 | remod_score=2 ]
-[addrs=2700 Bryant Ave | price=$743,500 | bd=3 | ba=3 | sqft=2847 | ppsf=$261 | pool=1 | lot_size=10180 | remod_score=2 ]
-[addrs=2800 Bryant Ave | price=$584,600 | bd=3 | ba=2 | sqft=2344 | ppsf=$249 | pool=1 | lot_size=10890 | remod_score=2 ]
+[addrs=2905 Bryant Ave | Zprice=$644,700 | bd=4 | ba=2 | sqft=1948 | Zppsf=$330 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=2600 Bryant Ave | Zprice=$821,900 | bd=6 | ba=5 | sqft=3427 | Zppsf=$239 | pool=1 | lot_size=10890 | remod_score=5 ]
+[addrs=2606 Bryant Ave | Zprice=$676,400 | bd=3 | ba=3 | sqft=2342 | Zppsf=$288 | pool=0 | lot_size=9147 | remod_score=5 ]
+[addrs=2900 Bryant Ave | Zprice=$569,000 | bd=4 | ba=2 | sqft=2354 | Zppsf=$241 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=2908 Bryant Ave | Zprice=$709,800 | bd=4 | ba=2 | sqft=2439 | Zppsf=$291 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=3004 Bryant Ave | Zprice=$563,900 | bd=4 | ba=2 | sqft=1996 | Zppsf=$282 | pool=1 | lot_size=9147 | remod_score=5 ]
+[addrs=1225 Buehler Dr | Zprice=$533,400 | bd=3 | ba=2 | sqft=1751 | Zppsf=$304 | pool=0 | lot_size=10454 | remod_score=5 | sold_price=$483,000 | list_price=$539,000 | sold_ppsf=$275 | list_ppsf=$307 | sold_date=02/07/2023 ]
+[addrs=3021 Mason Ave | Zprice=$641,100 | bd=4 | ba=3 | sqft=2758 | Zppsf=$232 | pool=1 | lot_size=11761 | remod_score=5 | sold_price=$636,000 | list_price=$650,000 | sold_ppsf=$230 | list_ppsf=$235 | sold_date=05/17/2024 ]
+[addrs=1257 Campbell Dr | Zprice=$641,400 | bd=3 | ba=3 | sqft=2045 | Zppsf=$313 | pool=1 | lot_size=10890 | remod_score=5 ]
+[addrs=1600 Campbell Dr | Zprice=$550,900 | bd=3 | ba=3 | sqft=2421 | Zppsf=$227 | pool=0 | lot_size=8712 | remod_score=5 ]
+[addrs=3001 Bryant Ave | Zprice=$526,500 | bd=4 | ba=2 | sqft=1964 | Zppsf=$268 | pool=1 | lot_size=9147 | remod_score=4 ]
+[addrs=3017 Bryant Ave | Zprice=$495,000 | bd=4 | ba=2 | sqft=1949 | Zppsf=$253 | pool=0 | lot_size=10018 | remod_score=4 ]
+[addrs=2812 Bryant Ave | Zprice=$676,000 | bd=4 | ba=3 | sqft=2502 | Zppsf=$270 | pool=0 | lot_size=9147 | remod_score=4 ]
+[addrs=2816 Bryant Ave | Zprice=$530,200 | bd=4 | ba=2 | sqft=1949 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=4 ]
+[addrs=2916 Bryant Ave | Zprice=$535,600 | bd=4 | ba=2 | sqft=1964 | Zppsf=$272 | pool=1 | lot_size=9147 | remod_score=4 ]
+[addrs=3000 Bryant Ave | Zprice=$715,900 | bd=4 | ba=3 | sqft=2598 | Zppsf=$275 | pool=1 | lot_size=9583 | remod_score=4 ]
+[addrs=2627 Bryant Ave | Zprice=$703,800 | bd=4 | ba=3 | sqft=2731 | Zppsf=$257 | pool=1 | lot_size=9147 | remod_score=3 ]
+[addrs=2701 Bryant Ave | Zprice=$648,000 | bd=3 | ba=2 | sqft=1934 | Zppsf=$335 | pool=1 | lot_size=9147 | remod_score=3 ]
+[addrs=2707 Bryant Ave | Zprice=$699,400 | bd=3 | ba=3 | sqft=2800 | Zppsf=$249 | pool=1 | lot_size=10018 | remod_score=3 ]
+[addrs=2917 Bryant Ave | Zprice=$556,200 | bd=4 | ba=2 | sqft=1890 | Zppsf=$294 | pool=1 | lot_size=9147 | remod_score=3 ]
+[addrs=2712 Bryant Ave | Zprice=$588,200 | bd=4 | ba=2 | sqft=2232 | Zppsf=$263 | pool=1 | lot_size=9583 | remod_score=3 ]
+[addrs=3008 Bryant Ave | Zprice=$528,500 | bd=4 | ba=2 | sqft=1949 | Zppsf=$271 | pool=0 | lot_size=9147 | remod_score=3 ]
+[addrs=3009 Bryant Ave | Zprice=$716,200 | bd=4 | ba=2 | sqft=1890 | Zppsf=$378 | pool=1 | lot_size=9583 | remod_score=3 | sold_price=$730,000 | sold_ppsf=$386 | sold_date=06/01/2022 ]
+[addrs=1138 Westlund Dr | Zprice=$619,000 | bd=3 | ba=2 | sqft=2113 | Zppsf=$292 | pool=0 | lot_size=10454 | remod_score=3 | sold_price=$540,000 | sold_ppsf=$255 | sold_date=04/12/2022 ]
+[addrs=3017 Colanthe Ave | Zprice=$662,900 | bd=4 | ba=3 | sqft=2514 | Zppsf=$263 | pool=1 | lot_size=10454 | remod_score=3 ]
+[addrs=1238 Campbell Dr | Zprice=$474,100 | bd=3 | ba=2 | sqft=1872 | Zppsf=$253 | pool=0 | lot_size=9147 | remod_score=3 ]
+[addrs=1308 Campbell Dr | Zprice=$537,200 | bd=3 | ba=2 | sqft=1800 | Zppsf=$298 | pool=1 | lot_size=8712 | remod_score=3 ]
+[addrs=2703 Bryant Ave | Zprice=$524,100 | bd=2 | ba=2 | sqft=1992 | Zppsf=$263 | pool=1 | lot_size=9583 | remod_score=2 ]
+[addrs=2713 Bryant Ave | Zprice=$534,500 | bd=3 | ba=2 | sqft=1355 | Zppsf=$394 | pool=1 | lot_size=9147 | remod_score=2 ]
+[addrs=2727 Bryant Ave | Zprice=$595,800 | bd=3 | ba=3 | sqft=2311 | Zppsf=$257 | pool=1 | lot_size=9147 | remod_score=2 ]
+[addrs=2805 Bryant Ave | Zprice=$578,100 | bd=3 | ba=2 | sqft=1838 | Zppsf=$314 | pool=1 | lot_size=9147 | remod_score=2 ]
+[addrs=2612 Bryant Ave | Zprice=$616,000 | bd=5 | ba=3 | sqft=2250 | Zppsf=$273 | pool=1 | lot_size=9960 | remod_score=2 ]
+[addrs=2700 Bryant Ave | Zprice=$743,500 | bd=3 | ba=3 | sqft=2847 | Zppsf=$261 | pool=1 | lot_size=10180 | remod_score=2 ]
+[addrs=2800 Bryant Ave | Zprice=$584,600 | bd=3 | ba=2 | sqft=2344 | Zppsf=$249 | pool=1 | lot_size=10890 | remod_score=2 ]
+
+Averages from 12 houses within 90 sqft:
+Avg Zprice      = $621,283
+Avg sqft        = 2238
+Avg beds        = 3.9
+Avg baths       = 2.5
+Avg ppsf        = $277
+Avg pools       = 0.75
+Avg remod score = 5.6
+
+Comparing these to the house we want to buy:
+Zprice - Avg Zprice     : +$10,216
+Sale P - Avg Zprice     : +$28,716
+sqft - Avg sqft         : 0
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : +$4
+
+
+House Rankings
+After values placed in Ascending Order
+ZPrice   =   7 of  12 = 0.58
+sq ft    =   7 of  12 = 0.58
+ZPPSF    =   7 of  12 = 0.58
+SalePPSF =   7 of  12 = 0.58
+Lot Sz   =   3 of  12 = 0.25
+Remod Sc =   5 of  12 = 0.42

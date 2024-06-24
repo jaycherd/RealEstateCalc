@@ -10,7 +10,7 @@ from models.house import House
 
 
 class HouseData:
-    def __init__(self, data: Union[Dict[str,House],List[House]], exclude : Optional[House] = None) -> None:
+    def __init__(self, data: Union[Dict[str,House],List[House]]) -> None:
         # normalize incoming data
         if isinstance(data, dict):
             self.houses = list(data.values())
@@ -22,14 +22,30 @@ class HouseData:
                 self.houses_dict[house.address] = house
         else:
             raise ValueError("Houses should be either a dictionary or a list of House objects")
+        self.min_ppsf = None
+        self.max_ppsf = None
+        self.avg_baths = None
+        self.avg_beds = None
+        self.avg_pools = None
+        self.avg_ppsf = None
+        self.avg_price = None
+        self.avg_remod_score = None
+        self.avg_sq_ft = None
 
+    def compute_avgs(self):
         sum_prices = sum_sq_ft = sum_beds = sum_baths = sum_ppsf = sum_pools = 0
         sum_sold_ppsf = sum_soldlist_diff = sum_remod_score = sum_sold_prices = 0
         num_sold = num_sold_n_listed = num_remodels = num_houses = 0
+        self.min_ppsf = self.max_ppsf = None
 
         for house in self.houses:
-            if house.throw_out == 1 or (exclude is not None and house.address == exclude.address):
+            if house.throw_out == 1:
                 continue
+            if self.min_ppsf is None:
+                self.min_ppsf = self.max_ppsf = house.ppsf
+            else:
+                self.min_ppsf = min(self.min_ppsf,house.ppsf)
+                self.max_ppsf = max(self.max_ppsf,house.ppsf)
             sum_prices += house.price
             sum_sq_ft += house.sq_ft
             sum_beds += house.beds
@@ -49,26 +65,22 @@ class HouseData:
                 num_remodels += 1
 
         self.avg_price = sum_prices / num_houses if num_houses != 0 else 0
-        self.avg_sold_price = sum_sold_prices / num_sold if num_sold != 0 else 0
         self.avg_sq_ft = sum_sq_ft / num_houses if num_houses != 0 else 0
         self.avg_beds = sum_beds / num_houses if num_houses != 0 else 0
         self.avg_baths = sum_baths / num_houses if num_houses != 0 else 0
         self.avg_ppsf = sum_ppsf / num_houses if num_houses != 0 else 0
         self.avg_pools = sum_pools / num_houses if num_houses != 0 else 0
-        self.avg_sold_ppsf = sum_sold_ppsf / num_sold if num_sold != 0 else 0
-        self.avg_soldlist_diff = sum_soldlist_diff / num_sold_n_listed if num_sold_n_listed != 0 else 0
         self.avg_remod_score = sum_remod_score / num_remodels if num_remodels != 0 else 0
 
     def __repr__(self):
-        return (f"Note: not all sales have list price\n"
-                f"Avg Zprice      = ${int(self.avg_price):,}\n"
-                f"Avg Sold P      = ${int(self.avg_sold_price):,}\n"
+        return " "
+    
+    def get_avgs_str(self):
+        return (f"Avg Zprice      = ${int(self.avg_price):,}\n"
                 f"Avg sqft        = {int(self.avg_sq_ft)}\n"
                 f"Avg beds        = {round(self.avg_beds,1)}\n"
                 f"Avg baths       = {round(self.avg_baths,1)}\n"
                 f"Avg ppsf        = ${int(self.avg_ppsf):,}\n"
-                f"Avg SOLD PPSF   = ${int(self.avg_sold_ppsf):,}\n"
-                f"Avg Sold - Lst  = ${int(self.avg_soldlist_diff):,}\n"
                 f"Avg pools       = {round(self.avg_pools,2)}\n"
                 f"Avg remod score = {round(self.avg_remod_score,1)}\n"
                 )
@@ -80,58 +92,62 @@ class HouseData:
                     return i
             return -1
         res = []
-        res.append("\nHouse Rankings\n(ASC) = Ascending order rank, (DSC) = Descending order rank\n")
+        res.append("\nHouse Rankings\nAfter values placed in Ascending Order\n")
         ordered = sorted(self.houses,key=lambda x: x.price)
         rank = find_rank(ordered)
-        res.append(f"(ASC) ZPrice   = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):<{HDC.RANK_W}}\n")
-
-        ordered = sorted(self.houses,key=lambda x: (x.sold_price if x.address != cmp_house.address else x.price))
-        rank = find_rank(ordered)
-        res.append(f"(ASC) Sold P   = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
+        res.append(f"ZPrice   = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):<{HDC.RANK_W}}\n")
 
         ordered = sorted(self.houses,key=lambda x: x.sq_ft)
         rank = find_rank(ordered)
-        res.append(f"(ASC) sq ft    = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
+        res.append(f"sq ft    = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
 
         ordered = sorted(self.houses,key=lambda x: x.ppsf)
         rank = find_rank(ordered)
-        res.append(f"(ASC) PPSF     = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
+        res.append(f"ZPPSF    = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
         
-        ordered = sorted(self.houses,key=lambda x: x.sold_ppsf if x.address != cmp_house.address else x.ppsf)
+        ordered = sorted(self.houses,key=lambda x: x.ppsf if x.address != cmp_house.address else x.for_sale_ppsf)
         rank = find_rank(ordered)
-        res.append(f"(ASC) Sold PPSF= {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
-
-        ordered = sorted(self.houses,key=lambda x: (x.list_price if x.address != cmp_house.address else x.price))
-        rank = find_rank(ordered)
-        res.append(f"(ASC) List P   = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
+        res.append(f"SalePPSF = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
 
         ordered = sorted(self.houses,key=lambda x: x.lot_size)
         rank = find_rank(ordered)
-        res.append(f"(ASC) Lot Sz   = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
+        res.append(f"Lot Sz   = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
 
         ordered = sorted(self.houses,key=lambda x: x.remod_score)
         rank = find_rank(ordered)
-        res.append(f"(ASC) Remod Sc = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
+        res.append(f"Remod Sc = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
 
         return "".join(res)
     
     def compare_data(self,house: House) -> str:
         res = []
         diff = int(house.price - self.avg_price)
-        res.append(f"Diff from Avg Zprice    : {"+"if diff > 0 else ""}${diff:,}")
-        diff = int(house.price - self.avg_sold_price)
-        res.append(f"Diff from Avg SOLD price: {"+"if diff > 0 else ""}${diff:,}")
+        res.append(f"Zprice - Avg Zprice     : {"+"if diff > 0 else ""}${diff:,}\n")
+
+        diff = int(house.for_sale_price - self.avg_price)
+        res.append(f"Sale P - Avg Zprice     : {"+"if diff > 0 else ""}${diff:,}\n")
+
         diff = int(house.sq_ft - self.avg_sq_ft)
-        res.append(f"Diff from Avg sq ft     : {"+" if diff > 0 else ""}{diff}")
+        res.append(f"sqft - Avg sqft         : {"+" if diff > 0 else ""}{diff}\n")
+
         diff = round(house.beds - self.avg_beds, 1)
-        res.append(f"Diff from Avg beds      : {"+" if diff > 0 else ""}{diff}")
+        res.append(f"beds - Avg beds         : {"+" if diff > 0 else ""}{diff}\n")
+
         diff = round(house.baths - self.avg_baths, 1)
-        res.append(f"Diff from Avg baths     : {"+" if diff > 0 else ""}{diff}")
+        res.append(f"baths - Avg baths       : {"+" if diff > 0 else ""}{diff}\n")
+
         diff = int(house.ppsf - self.avg_ppsf)
-        res.append(f"Diff from Avg ppsf      : {"+" if diff > 0 else ""}${diff}")
-        diff = int(house.ppsf - self.avg_sold_ppsf)
-        res.append(f"Diff from Avg sold ppsf : {"+" if diff > 0 else ""}${diff}")
-        return "\n".join(res)
+        res.append(f"Zppsf - Avg Zppsf       : {"+" if diff > 0 else ""}${diff}\n")
+
+        return "".join(res)
+    
+    def theoretical_prices_ppsf(self, sq_ft):
+        res = []
+        res.append(f"\nTheoretical prices based on PPSF from {self.min_ppsf} to {self.max_ppsf}\n")
+        for curr_ppsf in range(int(self.min_ppsf),int(self.max_ppsf)+1):
+            res.append(f"${curr_ppsf}," +
+                f" sale price would be ${int(sq_ft * curr_ppsf):,}\n")
+        return "".join(res)
 
     def visualize_price(self,compare_house: House):
         house_values = [house.price for house in self.houses]

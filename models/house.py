@@ -41,6 +41,10 @@ class House:
             self.list_ppsf = House.DEFAULT_INT
         else:
             self.list_ppsf = self.list_price / self.sq_ft
+        if self.for_sale_price == House.DEFAULT_FLOAT:
+            self.for_sale_ppsf = House.DEFAULT_INT
+        else:
+            self.for_sale_ppsf = self.for_sale_price / self.sq_ft
 
         self.tmp = kwargs.get("notakey","NONE")
 
@@ -51,10 +55,11 @@ class House:
         for_sale_price_str = f"{HC.SEP}sale_price=${int(self.for_sale_price):,}" if self.for_sale_price != House.DEFAULT_FLOAT else ""
         sold_ppsf_str = f"{HC.SEP}sold_ppsf=${int(self.sold_ppsf):,}" if self.sold_ppsf != House.DEFAULT_INT else ""
         list_ppsf_str = f"{HC.SEP}list_ppsf=${int(self.list_ppsf):,}" if self.list_ppsf != House.DEFAULT_INT else ""
+        fs_ppsf_str = f"{HC.SEP}for_sale_ppsf=${int(self.for_sale_ppsf):,}" if self.for_sale_ppsf != House.DEFAULT_INT else ""
         sold_date_str = f"{HC.SEP}sold_date={self.sold_date_fmt}" if self.sold_date != House.DEFAULT_STR else ""
-        return (f"[addrs={self.address}{HC.SEP}price=${int(self.price):,}{HC.SEP}bd={int(self.beds)}{HC.SEP}"
-                f"ba={int(self.baths)}{HC.SEP}sqft={int(self.sq_ft)}{HC.SEP}ppsf=${int(self.ppsf):,}{HC.SEP}pool={int(self.pool)}{HC.SEP}"
-                f"lot_size={self.lot_size}{remod_str}{sold_p_str}{list_price_str}{for_sale_price_str}{sold_ppsf_str}"
+        return (f"[addrs={self.address}{HC.SEP}Zprice=${int(self.price):,}{HC.SEP}bd={int(self.beds)}{HC.SEP}"
+                f"ba={int(self.baths)}{HC.SEP}sqft={int(self.sq_ft)}{HC.SEP}Zppsf=${int(self.ppsf):,}{HC.SEP}pool={int(self.pool)}{HC.SEP}"
+                f"lot_size={self.lot_size}{remod_str}{sold_p_str}{list_price_str}{for_sale_price_str}{fs_ppsf_str}{sold_ppsf_str}"
                 f"{list_ppsf_str}{sold_date_str} ]")
 
     def show_all_vals(self):

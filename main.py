@@ -6,6 +6,8 @@ from typing import Dict
 
 from models.house import House
 from models.house_data import HouseData
+from models.recent_sale_data import RecentSaleData
+from models.sim_sqft_data import SimSqftData
 from utils.constants import HomeKeys as HK
 
 
@@ -13,9 +15,10 @@ from utils.constants import HomeKeys as HK
 #pylint:disable=W0621
 def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
     house_data = HouseData(data=data)
+    house_data.compute_avgs()
 
     with open(out_fname, 'w', encoding="UTF-8") as f:
-        f.write(f"Averages for this street:\n{house_data}")
+        f.write(f"Averages for this street:\n{house_data.get_avgs_str()}")
         f.write("\nComparing these averages to the house we want to buy:\n")
         f.write(f"{house_data.compare_data(data[for_sale_address])}\n")
         f.write(house_data.compare_ranks(data[for_sale_address]))
@@ -26,11 +29,6 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
                             (house for _, house in data.items() if house.throw_out != 1),
                             key=lambda x: x.ppsf
                             )
-        for_sale_ppsf_rank = -1
-        for i,house in enumerate(sorted_ppsf):
-            if house.address == for_sale_address:
-                for_sale_ppsf_rank = i+1        
-        f.write(f"The price per sq foot of the for sale house has ranking {for_sale_ppsf_rank} out of {len(sorted_ppsf)} houses\n")
         f.write("\nall the houses collected for this neighborhood ranked by price per square foot: \n")
         for house in sorted_ppsf:
             if house.address == for_sale_address:
@@ -39,55 +37,35 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
             if house.address == for_sale_address:
                 f.write("*** for sale house ***\n")
             
-        f.write("\nSome theoretical prices based on price per square foot\n")
-        for i,house in enumerate(sorted_ppsf):
-            if house.address == for_sale_address:
-                f.write("*** for sale house ***\n")
-            curr_ppsf = house.ppsf
-            f.write(f"theoretical rank {i + 1} of {len(sorted_ppsf)}, if price per square foot was ${int(curr_ppsf)}," +
-                f" sale price would be ${int(data[for_sale_address].sq_ft * curr_ppsf):,}\n")
-            if house.address == for_sale_address:
-                f.write("*** for sale house ***\n")
+        f.write(f"{house_data.theoretical_prices_ppsf(data[for_sale_address].sq_ft)}")
 
         recent_sales_sorted = sorted(
                             (house for _, house in data.items() if house.sold_date != house.DEFAULT_STR),
                             key=lambda x: (x.sold_date or datetime.max)
                             )
         recent_sales_sorted.reverse()
-        f.write(f"\n{len(recent_sales_sorted)} recent sales:\n")
-        for house in recent_sales_sorted:
-            if house.address == for_sale_address:
-                f.write("*** for sale house ***\n")
-            f.write(f"{house}\n")
-            if house.address == for_sale_address:
-                f.write("*** for sale house ***\n")
+        for num_months in range(18,1,-1):
+            recent_sales_sorted_data = RecentSaleData(recent_sales_sorted + [data[for_sale_address]],exclude=data[for_sale_address], months=num_months)
+            recent_sales_sorted_data.compute_avgs()
+            f.write(f"\n{len(recent_sales_sorted_data.houses)} sales within {num_months} months:\n")
+            for house in recent_sales_sorted_data.houses:
+                if house.address == for_sale_address:
+                    f.write("*** for sale house ***\n")
+                f.write(f"{house}\n")
+                if house.address == for_sale_address:
+                    f.write("*** for sale house ***\n")
+            f.write(f"\nAverages from the {len(recent_sales_sorted_data.houses)} recent sales:\n{recent_sales_sorted_data.get_avgs_str()}")
+            f.write("\nComparing these recent sales to the house we want to buy:\n")
+            f.write(f"{recent_sales_sorted_data.compare_data(data[for_sale_address])}\n")
+            f.write(recent_sales_sorted_data.compare_ranks(data[for_sale_address]))
 
-        recent_sales_sorted_data = HouseData(recent_sales_sorted + [data[for_sale_address]],exclude=data[for_sale_address])
-        f.write(f"\nAverages from the {len(recent_sales_sorted)} recent sales:\n{recent_sales_sorted_data}")
-        f.write("\nComparing these recent sales to the house we want to buy:\n")
-        f.write(f"{recent_sales_sorted_data.compare_data(data[for_sale_address])}\n")
-        f.write(recent_sales_sorted_data.compare_ranks(data[for_sale_address]))
-
-        recent_sales_ppsf_asc = sorted((house for house in recent_sales_sorted),
-                                       key=lambda x: x.sold_ppsf)
-        f.write("\nRecent Sales ranked by ppsf in ascending order: \n")
-        for house in recent_sales_ppsf_asc:
-            if house.address == for_sale_address:
-                f.write("*** for sale house ***\n")
-            f.write(f"{house}\n")
-            if house.address == for_sale_address:
-                f.write("*** for sale house ***\n")
-
-        f.write("\nSome theoretical prices based on price per square foot of Recent Sales\n")
-        for i,house in enumerate(recent_sales_ppsf_asc):
-            if house.address == for_sale_address:
-                f.write("*** for sale house ***\n")
-            curr_ppsf = house.sold_ppsf
-            f.write(f"theoretical rank {i + 1} of {len(recent_sales_ppsf_asc)}, if price per square foot was ${int(curr_ppsf)}," +
-                f" sale price would be ${int(data[for_sale_address].sq_ft * curr_ppsf):,}\n")
-            if house.address == for_sale_address:
-                f.write("*** for sale house ***\n")
-
+            f.write("\nRecent Sales ranked by ppsf in ascending order: \n")
+            for house in recent_sales_sorted_data.houses:
+                if house.address == for_sale_address:
+                    f.write("*** for sale house ***\n")
+                f.write(f"{house}\n")
+                if house.address == for_sale_address:
+                    f.write("*** for sale house ***\n")
 
         subjective_scores_desc = sorted(
                                         (house for _, house in data.items()),
@@ -103,6 +81,16 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
             f.write(f"{house}\n")
             if house.address == for_sale_address:
                 f.write("*** for sale house ***\n")
+
+        max_sqft_diff = 90
+        sim_sqft_data = SimSqftData(data=data,cmp_house=data[for_sale_address],max_diff=max_sqft_diff)
+        sim_sqft_data.compute_avgs()
+        f.write(f"\nAverages from {len(sim_sqft_data.houses)} houses within {max_sqft_diff} sqft:\n{sim_sqft_data.get_avgs_str()}")
+        f.write("\nComparing these to the house we want to buy:\n")
+        f.write(f"{sim_sqft_data.compare_data(data[for_sale_address])}\n")
+        f.write(sim_sqft_data.compare_ranks(data[for_sale_address]))
+
+        
 
         
 
