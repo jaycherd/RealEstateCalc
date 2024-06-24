@@ -1,117 +1,350 @@
-3 bd3 ba2,421 sqft
-1600 Campbell Dr, Las Vegas, NV 89102
+3 bd2 ba1,964 sqft
+3016 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $550,900
+Zestimate®: $657,400
+pool1
+remodel7
+lot9583
 
-3 bd2 ba2,330 sqft
-1508 Campbell Dr, Las Vegas, NV 89102
+4 bd2.5 ba3,041 sqft
+3012 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $612,800
+Zestimate®: $785,200
+pool1
+remodel9
+lot9147
 
-3 bd3 ba2,438 sqft
-1504 Campbell Dr, Las Vegas, NV 89102
+4 bd2 ba1,949 sqft
+3008 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $547,200
+Zestimate®: $528,500
+pool0
+lot9147
+remodel3
 
-3 bd2 ba1,672 sqft
-1404 Campbell Dr, Las Vegas, NV 89102
-Closed: $495,000
-Sold on 11/03/21
-Zestimate®: $586,900
-
-3 bd2 ba1,624 sqft
-1400 Campbell Dr, Las Vegas, NV 89102
+4 bd2 ba1,996 sqft
+3004 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $528,600
+Zestimate®: $563,900
+pool1
+remodel5
+lot9147
 
-4 bd2 ba1,859 sqft
-1312 Campbell Dr, Las Vegas, NV 89102
-Closed: $710,000
-Sold on 04/20/22
-Zestimate®: $701,800
-
-3 bd2 ba1,800 sqft
-1308 Campbell Dr, Las Vegas, NV 89102
+4 bd3 ba2,598 sqft
+3000 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $537,200
+Zestimate®: $715,900
+pool1
+remodel4
+lot9583
 
-3 bd3 ba2,378 sqft
-1262 Campbell Dr, Las Vegas, NV 89102
+4 bd2 ba1,964 sqft
+2916 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $610,700
+Zestimate®: $535,600
+pool1
+remodel4
+lot9147
 
-3 bd2 ba2,514 sqft
-1258 Campbell Dr, Las Vegas, NV 89102
+6 bd3 ba2,949 sqft
+2912 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $679,100
+Zestimate®: $724,600
+pool1
+remodel7
+lot9147
 
-3 bd2 ba1,962 sqft
-1250 Campbell Dr, Las Vegas, NV 89102
+4 bd2 ba2,439 sqft
+2908 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $611,000
+Zestimate®: $709,80
+pool1
+remodel5
+lot9147
 
-3 bd3 ba1,872 sqft
-1246 Campbell Dr, Las Vegas, NV 89102
+4 bd2 ba2,668 sqft
+2904 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $668,500
+Zestimate®: $607,500
+pool1
+remodel6
+lot9147
 
-4 bd2 ba1,962 sqft
-1242 Campbell Dr, Las Vegas, NV 89102
+4 bd2 ba2,354 sqft
+2900 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $530,900
+Zestimate®: $569,000
+pool1
+remodel5
+lot9147
 
-3 bd2 ba1,872 sqft
-1238 Campbell Dr, Las Vegas, NV 89102
+4 bd2 ba1,949 sqft
+2816 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $474,100
+Zestimate®: $530,200
+pool1
+remodel4
+lot9147
 
-4 bd4 ba3,195 sqft
-3020 Mason Ave, Las Vegas, NV 89102
+4 bd3 ba2,502 sqft
+2812 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $744,200
+Zestimate®: $676,000
+pool0
+remodel4
+lot9147
 
-3 bd3 ba2,045 sqft
-1257 Campbell Dr, Las Vegas, NV 89102
+4 bd3 ba2,405 sqft
+2804 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $641,400
+Zestimate®: $723,300
+pool1
+remodel6
+lot9147
 
-3 bd2.5 ba2,396 sqft
-1263 Campbell Dr, Las Vegas, NV 89102
+3 bd2 ba2,344 sqft
+2800 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $599,300
+Zestimate®: $584,600
+pool1
+remodel2
+lot10890
 
-4 bd2.5 ba2,610 sqft
-3020 Bryant Ave, Las Vegas, NV 89102
+4 bd3 ba2,550 sqft
+1325 Cahlan Dr, Las Vegas, NV 89102
 Off market
-Zestimate®: $598,100
+Zestimate®: $802,300
+pool1
+remodel8
+lot10890
 
-4 bd3 ba2,696 sqft
-3021 Bryant Ave, Las Vegas, NV 89102
+3 bd4 ba2,540 sqft
+2728 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $754,100
+Zestimate®: $707,200
+pool1
+remodel8
+lot9583
 
-4 bd3 ba2,257 sqft
-3016 Colanthe Ave, Las Vegas, NV 89102
+4 bd3 ba1,974 sqft
+2718 Bryant Ave #120, Las Vegas, NV 89102
 Off market
-Zestimate®: $542,600
+Zestimate®: $690,800
+pool1
+remodel6
+lot9583
 
-4 bd3 ba2,514 sqft
-3017 Colanthe Ave, Las Vegas, NV 89102
+4 bd2.5 ba2,232 sqft
+2712 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $662,900
+Zestimate®: $588,200
+pool1
+remodel3
+lot9583
 
-4 bd2 ba2,177 sqft
-3016 Gilmary Ave, Las Vegas, NV 89102
+3 bd3 ba2,847 sqft
+2700 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $526,300
+Zestimate®: $743,500
+pool1
+remodel2
+lot10180
 
-5 bd-- ba3 sqft
-3017 Gilmary Ave, Las Vegas, NV 89102
+5 bd3 ba2,250 sqft
+2612 Bryant Ave, Las Vegas, NV 89102
 Off market
-Zestimate®: $577,400
+Zestimate®: $616,000
+pool1
+remodel2
+lot9960
 
-4 bd3 ba2,758 sqft
-3021 Mason Ave, Las Vegas, NV 89102
-Closed: $636,000
-Sold on 05/17/24
-Zestimate®: $641,100
+3 bd3 ba2,342 sqft
+2606 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $676,400
+pool0
+remodel5
+lot9147
+
+6 bd5 ba3,427 sqft
+2600 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $821,900
+pool1
+remodel5
+lot10890
+
+4 bd2 ba1,949 sqft
+3017 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $495,000
+pool0
+remodel4
+lot10018
+
+4 bd2 ba1,964 sqft
+3013 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $547,500
+pool1
+remodel6
+lot9583
+
+4 bd2 ba1,964 sqft
+3001 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $526,500
+pool1
+remodel4
+lot9147
+
+4 bd2 ba1,890 sqft
+2917 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $556,200
+pool1
+remodel3
+lot9147
+
+3 bd2 ba2,576 sqft
+2913 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $584,400
+pool1
+remodel6
+lot9147
+
+3 bd2 ba2,390 sqft
+2909 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $661,300
+pool0
+remodel6
+lot9147
+
+4 bd2 ba1,948 sqft
+2905 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $644,700
+pool1
+remodel5
+lot9147
+
+5 bd2 ba2,194 sqft
+2901 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $510,400
+pool0
+remodel6
+lot9147
+
+4 bd2 ba2,239 sqft
+2817 Bryant Ave, Las Vegas, NV 89102
+Zestimate®: $631,500
+pool1
+remodel5
+lot9147
+
+4 bd3 ba2,352 sqft
+2813 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $683,700
+pool1
+remodel5
+lot9147
+
+3 bd2 ba2,728 sqft
+2809 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $722,700
+pool1
+remodel6
+lot9147
+
+3 bd2 ba1,838 sqft
+2805 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $578,100
+pool1
+remodel2
+lot9147
+
+3 bd2 ba2,920 sqft
+2801 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $745,400
+pool1
+remodel6
+lot10018
+
+3 bd4 ba2,525 sqft
+2731 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $750,800
+pool0
+remodel8
+lot11325
+
+3 bd3 ba2,311 sqft
+2727 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $595,800
+pool1
+remodel2
+lot9147
+
+3 bd2 ba1,355 sqft
+2713 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $534,500
+pool1
+remodel2
+lot9147
+
+3 bd3 ba2,800 sqft
+2707 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $699,400
+pool1
+remodel3
+lot10018
+
+2 bd2 ba1,992 sqft
+2703 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $524,100
+pool1
+remodel2
+lot9583
+
+3 bd2 ba1,934 sqft
+2701 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $648,000
+pool1
+remodel3
+lot9147
+
+4 bd3 ba2,731 sqft
+2627 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $703,80
+pool1
+remodel3
+lot9147
+
+3 bd2 ba2,232 sqft
+2607 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $710,400
+pool1
+remodel7
+lot10018
+
+3 bd2 ba2,080 sqft
+2601 Bryant Ave, Las Vegas, NV 89102
+Off market
+Zestimate®: $518,500
+pool0
+remodel5
+lot10454
