@@ -8,8 +8,6 @@ from utils.constants import HouseDataConstants as HDC
 
 class RecentSaleData(HouseData):
     def __init__(self, data: Dict[str, House] | List[House], exclude: House | None = None, months: int = 24) -> None:
-        def is_recent_enough(date: str):
-            pass
         self.exclude = exclude
         self.months = months # how many months back to look
         self.avg_sold_price = None
@@ -32,11 +30,11 @@ class RecentSaleData(HouseData):
         for house in self.houses:
             if house.throw_out == 1 or (self.exclude is not None and house.address == self.exclude.address):
                 continue
-            if house.sold_ppsf != House.DEFAULT_INT:
+            if house.sold_ppsf != House.DEFAULT_INT and house.sold_price != House.DEFAULT_FLOAT:
                 sum_sold_ppsf += house.sold_ppsf
                 sum_sold_prices += house.sold_price
                 num_sold += 1
-            if house.sold_ppsf != House.DEFAULT_FLOAT and house.list_price != House.DEFAULT_FLOAT:
+            if house.sold_price != House.DEFAULT_FLOAT and house.list_price != House.DEFAULT_FLOAT:
                 sum_soldlist_diff += house.sold_price - house.list_price
                 num_sold_n_listed += 1
 
@@ -82,7 +80,7 @@ class RecentSaleData(HouseData):
         res.append(f"List P   = {rank:{HDC.RANK_W}} of {len(ordered):{HDC.RANK_W}} = {round(rank/len(ordered),2):{HDC.RANK_W}}\n")
 
         return f"Rankings from sales within {self.months} months\n{"".join(res)}"
-    
+
     def compare_data(self,house: House) -> str:
         base_str = super().compare_data(house=house)
 

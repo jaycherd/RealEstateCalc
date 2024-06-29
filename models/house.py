@@ -4,16 +4,23 @@ from utils.constants import HomeKeys as HK
 from utils.constants import HouseConstants as HC
 
 class House:
-    #class vars
-    DEFAULT_FLOAT = -1.0
-    DEFAULT_INT = -1
-    DEFAULT_STR = "NA"
-
     def __init__(self, **kwargs) -> None:
+        def convert_value(value):
+            try:
+                return float(value) # the string converted to a float
+            except ValueError:
+                return value #should be the original string
+        def get_value(kwargs, key):
+            value = kwargs.get(key)
+            return value if value is not None else HK.DEFAULT_NA
+
         cleaned_address = kwargs.get(HK.ADDRESS_KEY, 'N/A')
         if "," in cleaned_address:
             cleaned_address = cleaned_address.split(",")[0]
         self.address = cleaned_address
+
+
+        # self.price = get_value(kwargs,HK.PRICE_KEY)
         self.price = float(kwargs.get(HK.PRICE_KEY, House.DEFAULT_FLOAT))
         self.beds = float(kwargs.get(HK.BEDS_KEY, House.DEFAULT_FLOAT))
         self.baths = float(kwargs.get(HK.BATHS_KEY, House.DEFAULT_FLOAT))

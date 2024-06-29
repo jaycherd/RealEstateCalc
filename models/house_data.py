@@ -1,4 +1,4 @@
-from typing import Dict,Union,List,Optional
+from typing import Dict,Union,List
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -34,9 +34,10 @@ class HouseData:
 
     def compute_avgs(self):
         sum_prices = sum_sq_ft = sum_beds = sum_baths = sum_ppsf = sum_pools = 0
-        sum_sold_ppsf = sum_soldlist_diff = sum_remod_score = sum_sold_prices = 0
-        num_sold = num_sold_n_listed = num_remodels = num_houses = 0
+        sum_remod_score = num_remodels = num_houses = 0
+        num_prices = 0
         self.min_ppsf = self.max_ppsf = None
+        
 
         for house in self.houses:
             if house.throw_out == 1:
@@ -46,29 +47,24 @@ class HouseData:
             else:
                 self.min_ppsf = min(self.min_ppsf,house.ppsf)
                 self.max_ppsf = max(self.max_ppsf,house.ppsf)
-            sum_prices += house.price
-            sum_sq_ft += house.sq_ft
-            sum_beds += house.beds
-            sum_baths += house.baths
-            sum_ppsf += house.ppsf
-            sum_pools += house.pool
-            num_houses += 1
-            if house.sold_ppsf != House.DEFAULT_INT:
-                sum_sold_ppsf += house.sold_ppsf
-                sum_sold_prices += house.sold_price
-                num_sold += 1
-            if house.sold_ppsf != House.DEFAULT_FLOAT and house.list_price != House.DEFAULT_FLOAT:
-                sum_soldlist_diff += house.sold_price - house.list_price
-                num_sold_n_listed += 1
+            if house.price != House.DEFAULT_FLOAT:
+                num_prices += 1
+                sum_prices += house.price
+                sum_ppsf += house.ppsf
+                sum_sq_ft += house.sq_ft
             if house.remod_score != House.DEFAULT_INT:
                 sum_remod_score += house.remod_score
                 num_remodels += 1
+            sum_beds += house.beds
+            sum_baths += house.baths
+            sum_pools += house.pool
+            num_houses += 1
 
-        self.avg_price = sum_prices / num_houses if num_houses != 0 else 0
-        self.avg_sq_ft = sum_sq_ft / num_houses if num_houses != 0 else 0
+        self.avg_price = sum_prices / num_prices if num_prices != 0 else 0
+        self.avg_sq_ft = sum_sq_ft / num_prices if num_prices != 0 else 0
         self.avg_beds = sum_beds / num_houses if num_houses != 0 else 0
         self.avg_baths = sum_baths / num_houses if num_houses != 0 else 0
-        self.avg_ppsf = sum_ppsf / num_houses if num_houses != 0 else 0
+        self.avg_ppsf = sum_ppsf / num_prices if num_prices != 0 else 0
         self.avg_pools = sum_pools / num_houses if num_houses != 0 else 0
         self.avg_remod_score = sum_remod_score / num_remodels if num_remodels != 0 else 0
 
@@ -181,7 +177,7 @@ class HouseData:
         axs[0].yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{int(x):,}'))
 
         # Plot 2: Price per Square Foot
-        scatter = axs[1].scatter(sorted_price_per_sqft, sorted_values, color=colors)
+        axs[1].scatter(sorted_price_per_sqft, sorted_values, color=colors)
         axs[1].set_title('Price per Square Foot vs House Value')
         axs[1].set_xlabel('Price per Square Foot')
         axs[1].set_ylabel('House Value')

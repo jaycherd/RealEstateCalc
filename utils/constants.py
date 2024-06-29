@@ -21,6 +21,7 @@ class HomeKeys:
     PPSF_KEY = "price_per_sq_foot"
     PPSF_RANK_KEY = "price_per_sq_foot_rank"
     NA = "NA"
+    DEFAULT_NA = "#N/A"
 
 class HouseDataConstants:
     RANK_W = 3

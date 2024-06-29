@@ -53,4 +53,4 @@ def process_blocks(fname_in,fname_out):
     print(f"max num of price changes was {max_price_change}")
 
 if __name__ == "__main__":
-    process_blocks("tmp.txt","tmp_out.txt")
+    process_blocks("tmp_in.txt","tmp_out.txt")

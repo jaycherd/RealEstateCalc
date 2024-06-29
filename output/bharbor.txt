@@ -1,0 +1,1013 @@
+Averages for this street:
+Avg Zprice      = $746,332
+Avg sqft        = 2795
+Avg beds        = 3.7
+Avg baths       = 3.5
+Avg ppsf        = $268
+Avg pools       = 0.81
+Avg remod score = 5.3
+
+Comparing these averages to the house we want to buy:
+Zprice - Avg Zprice     : $-121,332
+Sale P - Avg Zprice     : $-106,332
+sqft - Avg sqft         : -207
+beds - Avg beds         : +0.3
+baths - Avg baths       : -0.5
+Zppsf - Avg Zppsf       : $-27
+
+
+House Rankings
+After values placed in Ascending Order
+ZPrice   =   2 of  31 = 0.06
+sq ft    =  10 of  31 = 0.32
+ZPPSF    =   7 of  31 = 0.23
+SalePPSF =   8 of  31 = 0.26
+Lot Sz   =  14 of  31 = 0.45
+Remod Sc =  21 of  31 = 0.68
+
+all the houses collected for this neighborhood ranked by price per square foot: 
+[addrs=8100 Bay Harbor Dr | Zprice=$670,500 | bd=4 | ba=5 | sqft=3014 | Zppsf=$222 | pool=1 | lot_size=6534 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=8112 Bay Harbor Dr | Zprice=$783,400 | bd=4 | ba=5 | sqft=3406 | Zppsf=$230 | pool=1 | lot_size=6534 ]
+[addrs=8108 Bay Harbor Dr | Zprice=$719,200 | bd=4 | ba=3 | sqft=3014 | Zppsf=$238 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$545,000 | sold_ppsf=$180 | sold_date=09/14/2021 ]
+[addrs=8149 Bay Harbor Dr | Zprice=$722,500 | bd=3 | ba=2 | sqft=3014 | Zppsf=$239 | pool=0 | lot_size=6969 ]
+[addrs=8152 Bay Harbor Dr | Zprice=$724,500 | bd=4 | ba=5 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=4 ]
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+*** for sale house ***
+[addrs=8104 Bay Harbor Dr | Zprice=$625,000 | bd=4 | ba=3 | sqft=2588 | Zppsf=$241 | pool=0 | lot_size=6534 | remod_score=5 | sale_price=$640,000 | for_sale_ppsf=$247 ]
+*** for sale house ***
+[addrs=8120 Bay Harbor Dr | Zprice=$841,400 | bd=4 | ba=4 | sqft=3406 | Zppsf=$247 | pool=1 | lot_size=6534 | remod_score=6 | sold_price=$720,000 | list_price=$725,000 | sold_ppsf=$211 | list_ppsf=$212 | sold_date=03/21/2022 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8140 Bay Harbor Dr | Zprice=$758,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$251 | pool=1 | lot_size=6534 | remod_score=6 ]
+[addrs=8141 Bay Harbor Dr | Zprice=$865,500 | bd=4 | ba=5 | sqft=3406 | Zppsf=$254 | pool=1 | lot_size=6969 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8105 Bay Harbor Dr | Zprice=$786,100 | bd=4 | ba=5 | sqft=3014 | Zppsf=$260 | pool=1 | lot_size=8276 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8113 Bay Harbor Dr | Zprice=$817,800 | bd=4 | ba=3 | sqft=3014 | Zppsf=$271 | pool=0 | lot_size=7841 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+[addrs=8129 Bay Harbor Dr | Zprice=$931,300 | bd=4 | ba=4 | sqft=3406 | Zppsf=$273 | pool=1 | lot_size=6969 | remod_score=5 ]
+[addrs=8145 Bay Harbor Dr | Zprice=$731,500 | bd=3 | ba=5 | sqft=2588 | Zppsf=$282 | pool=1 | lot_size=6969 ]
+[addrs=8148 Bay Harbor Dr | Zprice=$731,800 | bd=4 | ba=3 | sqft=2588 | Zppsf=$282 | pool=1 | lot_size=6534 | remod_score=4 ]
+[addrs=8116 Bay Harbor Dr | Zprice=$742,700 | bd=4 | ba=3 | sqft=2588 | Zppsf=$286 | pool=1 | lot_size=6534 ]
+[addrs=8136 Bay Harbor Dr | Zprice=$756,700 | bd=4 | ba=3 | sqft=2588 | Zppsf=$292 | pool=1 | lot_size=6534 | remod_score=4 ]
+[addrs=8117 Bay Harbor Dr | Zprice=$777,900 | bd=4 | ba=4 | sqft=2660 | Zppsf=$292 | pool=1 | lot_size=69699 | remod_score=7 ]
+[addrs=8125 Bay Harbor Dr | Zprice=$764,400 | bd=4 | ba=3 | sqft=2588 | Zppsf=$295 | pool=1 | lot_size=7405 | remod_score=3 ]
+[addrs=8101 Bay Harbor Dr | Zprice=$769,200 | bd=3 | ba=5 | sqft=2588 | Zppsf=$297 | pool=1 | lot_size=7405 ]
+[addrs=8133 Bay Harbor Dr | Zprice=$905,800 | bd=3 | ba=3 | sqft=3014 | Zppsf=$300 | pool=1 | lot_size=10454 | remod_score=5 ]
+[addrs=8109 Bay Harbor Dr | Zprice=$698,800 | bd=3 | ba=2 | sqft=2316 | Zppsf=$301 | pool=1 | lot_size=8276 ]
+[addrs=8144 Bay Harbor Dr | Zprice=$700,200 | bd=3 | ba=2 | sqft=2316 | Zppsf=$302 | pool=1 | lot_size=6534 ]
+[addrs=8124 Bay Harbor Dr | Zprice=$702,200 | bd=3 | ba=2 | sqft=2316 | Zppsf=$303 | pool=1 | lot_size=6534 | remod_score=4 ]
+[addrs=8137 Bay Harbor Dr | Zprice=$791,200 | bd=4 | ba=3 | sqft=2588 | Zppsf=$305 | pool=1 | lot_size=8276 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+
+Theoretical prices based on PPSF from 222.46184472461846 to 306.26094570928194
+$222, sale price would be $574,536
+$223, sale price would be $577,124
+$224, sale price would be $579,712
+$225, sale price would be $582,300
+$226, sale price would be $584,888
+$227, sale price would be $587,476
+$228, sale price would be $590,064
+$229, sale price would be $592,652
+$230, sale price would be $595,240
+$231, sale price would be $597,828
+$232, sale price would be $600,416
+$233, sale price would be $603,004
+$234, sale price would be $605,592
+$235, sale price would be $608,180
+$236, sale price would be $610,768
+$237, sale price would be $613,356
+$238, sale price would be $615,944
+$239, sale price would be $618,532
+$240, sale price would be $621,120
+$241, sale price would be $623,708
+$242, sale price would be $626,296
+$243, sale price would be $628,884
+$244, sale price would be $631,472
+$245, sale price would be $634,060
+$246, sale price would be $636,648
+$247, sale price would be $639,236
+$248, sale price would be $641,824
+$249, sale price would be $644,412
+$250, sale price would be $647,000
+$251, sale price would be $649,588
+$252, sale price would be $652,176
+$253, sale price would be $654,764
+$254, sale price would be $657,352
+$255, sale price would be $659,940
+$256, sale price would be $662,528
+$257, sale price would be $665,116
+$258, sale price would be $667,704
+$259, sale price would be $670,292
+$260, sale price would be $672,880
+$261, sale price would be $675,468
+$262, sale price would be $678,056
+$263, sale price would be $680,644
+$264, sale price would be $683,232
+$265, sale price would be $685,820
+$266, sale price would be $688,408
+$267, sale price would be $690,996
+$268, sale price would be $693,584
+$269, sale price would be $696,172
+$270, sale price would be $698,760
+$271, sale price would be $701,348
+$272, sale price would be $703,936
+$273, sale price would be $706,524
+$274, sale price would be $709,112
+$275, sale price would be $711,700
+$276, sale price would be $714,288
+$277, sale price would be $716,876
+$278, sale price would be $719,464
+$279, sale price would be $722,052
+$280, sale price would be $724,640
+$281, sale price would be $727,228
+$282, sale price would be $729,816
+$283, sale price would be $732,404
+$284, sale price would be $734,992
+$285, sale price would be $737,580
+$286, sale price would be $740,168
+$287, sale price would be $742,756
+$288, sale price would be $745,344
+$289, sale price would be $747,932
+$290, sale price would be $750,520
+$291, sale price would be $753,108
+$292, sale price would be $755,696
+$293, sale price would be $758,284
+$294, sale price would be $760,872
+$295, sale price would be $763,460
+$296, sale price would be $766,048
+$297, sale price would be $768,636
+$298, sale price would be $771,224
+$299, sale price would be $773,812
+$300, sale price would be $776,400
+$301, sale price would be $778,988
+$302, sale price would be $781,576
+$303, sale price would be $784,164
+$304, sale price would be $786,752
+$305, sale price would be $789,340
+$306, sale price would be $791,928
+
+7 sales within 18 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 18 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 18 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 18 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 17 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 17 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 17 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 17 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 16 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 16 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 16 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 16 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 15 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 15 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 15 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 15 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 14 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 14 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 14 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 14 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 13 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 13 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 13 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 13 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 12 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 12 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 12 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 12 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 11 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 11 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 11 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 11 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 10 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 10 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 10 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 10 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+7 sales within 9 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+Averages from the 7 recent sales:
+Avgs from sales within 9 months
+Note: not all sales have list price
+Avg Zprice      = $688,342
+Avg sqft        = 2659
+Avg beds        = 3.9
+Avg baths       = 3.1
+Avg ppsf        = $260
+Avg pools       = 0.57
+Avg remod score = 6.4
+Avg Sold P      = $668,000
+Avg SOLD PPSF   = $252
+Avg Sold - Lst  = $-24,985
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 9 months
+Zprice - Avg Zprice     : $-63,342
+Sale P - Avg Zprice     : $-48,342
+sqft - Avg sqft         : -71
+beds - Avg beds         : +0.1
+baths - Avg baths       : -0.1
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : $-43,000
+Sale P - Avg Sold P     : $-28,000
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-5
+
+Rankings from sales within 9 months
+Sold P   =   3 of   8 = 0.38
+ZPPSF    =   2 of   8 = 0.25
+Sold PPSF=   3 of   8 = 0.38
+List P   =   3 of   8 = 0.38
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+
+5 sales within 8 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+
+Averages from the 5 recent sales:
+Avgs from sales within 8 months
+Note: not all sales have list price
+Avg Zprice      = $673,980
+Avg sqft        = 2636
+Avg beds        = 4.0
+Avg baths       = 3.2
+Avg ppsf        = $257
+Avg pools       = 0.6
+Avg remod score = 7.0
+Avg Sold P      = $662,200
+Avg SOLD PPSF   = $253
+Avg Sold - Lst  = $-17,179
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 8 months
+Zprice - Avg Zprice     : $-48,980
+Sale P - Avg Zprice     : $-33,980
+sqft - Avg sqft         : -48
+beds - Avg beds         : 0.0
+baths - Avg baths       : -0.2
+Zppsf - Avg Zppsf       : $-16
+Zprice - Avg SOLD price : $-37,200
+Sale P - Avg Sold P     : $-22,200
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-6
+
+Rankings from sales within 8 months
+Sold P   =   2 of   6 = 0.33
+ZPPSF    =   2 of   6 = 0.33
+Sold PPSF=   3 of   6 = 0.5
+List P   =   2 of   6 = 0.33
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+
+5 sales within 7 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+
+Averages from the 5 recent sales:
+Avgs from sales within 7 months
+Note: not all sales have list price
+Avg Zprice      = $673,980
+Avg sqft        = 2636
+Avg beds        = 4.0
+Avg baths       = 3.2
+Avg ppsf        = $257
+Avg pools       = 0.6
+Avg remod score = 7.0
+Avg Sold P      = $662,200
+Avg SOLD PPSF   = $253
+Avg Sold - Lst  = $-17,179
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 7 months
+Zprice - Avg Zprice     : $-48,980
+Sale P - Avg Zprice     : $-33,980
+sqft - Avg sqft         : -48
+beds - Avg beds         : 0.0
+baths - Avg baths       : -0.2
+Zppsf - Avg Zppsf       : $-16
+Zprice - Avg SOLD price : $-37,200
+Sale P - Avg Sold P     : $-22,200
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-6
+
+Rankings from sales within 7 months
+Sold P   =   2 of   6 = 0.33
+ZPPSF    =   2 of   6 = 0.33
+Sold PPSF=   3 of   6 = 0.5
+List P   =   2 of   6 = 0.33
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+
+5 sales within 6 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+
+Averages from the 5 recent sales:
+Avgs from sales within 6 months
+Note: not all sales have list price
+Avg Zprice      = $673,980
+Avg sqft        = 2636
+Avg beds        = 4.0
+Avg baths       = 3.2
+Avg ppsf        = $257
+Avg pools       = 0.6
+Avg remod score = 7.0
+Avg Sold P      = $662,200
+Avg SOLD PPSF   = $253
+Avg Sold - Lst  = $-17,179
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 6 months
+Zprice - Avg Zprice     : $-48,980
+Sale P - Avg Zprice     : $-33,980
+sqft - Avg sqft         : -48
+beds - Avg beds         : 0.0
+baths - Avg baths       : -0.2
+Zppsf - Avg Zppsf       : $-16
+Zprice - Avg SOLD price : $-37,200
+Sale P - Avg Sold P     : $-22,200
+Zppsf - Avg sold ppsf   : $-11
+Sale ppsf - Avg Soldppsf: $-6
+
+Rankings from sales within 6 months
+Sold P   =   2 of   6 = 0.33
+ZPPSF    =   2 of   6 = 0.33
+Sold PPSF=   3 of   6 = 0.5
+List P   =   2 of   6 = 0.33
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+
+4 sales within 5 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+
+Averages from the 4 recent sales:
+Avgs from sales within 5 months
+Note: not all sales have list price
+Avg Zprice      = $630,550
+Avg sqft        = 2443
+Avg beds        = 3.8
+Avg baths       = 3.0
+Avg ppsf        = $259
+Avg pools       = 0.5
+Avg remod score = 6.5
+Avg Sold P      = $624,000
+Avg SOLD PPSF   = $256
+Avg Sold - Lst  = $-17,749
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 5 months
+Zprice - Avg Zprice     : $-5,550
+Sale P - Avg Zprice     : +$9,450
+sqft - Avg sqft         : +144
+beds - Avg beds         : +0.2
+baths - Avg baths       : 0.0
+Zppsf - Avg Zppsf       : $-18
+Zprice - Avg SOLD price : +$1,000
+Sale P - Avg Sold P     : +$16,000
+Zppsf - Avg sold ppsf   : $-15
+Sale ppsf - Avg Soldppsf: $-9
+
+Rankings from sales within 5 months
+Sold P   =   2 of   5 = 0.4
+ZPPSF    =   2 of   5 = 0.4
+Sold PPSF=   2 of   5 = 0.4
+List P   =   2 of   5 = 0.4
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+[addrs=7920 Bridge Gate Dr | Zprice=$699,500 | bd=4 | ba=3 | sqft=2284 | Zppsf=$306 | pool=1 | lot_size=6534 | sold_price=$700,000 | list_price=$710,000 | sold_ppsf=$306 | list_ppsf=$310 | sold_date=02/28/2024 ]
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+
+2 sales within 4 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+
+Averages from the 2 recent sales:
+Avgs from sales within 4 months
+Note: not all sales have list price
+Avg Zprice      = $628,300
+Avg sqft        = 2687
+Avg beds        = 3.5
+Avg baths       = 3.0
+Avg ppsf        = $232
+Avg pools       = 0.5
+Avg remod score = 5.0
+Avg Sold P      = $623,000
+Avg SOLD PPSF   = $230
+Avg Sold - Lst  = $-32,999
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 4 months
+Zprice - Avg Zprice     : $-3,300
+Sale P - Avg Zprice     : +$11,700
+sqft - Avg sqft         : -99
+beds - Avg beds         : +0.5
+baths - Avg baths       : 0.0
+Zppsf - Avg Zppsf       : +$8
+Zprice - Avg SOLD price : +$2,000
+Sale P - Avg Sold P     : +$17,000
+Zppsf - Avg sold ppsf   : +$10
+Sale ppsf - Avg Soldppsf: +$16
+
+Rankings from sales within 4 months
+Sold P   =   1 of   3 = 0.33
+ZPPSF    =   2 of   3 = 0.67
+Sold PPSF=   2 of   3 = 0.67
+List P   =   1 of   3 = 0.33
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+
+2 sales within 3 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+
+Averages from the 2 recent sales:
+Avgs from sales within 3 months
+Note: not all sales have list price
+Avg Zprice      = $628,300
+Avg sqft        = 2687
+Avg beds        = 3.5
+Avg baths       = 3.0
+Avg ppsf        = $232
+Avg pools       = 0.5
+Avg remod score = 5.0
+Avg Sold P      = $623,000
+Avg SOLD PPSF   = $230
+Avg Sold - Lst  = $-32,999
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 3 months
+Zprice - Avg Zprice     : $-3,300
+Sale P - Avg Zprice     : +$11,700
+sqft - Avg sqft         : -99
+beds - Avg beds         : +0.5
+baths - Avg baths       : 0.0
+Zppsf - Avg Zppsf       : +$8
+Zprice - Avg SOLD price : +$2,000
+Sale P - Avg Sold P     : +$17,000
+Zppsf - Avg sold ppsf   : +$10
+Sale ppsf - Avg Soldppsf: +$16
+
+Rankings from sales within 3 months
+Sold P   =   1 of   3 = 0.33
+ZPPSF    =   2 of   3 = 0.67
+Sold PPSF=   2 of   3 = 0.67
+List P   =   1 of   3 = 0.33
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=2804 Crystal Beach Dr | Zprice=$530,700 | bd=4 | ba=3 | sqft=2361 | Zppsf=$224 | pool=0 | lot_size=6098 | sold_price=$521,000 | list_price=$499,999 | sold_ppsf=$220 | list_ppsf=$211 | sold_date=04/03/2024 ]
+
+1 sales within 2 months:
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+
+Averages from the 1 recent sales:
+Avgs from sales within 2 months
+Note: not all sales have list price
+Avg Zprice      = $725,900
+Avg sqft        = 3014
+Avg beds        = 3.0
+Avg baths       = 3.0
+Avg ppsf        = $240
+Avg pools       = 1.0
+Avg remod score = 5.0
+Avg Sold P      = $725,000
+Avg SOLD PPSF   = $240
+Avg Sold - Lst  = $-87,000
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 2 months
+Zprice - Avg Zprice     : $-100,900
+Sale P - Avg Zprice     : $-85,900
+sqft - Avg sqft         : -426
+beds - Avg beds         : +1.0
+baths - Avg baths       : 0.0
+Zppsf - Avg Zppsf       : $0
+Zprice - Avg SOLD price : $-100,000
+Sale P - Avg Sold P     : $-85,000
+Zppsf - Avg sold ppsf   : $0
+Sale ppsf - Avg Soldppsf: +$6
+
+Rankings from sales within 2 months
+Sold P   =   0 of   2 = 0.0
+ZPPSF    =   1 of   2 = 0.5
+Sold PPSF=   1 of   2 = 0.5
+List P   =   0 of   2 = 0.0
+
+Recent Sales ranked by ppsf in ascending order: 
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+
+ranked subjectively descending order:
+[addrs=7816 Cape Vista Ln | Zprice=$566,100 | bd=4 | ba=3 | sqft=2116 | Zppsf=$267 | pool=0 | lot_size=7405 | remod_score=8 | sold_price=$550,000 | list_price=$545,000 | sold_ppsf=$259 | list_ppsf=$257 | sold_date=02/20/2024 ]
+[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534 | remod_score=8 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+[addrs=8117 Bay Harbor Dr | Zprice=$777,900 | bd=4 | ba=4 | sqft=2660 | Zppsf=$292 | pool=1 | lot_size=69699 | remod_score=7 ]
+[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534 | remod_score=7 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+[addrs=8120 Bay Harbor Dr | Zprice=$841,400 | bd=4 | ba=4 | sqft=3406 | Zppsf=$247 | pool=1 | lot_size=6534 | remod_score=6 | sold_price=$720,000 | list_price=$725,000 | sold_ppsf=$211 | list_ppsf=$212 | sold_date=03/21/2022 ]
+[addrs=8140 Bay Harbor Dr | Zprice=$758,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$251 | pool=1 | lot_size=6534 | remod_score=6 ]
+[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
+[addrs=8129 Bay Harbor Dr | Zprice=$931,300 | bd=4 | ba=4 | sqft=3406 | Zppsf=$273 | pool=1 | lot_size=6969 | remod_score=5 ]
+[addrs=8133 Bay Harbor Dr | Zprice=$905,800 | bd=3 | ba=3 | sqft=3014 | Zppsf=$300 | pool=1 | lot_size=10454 | remod_score=5 ]
+*** for sale house ***
+[addrs=8104 Bay Harbor Dr | Zprice=$625,000 | bd=4 | ba=3 | sqft=2588 | Zppsf=$241 | pool=0 | lot_size=6534 | remod_score=5 | sale_price=$640,000 | for_sale_ppsf=$247 ]
+*** for sale house ***
+[addrs=8108 Bay Harbor Dr | Zprice=$719,200 | bd=4 | ba=3 | sqft=3014 | Zppsf=$238 | pool=1 | lot_size=6534 | remod_score=5 | sold_price=$545,000 | sold_ppsf=$180 | sold_date=09/14/2021 ]
+[addrs=8308 Opal Cove Dr | Zprice=$630,200 | bd=4 | ba=3 | sqft=2419 | Zppsf=$260 | pool=0 | lot_size=9583 | remod_score=4 | sold_price=$595,000 | list_price=$629,000 | sold_ppsf=$245 | list_ppsf=$260 | sold_date=10/19/2023 ]
+[addrs=8124 Bay Harbor Dr | Zprice=$702,200 | bd=3 | ba=2 | sqft=2316 | Zppsf=$303 | pool=1 | lot_size=6534 | remod_score=4 ]
+[addrs=8136 Bay Harbor Dr | Zprice=$756,700 | bd=4 | ba=3 | sqft=2588 | Zppsf=$292 | pool=1 | lot_size=6534 | remod_score=4 ]
+[addrs=8148 Bay Harbor Dr | Zprice=$731,800 | bd=4 | ba=3 | sqft=2588 | Zppsf=$282 | pool=1 | lot_size=6534 | remod_score=4 ]
+[addrs=8152 Bay Harbor Dr | Zprice=$724,500 | bd=4 | ba=5 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534 | remod_score=4 ]
+[addrs=8125 Bay Harbor Dr | Zprice=$764,400 | bd=4 | ba=3 | sqft=2588 | Zppsf=$295 | pool=1 | lot_size=7405 | remod_score=3 ]
+
+Averages from 9 houses within 90 sqft:
+Avg Zprice      = $743,377
+Avg sqft        = 2596
+Avg beds        = 3.8
+Avg baths       = 3.6
+Avg ppsf        = $286
+Avg pools       = 0.89
+Avg remod score = 4.6
+
+Comparing these to the house we want to buy:
+Zprice - Avg Zprice     : $-118,377
+Sale P - Avg Zprice     : $-103,377
+sqft - Avg sqft         : -8
+beds - Avg beds         : +0.2
+baths - Avg baths       : -0.6
+Zppsf - Avg Zppsf       : $-44
+
+
+House Rankings
+After values placed in Ascending Order
+ZPrice   =   0 of   9 = 0.0
+sq ft    =   3 of   9 = 0.33
+ZPPSF    =   0 of   9 = 0.0
+SalePPSF =   0 of   9 = 0.0
+Lot Sz   =   3 of   9 = 0.33
+Remod Sc =   7 of   9 = 0.78

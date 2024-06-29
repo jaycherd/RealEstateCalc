@@ -1,3 +1,35 @@
-4 bd3 ba2,349 sqft 2718 Colanthe Ave, Las Vegas, NV 89102 Closed : $605,000Sold on 05/17/24Zestimate®: $639,900 5/17/2024 Sold $605,000 4/23/2024 Contingent $650,000 4/4/2024 Listed for sale $650,000 $277/sqf pool1 remodel6 lot9147
-5 bd3 ba2,287 sqft 1204 Westlund Dr, Las Vegas, NV 89102 Sold : $485,000Sold on 05/16/23Zestimate®: $532,700 5/16/2023 Sold $485,000 pool1 remodel8 lot10454
-3 bd3 ba2,380 sqft 1201 Westlund Dr, Las Vegas, NV 89102 Closed : $599,000Sold on 03/15/24Zestimate®: $622,300 3/15/2024 Sold $599,000 2/26/2024 Pending sale $599,900 2/26/2024 Contingent $599,900 2/21/2024 Price change2 $599,900 2/8/2024 Price change1 $610,000 1/5/2024 Listed for sale $619,900 pool1 remodel9 lot10454
+5 bd3 ba2,451 sqft 2804 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $530,500 remodel4 pool0 lot5499
+4 bd3 ba2,629 sqft 2800 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $592,300 remodel4 pool0 lot5662
+5 bd3 ba2,701 sqft 2752 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $551,400 remodel-1 pool0 lot5662
+4 bd2 ba2,036 sqft 2748 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $519,700 remodel3 pool0 lot5662
+5 bd3 ba2,700 sqft 2744 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $545,300 remodel-1 pool0 lot5227
+5 bd3 ba2,700 sqft 2740 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $552,900 remodel-1 pool0 lot5662
+5 bd3 ba2,450 sqft 2736 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $579,700 remodel-1 pool1 lot5227
+5 bd3 ba2,450 sqft 2732 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $552,000 remodel-1 pool0 lot5662
+5 bd2 ba2,451 sqft 2728 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $545,800 remodel-1 pool0 lot5662
+5 bd3 ba2,628 sqft 2724 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $564,900 remodel5 pool0 lot5662
+5 bd3 ba2,450 sqft 2720 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $628,700 remodel6 pool1 lot5662
+4 bd3 ba2,451 sqft 2716 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $530,600 remodel-1 pool0 lot6000
+4 bd3 ba2,629 sqft 2712 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $587,900 remodel-1 pool1 lot5662
+5 bd3 ba2,701 sqft 2708 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $624,700 remodel4 pool1 lot5662
+4 bd3 ba2,380 sqft 2704 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $593,800 remodel-1 pool1 lot6000
+3 bd2 ba1,703 sqft 2700 Huber Heights Dr, Las Vegas, NV 89128 Closed : $420,000Sold on 01/31/23Zestimate®: $455,400 remodel4 pool0 lot5662 1/31/2023 Sold $420,000 1/4/2023 Pending sale $395,000 12/30/2022 Listed for sale $395,000
+3 bd2 ba1,703 sqft 2652 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $465,900 remodel-1 pool0 lot5499
+3 bd3 ba2,380 sqft 2648 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $562,200 remodel4 pool0 lot5662
+4 bd3 ba2,451 sqft 2644 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $543,500 remodel3 pool0 lot5662
+4 bd2.5 ba2,422 sqft 2640 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $593,900 remodel-1 pool1 lot5227
+4 bd2.5 ba2,422 sqft 2636 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $582,300 remodel-1 pool1 lot5227
+4 bd2.5 ba2,294 sqft 2632 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $524,400 remodel-1 pool0 lot5662
+5 bd3.5 ba3,152 sqft 2628 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $716,700 remodel6 pool1 lot5662
+2 bd2 ba2,226 sqft 2624 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $557,700 remodel-1 pool1 lot5227
+2 bd2 ba2,226 sqft 2620 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $504,500 remodel-1 pool0 lot5227
+5 bd4 ba3,394 sqft 2616 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $722,400 remodel5 pool1 lot5662
+4 bd4 ba3,152 sqft 2612 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $627,000 remodel-1 pool1 lot5662
+5 bd3.5 ba3,394 sqft 2608 Huber Heights Dr, Las Vegas, NV 89128 Off market Zestimate®: $696,100 remodel-1 pool1 lot5662
+3 bd2 ba1,703 sqft 8412 Justine Ct, Las Vegas, NV 89128 Closed : $460,000Sold on 10/26/23Zestimate®: $486,500 remodel4 pool0 lot6534 10/26/2023 Sold $460,000 9/13/2023 Pending sale $475,000 9/7/2023 Listed for sale $475,000
+4 bd3 ba2,551 sqft 8424 Bay Point Dr, Las Vegas, NV 89128 Closed : $515,000Sold on 12/29/23Zestimate®: $536,900 remodel4 pool0 lot5662 12/29/2023 Sold $515,000 12/19/2023 Contingent $560,000 12/12/2023 Listed for sale $560,000
+5 bd4 ba3,342 sqft 8432 Bay Crest Dr, Las Vegas, NV 89128 Closed : $610,000Sold on 04/25/24Zestimate®: notOne! remodel4 pool1 lot5662 4/25/2024 Sold $610,000
+4 bd3 ba2,118 sqft 8416 Sea Glen Dr, Las Vegas, NV 89128 Closed : $480,000Sold on 10/13/23Zestimate®: $509,000 remodel4 pool1 lot5662 10/13/2023 Sold $480,000 9/21/2023 Contingent $475,000 9/13/2023 Listed for sale $475,000
+3 bd3 ba2,118 sqft 8328 Sea Glen Dr, Las Vegas, NV 89128 Closed : $497,500Sold on 02/15/24Zestimate®: $512,700 remodel4 pool0 lot5662 2/15/2024 Sold $497,500 1/26/2024 Contingent $497,500 1/12/2024 Price change1 $497,500 12/14/2023 Listed for sale $527,500
+4 bd3 ba2,118 sqft 2513 Huber Heights Dr, Las Vegas, NV 89128 Closed : $565,000Sold on 01/30/24Zestimate®: $584,700 remodel8 pool1 lot6534 1/30/2024 Sold $565,000 12/21/2023 Pending sale $568,900 12/17/2023 Listed for sale $568,900 12/14/2023 Pending sale $568,900 12/11/2023 Price change4 $568,900 12/4/2023 Price change3 $569,000 11/14/2023 Price change2 $569,900 11/7/2023 Price change1 $579,800 11/6/2023 Listed for sale $579,900
+5 bd3 ba2,451 sqft 8425 Haven Brook Ct, Las Vegas, NV 89128 Closed : $550,000Sold on 12/15/23Zestimate®: $575,200 remodel-1 pool1 lot6098 12/15/2023 Sold $550,000 11/20/2023 Pending sale $560,000 11/15/2023 Listed for sale $560,000 11/10/2023 Pending sale $560,000 11/6/2023 Price change9 $560,000 10/23/2023 Listed for sale $565,000 10/7/2023 Pending sale $565,000 10/6/2023 Price change8 $565,000 9/26/2023 Price change7 $575,000 9/21/2023 Listed for sale $585,000 9/20/2023 Pending sale $585,000 9/15/2023 Price change6 $585,000 8/30/2023 Price change5 $595,000 8/22/2023 Listed for sale $600,000 8/15/2023 Pending sale $600,000 8/7/2023 Price change4 $600,000 7/28/2023 Price change3 $615,000 7/14/2023 Price change2 $625,000 7/3/2023 Price change1 $640,000 5/15/2023 Listed for sale $645,000

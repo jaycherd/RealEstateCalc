@@ -125,7 +125,7 @@ def csv_to_dict(file_path):
                 cleaned_address = cleaned_address.split(",")[0]
             house_data = {
                 HK.ADDRESS_KEY: row.get(HK.ADDRESS_KEY, "NA"),
-                HK.PRICE_KEY: float(row.get(HK.PRICE_KEY, -1.0)),
+                HK.PRICE_KEY: float(row.get(HK.PRICE_KEY, -1.0)) if row.get(HK.PRICE_KEY,-1.0) != HK.DEFAULT_NA else -1.0,
                 HK.BEDS_KEY: float(row.get(HK.BEDS_KEY, -1.0)),
                 HK.BATHS_KEY: float(row.get(HK.BATHS_KEY, -1.0)),
                 HK.SQ_FT_KEY: float(row.get(HK.SQ_FT_KEY, -1.0)),
@@ -151,9 +151,9 @@ def csv_to_dict(file_path):
 
 if __name__ == "__main__":
     current_dir = pathlib.Path(__file__).parent
-    fname = current_dir / pathlib.Path("data/bryant_campbell_gil_recent.csv")
-    out_fname = current_dir / pathlib.Path("output/bryant_out_data.txt")
-    FOR_SALE_ADDRESS = "2817 Bryant Ave"
+    fname = current_dir / pathlib.Path("data/hheightscomps.csv")
+    out_fname = current_dir / pathlib.Path("output/hheights.txt")
+    FOR_SALE_ADDRESS = "2648 Huber Heights Dr"
 
 
     data = csv_to_dict(file_path=fname)
