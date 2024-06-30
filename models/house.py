@@ -12,7 +12,7 @@ class House:
             try:
                 return float(value) # the string converted to a float
             except (ValueError, TypeError): # ValueError(is string), FloatError(is None bcs key not exists)
-                return value #should be the original string
+                return value # should be the original string
         def get_value(kwargs, key):
             value = convert_value(kwargs.get(key))
             return value if value is not None else House.NA

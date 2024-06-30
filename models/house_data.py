@@ -156,7 +156,7 @@ class HouseData:
         plt.style.use('dark_background')
 
         # Create subplots
-        fig, axs = plt.subplots(3, 1, figsize=(10, 18))
+        fig, axs = plt.subplots(4, 1, figsize=(10, 18))
 
         # Plot 1: House Value Ranking
         axs[0].bar(np.arange(len(sorted_values)), sorted_values, color=colors)
@@ -167,14 +167,14 @@ class HouseData:
         axs[0].set_xticklabels(np.arange(1, len(sorted_values) + 1))
         axs[0].yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{int(x):,}'))
 
-        # Plot 2: Price per Square Foot
+        # Plot 2: Price per Square Foot vs House Value
         axs[1].scatter(sorted_price_per_sqft, sorted_values, color=colors)
         axs[1].set_title('Price per Square Foot vs House Value')
         axs[1].set_xlabel('Price per Square Foot')
         axs[1].set_ylabel('House Value')
         axs[1].yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{int(x):,}'))
 
-        # lets visualize the ppsf ranking
+        # plot 3: ppsf ranking
         vals = [house.ppsf for house in self.houses]
         sorted_indices = np.argsort(vals)
         sorted_values = np.array(vals)[sorted_indices]
@@ -189,6 +189,20 @@ class HouseData:
         axs[2].set_xticklabels(np.arange(1, len(sorted_values) + 1))
         axs[2].yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{int(x):,}'))
 
+        # Plot 24: Price per Square Foot vs House_size
+        ppsf_vals = [house.ppsf for house in self.houses]
+        sqft_vals = [house.sq_ft for house in self.houses]
+        sorted_indices = np.argsort(ppsf_vals)
+        sorted_ppsf_values = np.array(ppsf_vals)[sorted_indices]
+        sorted_sqft_values = np.array(sqft_vals)[sorted_indices]
+        highlight_value = compare_house.ppsf
+        highlight_index = np.where(sorted_ppsf_values == highlight_value)[0][0]
+        colors = ['blue' if i != highlight_index else 'red' for i in range(len(sorted_values))]
+        axs[3].scatter(sorted_ppsf_values, sorted_sqft_values, color=colors)
+        axs[3].set_title('Price per Square Foot vs House Size')
+        axs[3].set_xlabel('Price per Square Foot')
+        axs[3].set_ylabel('House sq ft')
+        axs[3].yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{int(x):,}'))
 
         # Save the plots to a PDF file
         pdf_filename = PthC.HOUSE_VIZ
