@@ -37,28 +37,28 @@ class HouseData:
         sum_remod_score = num_remodels = num_houses = 0
         num_prices = 0
         self.min_ppsf = self.max_ppsf = None
-        
 
         for house in self.houses:
-            if house.throw_out == 1:
+            if house.throw_out is True:
                 continue
             if self.min_ppsf is None:
-                self.min_ppsf = self.max_ppsf = house.ppsf
+                self.min_ppsf = self.max_ppsf = house.ppsf if house.ppsf != house.NA else None
             else:
-                self.min_ppsf = min(self.min_ppsf,house.ppsf)
-                self.max_ppsf = max(self.max_ppsf,house.ppsf)
-            if house.price != House.DEFAULT_FLOAT:
+                self.min_ppsf = min(self.min_ppsf,house.ppsf) if house.ppsf != House.NA else self.min_ppsf
+                self.max_ppsf = max(self.max_ppsf,house.ppsf) if house.ppsf != House.NA else self.max_ppsf
+            if house.price != House.NA and house.ppsf != House.NA and house.sq_ft != House.NA:
                 num_prices += 1
                 sum_prices += house.price
                 sum_ppsf += house.ppsf
                 sum_sq_ft += house.sq_ft
-            if house.remod_score != House.DEFAULT_INT:
+            if house.remod_score != House.NA and house.remod_score != -1:
                 sum_remod_score += house.remod_score
                 num_remodels += 1
-            sum_beds += house.beds
-            sum_baths += house.baths
-            sum_pools += house.pool
-            num_houses += 1
+            if House.NA not in {house.beds, house.baths, house.pool}:
+                sum_beds += house.beds
+                sum_baths += house.baths
+                sum_pools += house.pool
+                num_houses += 1
 
         self.avg_price = sum_prices / num_prices if num_prices != 0 else 0
         self.avg_sq_ft = sum_sq_ft / num_prices if num_prices != 0 else 0
@@ -139,7 +139,7 @@ class HouseData:
     
     def theoretical_prices_ppsf(self, sq_ft):
         res = []
-        res.append(f"\nTheoretical prices based on PPSF from {self.min_ppsf} to {self.max_ppsf}\n")
+        res.append(f"\nTheoretical prices based on PPSF from {int(self.min_ppsf)} to {int(self.max_ppsf)}\n")
         for curr_ppsf in range(int(self.min_ppsf),int(self.max_ppsf)+1):
             res.append(f"${curr_ppsf}," +
                 f" sale price would be ${int(sq_ft * curr_ppsf):,}\n")

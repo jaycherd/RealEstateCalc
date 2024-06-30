@@ -1,6 +1,5 @@
 
 class HomeKeys:
-    FOR_SALE_ID = "x"
     ID_KEY = "id"
     ADDRESS_KEY = "address"
     PRICE_KEY = "price"
@@ -16,15 +15,11 @@ class HomeKeys:
     SOLD_DATE_KEY = "sold_date"
     LOT_SIZE_KEY = "lot_size"
     LIST_PRICE_KEY = "list_price"
-    
-
     PPSF_KEY = "price_per_sq_foot"
     PPSF_RANK_KEY = "price_per_sq_foot_rank"
-    NA = "NA"
-    DEFAULT_NA = "#N/A"
+
+    
 
 class HouseDataConstants:
     RANK_W = 3
 
-class HouseConstants:
-    SEP = " | "

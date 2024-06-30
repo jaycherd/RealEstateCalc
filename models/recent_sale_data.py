@@ -28,13 +28,13 @@ class RecentSaleData(HouseData):
         num_sold = num_sold_n_listed = 0
 
         for house in self.houses:
-            if house.throw_out == 1 or (self.exclude is not None and house.address == self.exclude.address):
+            if house.throw_out is True or (self.exclude is not None and house.address == self.exclude.address):
                 continue
-            if house.sold_ppsf != House.DEFAULT_INT and house.sold_price != House.DEFAULT_FLOAT:
+            if house.sold_ppsf != House.NA and house.sold_price != House.NA:
                 sum_sold_ppsf += house.sold_ppsf
                 sum_sold_prices += house.sold_price
                 num_sold += 1
-            if house.sold_price != House.DEFAULT_FLOAT and house.list_price != House.DEFAULT_FLOAT:
+            if house.sold_price != House.NA and house.list_price != House.NA:
                 sum_soldlist_diff += house.sold_price - house.list_price
                 num_sold_n_listed += 1
 
