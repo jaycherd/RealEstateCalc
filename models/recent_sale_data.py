@@ -7,23 +7,23 @@ from models.house_data import HouseData
 from utils.constants import HouseDataConstants as HDC
 
 class RecentSaleData(HouseData):
-    def __init__(self, data: Dict[str, House] | List[House], exclude: House | None = None, months: int = 24) -> None:
+    def __init__(self, houses: List[House], exclude: House | None = None, months: int = 24) -> None:
         self.exclude = exclude
         self.months = months # how many months back to look
         self.avg_sold_price = None
         self.avg_sold_ppsf = None
         self.avg_soldlist_diff = None
-        super().__init__(data)
+        
         # check houses are recent enough
         tmp = []
         cutoff_date = datetime.now() - timedelta(days=months*30)
-        for house in self.houses:
+        for house in houses:
             if isinstance(house.sold_date, datetime) and house.sold_date > cutoff_date:
                 tmp.append(house)
-        self.houses = tmp
+        super().__init__(houses=tmp)
 
-    def compute_avgs(self):
-        super().compute_avgs()
+    def _compute_avgs(self):
+        super()._compute_avgs()
         sum_sold_ppsf = sum_soldlist_diff = sum_sold_prices = 0
         num_sold = num_sold_n_listed = 0
 
@@ -44,7 +44,7 @@ class RecentSaleData(HouseData):
 
     def get_avgs_str(self):
         base_str = super().get_avgs_str()
-        return (f"Avgs from sales within {self.months} months\n"
+        return (f"Avgs from {len(self.houses)} sales within {self.months} months\n"
                 f"Note: not all sales have list price\n{base_str}"
                 f"Avg Sold P      = ${int(self.avg_sold_price):,}\n"
                 f"Avg SOLD PPSF   = ${int(self.avg_sold_ppsf):,}\n"
@@ -54,7 +54,7 @@ class RecentSaleData(HouseData):
         def find_rank(ordered_list: List[House]) -> int:
             for i,house in enumerate(ordered_list):
                 if house.address == cmp_house.address:
-                    return i
+                    return i+1
             return -1
         # base_str = super().compare_ranks(cmp_house=cmp_house)
 

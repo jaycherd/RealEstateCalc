@@ -10,18 +10,8 @@ from models.house import House
 
 
 class HouseData:
-    def __init__(self, data: Union[Dict[str,House],List[House]]) -> None:
-        # normalize incoming data
-        if isinstance(data, dict):
-            self.houses = list(data.values())
-            self.houses_dict = data
-        elif isinstance(data, list):
-            self.houses = data
-            self.houses_dict = {}
-            for house in self.houses:
-                self.houses_dict[house.address] = house
-        else:
-            raise ValueError("Houses should be either a dictionary or a list of House objects")
+    def __init__(self, houses: List[House]) -> None:
+        self.houses = houses
         self.min_ppsf = None
         self.max_ppsf = None
         self.avg_baths = None
@@ -31,8 +21,9 @@ class HouseData:
         self.avg_price = None
         self.avg_remod_score = None
         self.avg_sq_ft = None
+        self._compute_avgs()
 
-    def compute_avgs(self):
+    def _compute_avgs(self):
         sum_prices = sum_sq_ft = sum_beds = sum_baths = sum_ppsf = sum_pools = 0
         sum_remod_score = num_remodels = num_houses = 0
         num_prices = 0
@@ -85,7 +76,7 @@ class HouseData:
         def find_rank(ordered_list: List[House]) -> int:
             for i,house in enumerate(ordered_list):
                 if house.address == cmp_house.address:
-                    return i
+                    return i+1
             return -1
         res = []
         res.append("\nHouse Rankings\nAfter values placed in Ascending Order\n")

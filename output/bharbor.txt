@@ -18,12 +18,12 @@ Zppsf - Avg Zppsf       : $-27
 
 House Rankings
 After values placed in Ascending Order
-ZPrice   =   0 of  27 = 0.0
-sq ft    =   6 of  27 = 0.22
-ZPPSF    =   6 of  27 = 0.22
-SalePPSF =   7 of  27 = 0.26
-Lot Sz   =  13 of  27 = 0.48
-Remod Sc =  18 of  27 = 0.67
+ZPrice   =   1 of  27 = 0.04
+sq ft    =   7 of  27 = 0.26
+ZPPSF    =   7 of  27 = 0.26
+SalePPSF =   8 of  27 = 0.3
+Lot Sz   =  14 of  27 = 0.52
+Remod Sc =  19 of  27 = 0.7
 
 all the houses collected for this neighborhood ranked by price per square foot: 
 [addrs=8100 Bay Harbor Dr | Zprice=$670,500 | bd=4 | ba=5 | sqft=3014 | Zppsf=$222 | pool=1 | lot_size=6534.0 | remod_score=-1.0 ]
@@ -47,7 +47,7 @@ all the houses collected for this neighborhood ranked by price per square foot:
 [addrs=8148 Bay Harbor Dr | Zprice=$731,800 | bd=4 | ba=3 | sqft=2588 | Zppsf=$282 | pool=1 | lot_size=6534.0 | remod_score=4.0 ]
 [addrs=8116 Bay Harbor Dr | Zprice=$742,700 | bd=4 | ba=3 | sqft=2588 | Zppsf=$286 | pool=1 | lot_size=6534.0 | remod_score=-1.0 ]
 [addrs=8136 Bay Harbor Dr | Zprice=$756,700 | bd=4 | ba=3 | sqft=2588 | Zppsf=$292 | pool=1 | lot_size=6534.0 | remod_score=4.0 ]
-[addrs=8117 Bay Harbor Dr | Zprice=$777,900 | bd=4 | ba=4 | sqft=2660 | Zppsf=$292 | pool=1 | lot_size=69699.0 | remod_score=7.0 ]
+[addrs=8117 Bay Harbor Dr | Zprice=$777,900 | bd=4 | ba=4 | sqft=2660 | Zppsf=$292 | pool=1 | lot_size=6969.0 | remod_score=7.0 ]
 [addrs=8125 Bay Harbor Dr | Zprice=$764,400 | bd=4 | ba=3 | sqft=2588 | Zppsf=$295 | pool=1 | lot_size=7405.0 | remod_score=3.0 ]
 [addrs=8101 Bay Harbor Dr | Zprice=$769,200 | bd=3 | ba=5 | sqft=2588 | Zppsf=$297 | pool=1 | lot_size=7405.0 | remod_score=-1.0 ]
 [addrs=8133 Bay Harbor Dr | Zprice=$905,800 | bd=3 | ba=3 | sqft=3014 | Zppsf=$300 | pool=1 | lot_size=10454.0 | remod_score=5.0 ]
@@ -147,8 +147,7 @@ $305, sale price would be $789,340
 [addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534.0 | remod_score=8.0 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
 [addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534.0 | remod_score=7.0 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
 
-Averages from the 3 recent sales:
-Avgs from sales within 10 months
+Avgs from 3 sales within 10 months
 Note: not all sales have list price
 Avg Zprice      = $797,300
 Avg sqft        = 3144
@@ -175,22 +174,16 @@ Zppsf - Avg sold ppsf   : $-3
 Sale ppsf - Avg Soldppsf: +$2
 
 Rankings from sales within 10 months
-Sold P   =   0 of   4 = 0.0
-ZPPSF    =   1 of   4 = 0.25
-Sold PPSF=   2 of   4 = 0.5
-List P   =   0 of   4 = 0.0
-
-Recent Sales ranked by ppsf in ascending order: 
-[addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534.0 | remod_score=5.0 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
-[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534.0 | remod_score=8.0 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
-[addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534.0 | remod_score=7.0 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
+Sold P   =   1 of   4 = 0.25
+ZPPSF    =   2 of   4 = 0.5
+Sold PPSF=   3 of   4 = 0.75
+List P   =   1 of   4 = 0.25
 
 2 sales within 6 months:
 [addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534.0 | remod_score=5.0 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
 [addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534.0 | remod_score=8.0 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
 
-Averages from the 2 recent sales:
-Avgs from sales within 6 months
+Avgs from 2 sales within 6 months
 Note: not all sales have list price
 Avg Zprice      = $786,800
 Avg sqft        = 3210
@@ -217,18 +210,49 @@ Zppsf - Avg sold ppsf   : +$1
 Sale ppsf - Avg Soldppsf: +$7
 
 Rankings from sales within 6 months
-Sold P   =   0 of   3 = 0.0
-ZPPSF    =   1 of   3 = 0.33
-Sold PPSF=   2 of   3 = 0.67
-List P   =   0 of   3 = 0.0
+Sold P   =   1 of   3 = 0.33
+ZPPSF    =   2 of   3 = 0.67
+Sold PPSF=   3 of   3 = 1.0
+List P   =   1 of   3 = 0.33
 
-Recent Sales ranked by ppsf in ascending order: 
+1 sales within 1 months:
 [addrs=8120 Pacific Cove Dr | Zprice=$725,900 | bd=3 | ba=3 | sqft=3014 | Zppsf=$240 | pool=1 | lot_size=6534.0 | remod_score=5.0 | sold_price=$725,000 | list_price=$812,000 | sold_ppsf=$240 | list_ppsf=$269 | sold_date=06/12/2024 ]
-[addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534.0 | remod_score=8.0 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
+
+Avgs from 1 sales within 1 months
+Note: not all sales have list price
+Avg Zprice      = $725,900
+Avg sqft        = 3014
+Avg beds        = 3.0
+Avg baths       = 3.0
+Avg ppsf        = $240
+Avg pools       = 1.0
+Avg remod score = 5.0
+Avg Sold P      = $725,000
+Avg SOLD PPSF   = $240
+Avg Sold - Lst  = $-87,000
+
+Comparing these recent sales to the house we want to buy:
+Comparisons from sales within 1 months
+Zprice - Avg Zprice     : $-100,900
+Sale P - Avg Zprice     : $-85,900
+sqft - Avg sqft         : -426
+beds - Avg beds         : +1.0
+baths - Avg baths       : 0.0
+Zppsf - Avg Zppsf       : $0
+Zprice - Avg SOLD price : $-100,000
+Sale P - Avg Sold P     : $-85,000
+Zppsf - Avg sold ppsf   : $0
+Sale ppsf - Avg Soldppsf: +$6
+
+Rankings from sales within 1 months
+Sold P   =   1 of   2 = 0.5
+ZPPSF    =   2 of   2 = 1.0
+Sold PPSF=   2 of   2 = 1.0
+List P   =   1 of   2 = 0.5
 
 ranked subjectively descending order:
 [addrs=8132 Bay Harbor Dr | Zprice=$847,700 | bd=5 | ba=4 | sqft=3406 | Zppsf=$248 | pool=1 | lot_size=6534.0 | remod_score=8.0 | sold_price=$815,000 | list_price=$829,900 | sold_ppsf=$239 | list_ppsf=$243 | sold_date=01/08/2024 ]
-[addrs=8117 Bay Harbor Dr | Zprice=$777,900 | bd=4 | ba=4 | sqft=2660 | Zppsf=$292 | pool=1 | lot_size=69699.0 | remod_score=7.0 ]
+[addrs=8117 Bay Harbor Dr | Zprice=$777,900 | bd=4 | ba=4 | sqft=2660 | Zppsf=$292 | pool=1 | lot_size=6969.0 | remod_score=7.0 ]
 [addrs=8128 Bay Harbor Dr | Zprice=$818,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$271 | pool=1 | lot_size=6534.0 | remod_score=7.0 | sold_price=$770,000 | list_price=$825,000 | sold_ppsf=$255 | list_ppsf=$273 | sold_date=10/02/2023 ]
 [addrs=8120 Bay Harbor Dr | Zprice=$841,400 | bd=4 | ba=4 | sqft=3406 | Zppsf=$247 | pool=1 | lot_size=6534.0 | remod_score=6.0 | sold_price=$720,000 | list_price=$725,000 | sold_ppsf=$211 | list_ppsf=$212 | sold_date=03/21/2022 ]
 [addrs=8140 Bay Harbor Dr | Zprice=$758,300 | bd=3 | ba=3 | sqft=3014 | Zppsf=$251 | pool=1 | lot_size=6534.0 | remod_score=6.0 ]
@@ -265,9 +289,20 @@ Zppsf - Avg Zppsf       : $-44
 
 House Rankings
 After values placed in Ascending Order
-ZPrice   =   0 of   9 = 0.0
-sq ft    =   3 of   9 = 0.33
-ZPPSF    =   0 of   9 = 0.0
-SalePPSF =   0 of   9 = 0.0
-Lot Sz   =   3 of   9 = 0.33
-Remod Sc =   7 of   9 = 0.78
+ZPrice   =   1 of   9 = 0.11
+sq ft    =   4 of   9 = 0.44
+ZPPSF    =   1 of   9 = 0.11
+SalePPSF =   1 of   9 = 0.11
+Lot Sz   =   4 of   9 = 0.44
+Remod Sc =   8 of   9 = 0.89
+
+Houses within 90 sq ft
+[addrs=8148 Bay Harbor Dr | Zprice=$731,800 | bd=4 | ba=3 | sqft=2588 | Zppsf=$282 | pool=1 | lot_size=6534.0 | remod_score=4.0 ]
+[addrs=8136 Bay Harbor Dr | Zprice=$756,700 | bd=4 | ba=3 | sqft=2588 | Zppsf=$292 | pool=1 | lot_size=6534.0 | remod_score=4.0 ]
+[addrs=8116 Bay Harbor Dr | Zprice=$742,700 | bd=4 | ba=3 | sqft=2588 | Zppsf=$286 | pool=1 | lot_size=6534.0 | remod_score=-1.0 ]
+[addrs=8104 Bay Harbor Dr | Zprice=$625,000 | bd=4 | ba=3 | sqft=2588 | Zppsf=$241 | pool=0 | lot_size=6534.0 | remod_score=5.0 | sale_price=$640,000 | for_sale_ppsf=$247 ]
+[addrs=8145 Bay Harbor Dr | Zprice=$731,500 | bd=3 | ba=5 | sqft=2588 | Zppsf=$282 | pool=1 | lot_size=6969.0 | remod_score=-1.0 ]
+[addrs=8137 Bay Harbor Dr | Zprice=$791,200 | bd=4 | ba=3 | sqft=2588 | Zppsf=$305 | pool=1 | lot_size=8276.0 | remod_score=-1.0 ]
+[addrs=8125 Bay Harbor Dr | Zprice=$764,400 | bd=4 | ba=3 | sqft=2588 | Zppsf=$295 | pool=1 | lot_size=7405.0 | remod_score=3.0 ]
+[addrs=8101 Bay Harbor Dr | Zprice=$769,200 | bd=3 | ba=5 | sqft=2588 | Zppsf=$297 | pool=1 | lot_size=7405.0 | remod_score=-1.0 ]
+[addrs=8117 Bay Harbor Dr | Zprice=$777,900 | bd=4 | ba=4 | sqft=2660 | Zppsf=$292 | pool=1 | lot_size=6969.0 | remod_score=7.0 ]

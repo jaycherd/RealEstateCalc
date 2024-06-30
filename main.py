@@ -14,8 +14,8 @@ from utils.constants import HomeKeys as HK
 
 #pylint:disable=W0621
 def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
-    house_data = HouseData(data=data)
-    house_data.compute_avgs()
+    house_data = HouseData(houses=[house for _,house in data.items()])
+    # house_data.compute_avgs()
 
     with open(out_fname, 'w', encoding="UTF-8") as f:
         f.write(f"Averages for this street:\n{house_data.get_avgs_str()}")
@@ -46,7 +46,7 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
         recent_sales_sorted.reverse()
         start_months = 18
         previous_num_sold = curr_num_sold = None
-        for num_months in range(start_months,0,-1):
+        for num_months in range(start_months,-1,-1):
             recent_sales_sorted_data = RecentSaleData(recent_sales_sorted + [data[for_sale_address]],exclude=data[for_sale_address], months=num_months)
             curr_num_sold = len(recent_sales_sorted_data.houses)
             if previous_num_sold is None:
@@ -56,7 +56,7 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
                 continue
             previous_num_sold = curr_num_sold
             recent_sales_sorted_data = RecentSaleData(recent_sales_sorted + [data[for_sale_address]],exclude=data[for_sale_address], months=num_months+1)
-            recent_sales_sorted_data.compute_avgs()
+            # recent_sales_sorted_data.compute_avgs()
             f.write(f"\n{len(recent_sales_sorted_data.houses)} sales within {num_months+1} months:\n")
             for house in recent_sales_sorted_data.houses:
                 if house.address == for_sale_address:
@@ -64,18 +64,10 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
                 f.write(f"{house}\n")
                 if house.address == for_sale_address:
                     f.write("*** for sale house ***\n")
-            f.write(f"\nAverages from the {len(recent_sales_sorted_data.houses)} recent sales:\n{recent_sales_sorted_data.get_avgs_str()}")
+            f.write(f"\n{recent_sales_sorted_data.get_avgs_str()}")
             f.write("\nComparing these recent sales to the house we want to buy:\n")
             f.write(f"{recent_sales_sorted_data.compare_data(data[for_sale_address])}\n")
             f.write(recent_sales_sorted_data.compare_ranks(data[for_sale_address]))
-
-            f.write("\nRecent Sales ranked by ppsf in ascending order: \n")
-            for house in recent_sales_sorted_data.houses:
-                if house.address == for_sale_address:
-                    f.write("*** for sale house ***\n")
-                f.write(f"{house}\n")
-                if house.address == for_sale_address:
-                    f.write("*** for sale house ***\n")
 
         subjective_scores_desc = sorted(
                                         (house for _, house in data.items()),
@@ -93,12 +85,14 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
                 f.write("*** for sale house ***\n")
 
         max_sqft_diff = 90
-        sim_sqft_data = SimSqftData(data=data,cmp_house=data[for_sale_address],max_diff=max_sqft_diff)
-        sim_sqft_data.compute_avgs()
+        sim_sqft_data = SimSqftData(houses=[house for _,house in data.items()],cmp_house=data[for_sale_address],max_diff=max_sqft_diff)
         f.write(f"\nAverages from {len(sim_sqft_data.houses)} houses within {max_sqft_diff} sqft:\n{sim_sqft_data.get_avgs_str()}")
         f.write("\nComparing these to the house we want to buy:\n")
         f.write(f"{sim_sqft_data.compare_data(data[for_sale_address])}\n")
         f.write(sim_sqft_data.compare_ranks(data[for_sale_address]))
+        f.write(f"\nHouses within {max_sqft_diff} sq ft")
+        for house in sim_sqft_data.houses:
+            f.write(f"\n{house}")
 
         
 
