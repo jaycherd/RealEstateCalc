@@ -1,5 +1,7 @@
 # rm tracking of generated data
 output/
+# rm tracking of csv files
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
