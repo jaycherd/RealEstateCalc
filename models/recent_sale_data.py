@@ -1,10 +1,11 @@
 import copy
 from datetime import datetime,timedelta
-from typing import Dict, List
+from typing import List
 
 from models.house import House
 from models.house_data import HouseData
 from utils.constants import HouseDataConstants as HDC
+
 
 class RecentSaleData(HouseData):
     def __init__(self, houses: List[House], exclude: House | None = None, months: int = 24) -> None:

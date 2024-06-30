@@ -93,6 +93,8 @@ def analyze_data(data: Dict[str,House],for_sale_address,out_fname):
         f.write(f"\nHouses within {max_sqft_diff} sq ft")
         for house in sim_sqft_data.houses:
             f.write(f"\n{house}")
+        sim_sqft_data.visualize(compare_house=data[for_sale_address])
+        
 
         
 

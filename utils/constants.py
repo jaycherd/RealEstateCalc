@@ -1,3 +1,10 @@
+from pathlib import Path
+
+class PathConstants:
+    parent_dir = Path(__file__).parent.parent
+    SQFT_VIZ = parent_dir / "output/visuals/sqft_visual.pdf"
+    HOUSE_VIZ = parent_dir / "output/visuals/house_visual.pdf"
+
 
 class HomeKeys:
     ID_KEY = "id"
@@ -17,8 +24,6 @@ class HomeKeys:
     LIST_PRICE_KEY = "list_price"
     PPSF_KEY = "price_per_sq_foot"
     PPSF_RANK_KEY = "price_per_sq_foot_rank"
-
-    
 
 class HouseDataConstants:
     RANK_W = 3

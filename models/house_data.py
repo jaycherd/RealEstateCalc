@@ -1,11 +1,11 @@
-from typing import Dict,Union,List
+from typing import List
 
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.ticker import FuncFormatter
 
-from utils.constants import HouseDataConstants as HDC
+from utils.constants import HouseDataConstants as HDC, PathConstants as PthC
 from models.house import House
 
 
@@ -191,7 +191,7 @@ class HouseData:
 
 
         # Save the plots to a PDF file
-        pdf_filename = 'house_viz.pdf'
+        pdf_filename = PthC.HOUSE_VIZ
         with PdfPages(pdf_filename) as pdf:
             pdf.savefig(fig)
             plt.close()
